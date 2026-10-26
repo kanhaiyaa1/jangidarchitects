@@ -324,3 +324,22 @@ body.jg-home .top-banner .content h1.title {
 .jg-featured .jg-project .jg-caption h4 {
   color: #FFFFFF !important;
 }
+
+/* Footer: side padding on tablets and phones so text does not touch the screen edges */
+@media only screen and (max-width: 1199px) {
+  .jg-cta-footer .prague-footer .footer-content-outer {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+    box-sizing: border-box;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .jg-cta-footer .prague-footer .footer-content-outer {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
+
+/* Long email address in the footer wraps instead of overflowing */
+.jg-cta-footer .jg-f-list li { overflow-wrap: anywhere; }
