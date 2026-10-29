@@ -343,3 +343,64 @@ body.jg-home .top-banner .content h1.title {
 
 /* Long email address in the footer wraps instead of overflowing */
 .jg-cta-footer .jg-f-list li { overflow-wrap: anywhere; }
+
+/* ===== Smooth motion ===== */
+
+/* scroll reveal (class names added by js/jangid-motion.js) */
+html.jg-motion .jg-reveal:not(.jg-in) {
+  opacity: 0;
+  translate: 0 28px;
+}
+
+.jg-reveal.jg-in {
+  animation: jg-fade-up 0.85s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  animation-delay: var(--jg-d, 0s);
+}
+
+@keyframes jg-fade-up {
+  from { opacity: 0; translate: 0 28px; }
+  to   { opacity: 1; translate: 0 0; }
+}
+
+/* hero text eases in one line at a time, after the preloader */
+.top-banner .content > *:not(.prague-svg-animation-text):not(style):not(script) {
+  animation: jg-fade-up 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+.top-banner .content > :nth-child(2) { animation-delay: 0.85s; }
+.top-banner .content > :nth-child(3) { animation-delay: 1.0s; }
+.top-banner .content > :nth-child(4) { animation-delay: 1.15s; }
+.top-banner .content > :nth-child(5) { animation-delay: 1.3s; }
+.top-banner .content > :nth-child(6) { animation-delay: 1.45s; }
+.top-banner .content > :nth-child(7) { animation-delay: 1.6s; }
+
+/* menu links: a thin gold line grows under the hovered or current page */
+.prague-header .main-menu > li > a {
+  position: relative;
+}
+.prague-header .main-menu > li > a:after {
+  content: '';
+  position: absolute;
+  left: 16px;
+  right: 16px;
+  bottom: 0;
+  height: 2px;
+  background: #B59B5B;
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 0.3s ease;
+}
+.prague-header .main-menu > li:hover > a:after,
+.prague-header .main-menu > li.current-menu-item > a:after {
+  transform: scaleX(1);
+}
+
+/* softer, smoother hover feedback on links and images */
+a { transition: color 0.25s ease, opacity 0.25s ease; }
+img { image-rendering: auto; }
+
+@media (prefers-reduced-motion: reduce) {
+  html.jg-motion .jg-reveal:not(.jg-in) { opacity: 1; translate: none; }
+  .jg-reveal.jg-in,
+  .top-banner .content > * { animation: none !important; }
+  .prague-header .main-menu > li > a:after { transition: none; }
+}
