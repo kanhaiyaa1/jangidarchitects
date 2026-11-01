@@ -21,7 +21,7 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/unit-test.css">
         <link rel="stylesheet" href="css/style3860.css?v=inter">
-    <link rel="stylesheet" href="css/jangid-overrides.css?v=165">
+    <link rel="stylesheet" href="css/jangid-overrides.css?v=170">
     <link rel="icon" href="client-data/favicon.ico?v=1" sizes="any">
     <link rel="shortcut icon" href="client-data/favicon.ico?v=1">
 </head>
@@ -223,9 +223,10 @@
                         <div class="row">
                                 <div class="col-md-10 jg-intro-text">
                                         <div class="subtitle">ABOUT US</div>
-                                        <h2>Shaping Mumbai's built environment since 2005</h2>
-                                        <p>A consulting and liaisoning firm for architectural design and building plan approvals. Two decades with BMC, MHADA, SRA, MBMC and MMRDA means we design it, get it approved and see it built.</p>
-                                        <p>Residential, commercial, SRA housing, townships and interiors across Mumbai.</p>
+                                        <h2>Shaping Mumbai's Skyline Since 2006</h2>
+                                        <p>We are a consulting and liaisoning firm that believes every project deserves the right guidance. For two decades, we have stood alongside developers, housing societies and property owners, helping them with architectural design, building approvals and redevelopment with confidence.</p>
+                                        <p>With our in-house team and trusted consultants, we bring design and liaisoning together, coordinating with BMC, MHADA, SRA, MBMC and MMRDA to make the journey smoother and more organised.</p>
+                                        <p>With 100+ completed projects across residential, commercial, SRA, township and interior developments, we bring the experience, clarity and commitment needed to help every project move forward.</p>
                                         <a href="about.html" class="a-btn-2 creative jg-btn-sec jg-btn-alt">
                                                 <span class="a-btn-line"></span>
                                                 Learn about our firm</a>
@@ -355,9 +356,11 @@
                 .jg-featured .jg-featured-head .subtitle { font-size: 14px; letter-spacing: 3px; text-transform: uppercase; color: #B59B5B; margin-bottom: 15px; }
                 .jg-featured .jg-featured-head h2 { font-family: 'Jost', sans-serif; font-weight: 500; font-size: 38px; line-height: 1.25; color: #262626; margin: 0; }
                 .jg-featured .jg-featured-head .jg-all { text-align: right; padding-top: 40px; }
-                .jg-fp-slider { overflow: hidden; }
-                .jg-fp-track { display: flex; width: max-content; animation: jg-fp-slide 60s linear infinite; }
-                .jg-fp-slider:hover .jg-fp-track { animation-play-state: paused; }
+                .jg-fp-slider { overflow-x: auto; overflow-y: hidden; scrollbar-width: none; -ms-overflow-style: none; -webkit-overflow-scrolling: touch; cursor: grab; }
+                .jg-fp-slider::-webkit-scrollbar { display: none; }
+                .jg-fp-slider.is-drag { cursor: grabbing; }
+                .jg-fp-slider.is-drag a { pointer-events: none; }
+                .jg-fp-track { display: flex; width: max-content; }
                 .jg-fp-set { display: flex; flex-shrink: 0; }
                 .jg-featured .jg-project { display: block; position: relative; flex: 0 0 auto; width: 400px; height: 460px; overflow: hidden; margin-right: 10px; background: #eee; }
                 .jg-featured .jg-project img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; transition: transform .6s; }
@@ -365,8 +368,7 @@
                 .jg-featured .jg-project .jg-caption { position: absolute; left: 0; right: 0; bottom: 0; padding: 60px 25px 25px; background: linear-gradient(to top, rgba(0,0,0,.75), rgba(0,0,0,0)); color: #fff; }
                 .jg-featured .jg-project .jg-caption h4 { font-size: 22px; font-weight: 500; color: #fff; margin: 0 0 6px; }
                 .jg-featured .jg-project .jg-caption span { font-size: 14px; color: #B59B5B; }
-                @keyframes jg-fp-slide { from { transform: translateX(0); } to { transform: translateX(-50%); } }
-                @media (prefers-reduced-motion: reduce) { .jg-fp-track { animation: none; } .jg-fp-slider { overflow-x: auto; } .jg-fp-set[aria-hidden] { display: none; } }
+                
                 @media (max-width: 991px) { .jg-featured .jg-featured-head h2 { font-size: 30px; } .jg-featured .jg-featured-head .jg-all { text-align: left; padding-top: 20px; } .jg-featured .jg-project { width: 300px; height: 380px; } }
         </style>
         <section class="jg-featured">
@@ -435,6 +437,20 @@
                                                         <span>Malad, Mumbai</span>
                                                 </div>
                                         </a>
+                                        <a href="projects.html" class="jg-project" tabindex="-1">
+                                                <img src="img/projects/pmg-high-garden-web.jpg" alt="PMG High Garden Malad" loading="lazy">
+                                                <div class="jg-caption">
+                                                        <h4>PMG High Garden</h4>
+                                                        <span>Malad, Mumbai</span>
+                                                </div>
+                                        </a>
+                                        <a href="projects.html" class="jg-project" tabindex="-1">
+                                                <img src="img/projects/rajhans-serenity-web.jpg" alt="Rajhans Serenity Santacruz" loading="lazy">
+                                                <div class="jg-caption">
+                                                        <h4>Rajhans Serenity</h4>
+                                                        <span>Santacruz, Mumbai</span>
+                                                </div>
+                                        </a>
                                 </div>
                                 <div class="jg-fp-set" aria-hidden="true">
                                         <a href="projects.html" class="jg-project" tabindex="-1">
@@ -486,11 +502,68 @@
                                                         <span>Malad, Mumbai</span>
                                                 </div>
                                         </a>
+                                        <a href="projects.html" class="jg-project" tabindex="-1">
+                                                <img src="img/projects/pmg-high-garden-web.jpg" alt="PMG High Garden Malad" loading="lazy">
+                                                <div class="jg-caption">
+                                                        <h4>PMG High Garden</h4>
+                                                        <span>Malad, Mumbai</span>
+                                                </div>
+                                        </a>
+                                        <a href="projects.html" class="jg-project" tabindex="-1">
+                                                <img src="img/projects/rajhans-serenity-web.jpg" alt="Rajhans Serenity Santacruz" loading="lazy">
+                                                <div class="jg-caption">
+                                                        <h4>Rajhans Serenity</h4>
+                                                        <span>Santacruz, Mumbai</span>
+                                                </div>
+                                        </a>
                                 </div>
                         </div>
                 </div>
         </section>
-
+        <script>
+                (function () {
+                        var box = document.querySelector('.jg-fp-slider');
+                        if (!box) return;
+                        var sets = box.querySelectorAll('.jg-fp-set'), S = 0;
+                        var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+                        var SPEED = 75, paused = false, last = null, pos = 0, resumeT = null, dragging = false, sx = 0, sl = 0, offscreen = true;
+                        function size() { S = sets[0] ? sets[0].offsetWidth : 0; }
+                        function wrap() {
+                                if (!S) return;
+                                if (box.scrollLeft >= S) { box.scrollLeft -= S; pos = box.scrollLeft; }
+                                else if (box.scrollLeft <= 0) { box.scrollLeft += S; pos = box.scrollLeft; }
+                        }
+                        function hold(ms) { paused = true; clearTimeout(resumeT); resumeT = setTimeout(function () { paused = false; pos = box.scrollLeft; }, ms); }
+                        function tick(t) {
+                                if (last !== null && !paused && !dragging && !offscreen && !reduce && S) {
+                                        pos += SPEED * (t - last) / 1000;
+                                        box.scrollLeft = pos;
+                                        wrap();
+                                }
+                                last = t;
+                                requestAnimationFrame(tick);
+                        }
+                        window.addEventListener('load', function () { size(); box.scrollLeft = S / 2; pos = box.scrollLeft; });
+                        window.addEventListener('resize', size);
+                        box.addEventListener('mouseenter', function () { paused = true; });
+                        box.addEventListener('mouseleave', function () { if (!dragging) { paused = false; pos = box.scrollLeft; } });
+                        /* touch, trackpad and wheel: the visitor scrolls sideways, the slide waits a moment and then carries on */
+                        box.addEventListener('touchstart', function () { hold(3000); }, { passive: true });
+                        box.addEventListener('touchmove', function () { hold(3000); }, { passive: true });
+                        box.addEventListener('wheel', function (e) {
+                                if (Math.abs(e.deltaX) > Math.abs(e.deltaY)) { hold(2500); }
+                        }, { passive: true });
+                        box.addEventListener('scroll', function () { wrap(); });
+                        /* mouse drag */
+                        box.addEventListener('mousedown', function (e) { dragging = true; sx = e.clientX; sl = box.scrollLeft; box.classList.add('is-drag'); });
+                        window.addEventListener('mousemove', function (e) { if (!dragging) return; box.scrollLeft = sl - (e.clientX - sx); });
+                        window.addEventListener('mouseup', function () { if (!dragging) return; dragging = false; box.classList.remove('is-drag'); pos = box.scrollLeft; });
+                        if ('IntersectionObserver' in window) {
+                                new IntersectionObserver(function (e) { offscreen = !e[0].isIntersecting; }, { threshold: 0.05 }).observe(box);
+                        } else { offscreen = false; }
+                        requestAnimationFrame(tick);
+                })();
+        </script>
 
 
         <!-- MAP STRIP -->
