@@ -404,3 +404,378 @@ img { image-rendering: auto; }
   .top-banner .content > * { animation: none !important; }
   .prague-header .main-menu > li > a:after { transition: none; }
 }
+
+/* ===== Home hero: image slider (no text; logo bottom-right; arrows + dots to change banner) ===== */
+body.jg-home .jg-hero-slider {
+  display: block;
+  overflow: hidden;
+  background: #0b1a33;
+}
+
+.jg-hero-slider .jg-slides,
+.jg-hero-slider .jg-slide {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.jg-hero-slider .jg-slide {
+  visibility: hidden;
+  z-index: 0;
+}
+
+.jg-hero-slider .jg-slide.is-active { visibility: visible; z-index: 2; }
+.jg-hero-slider .jg-slide.is-leaving { visibility: visible; z-index: 1; }
+
+.jg-hero-slider .jg-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 55% center;
+  transform: scale(1.08);
+  transition: transform 3.5s linear;
+}
+
+.jg-hero-slider .jg-slide.is-active img { transform: scale(1); }
+
+/* the new banner wipes in over the old one, which drifts back and dims */
+.jg-hero-slider .jg-slide.is-entering { animation: jg-wipe-next 0.65s cubic-bezier(0.77, 0, 0.18, 1) both; }
+.jg-hero-slider.is-back .jg-slide.is-entering { animation-name: jg-wipe-prev; }
+.jg-hero-slider .jg-slide.is-leaving { animation: jg-drift-next 0.65s cubic-bezier(0.77, 0, 0.18, 1) both; }
+.jg-hero-slider.is-back .jg-slide.is-leaving { animation-name: jg-drift-prev; }
+
+@keyframes jg-wipe-next { from { clip-path: inset(0 0 0 100%); } to { clip-path: inset(0 0 0 0); } }
+@keyframes jg-wipe-prev { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 0 0 0); } }
+@keyframes jg-drift-next { from { transform: translateX(0); filter: brightness(1); } to { transform: translateX(-7%); filter: brightness(0.55); } }
+@keyframes jg-drift-prev { from { transform: translateX(0); filter: brightness(1); } to { transform: translateX(7%); filter: brightness(0.55); } }
+
+/* soft shade at the bottom of the banner so the card and dots stand out */
+.jg-hero-slider:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 38%;
+  z-index: 3;
+  pointer-events: none;
+  background: linear-gradient(to top, rgba(6, 18, 44, 0.55), rgba(6, 18, 44, 0));
+}
+
+/* logo + about-this-banner card, bottom-right */
+.jg-hero-slider .jg-hero-card {
+  position: absolute;
+  right: 28px;
+  bottom: 28px;
+  z-index: 6;
+  display: flex;
+  align-items: center;
+  max-width: calc(100% - 56px);
+  padding: 14px 24px 14px 20px;
+  background: #fff;
+  border-top: 3px solid #B59B5B;
+  border-radius: 6px;
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.35);
+}
+
+.jg-hero-slider .jg-hero-logo { display: block; flex: 0 0 auto; }
+.jg-hero-slider .jg-hero-logo img { display: block; height: 76px; width: auto; }
+
+.jg-hero-slider .jg-hero-info {
+  min-width: 180px;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 1px solid #e3e3e3;
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}
+
+.jg-hero-slider .jg-hero-info.is-changing { opacity: 0; transform: translateY(6px); }
+
+.jg-hero-slider .jg-hero-label {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #B59B5B;
+}
+
+.jg-hero-slider .jg-hero-title {
+  display: block;
+  font-family: 'Jost', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+  color: #123F8C;
+}
+
+.jg-hero-slider .jg-hero-loc {
+  display: block;
+  margin-top: 3px;
+  font-size: 13px;
+  color: #555;
+}
+/* previous / next arrows */
+.jg-hero-slider .jg-hero-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 6;
+  width: 52px;
+  height: 52px;
+  margin-top: -26px;
+  padding: 0;
+  border: 1.5px solid rgba(255, 255, 255, 0.85);
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.18);
+  color: #fff;
+  font-size: 30px;
+  line-height: 48px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease, transform 0.25s ease;
+}
+
+.jg-hero-slider .jg-hero-arrow i { display: block; line-height: 48px; }
+.jg-hero-slider .jg-hero-prev { left: 28px; }
+.jg-hero-slider .jg-hero-next { right: 28px; }
+.jg-hero-slider .jg-hero-arrow:hover { background: #fff; color: #123F8C; border-color: #fff; }
+.jg-hero-slider .jg-hero-prev:hover { transform: translateX(-3px); }
+.jg-hero-slider .jg-hero-next:hover { transform: translateX(3px); }
+
+/* dots, bottom-left */
+.jg-hero-slider .jg-hero-dots {
+  position: absolute;
+  left: 28px;
+  bottom: 44px;
+  z-index: 6;
+  display: flex;
+}
+
+.jg-hero-slider .jg-hero-dot {
+  position: relative;
+  width: 30px;
+  height: 18px;
+  margin-right: 4px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.jg-hero-slider .jg-hero-dot:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 8px;
+  height: 3px;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.5);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.jg-hero-slider .jg-hero-dot:hover:before { background: rgba(255, 255, 255, 0.85); }
+.jg-hero-slider .jg-hero-dot.is-on:before { background: #B59B5B; transform: scaleY(1.7); }
+
+@media only screen and (max-width: 767px) {
+  .jg-hero-slider .jg-hero-card { right: 14px; bottom: 14px; max-width: calc(100% - 28px); padding: 9px 14px 9px 12px; }
+  .jg-hero-slider .jg-hero-logo img { height: 44px; }
+  .jg-hero-slider .jg-hero-info { min-width: 0; margin-left: 12px; padding-left: 12px; }
+  .jg-hero-slider .jg-hero-label { display: none; }
+  .jg-hero-slider .jg-hero-title { font-size: 14px; }
+  .jg-hero-slider .jg-hero-loc { font-size: 11px; }
+  .jg-hero-slider .jg-hero-arrow { width: 40px; height: 40px; margin-top: -20px; font-size: 24px; line-height: 36px; }
+  .jg-hero-slider .jg-hero-arrow i { line-height: 36px; }
+  .jg-hero-slider .jg-hero-prev { left: 12px; }
+  .jg-hero-slider .jg-hero-next { right: 12px; }
+  .jg-hero-slider .jg-hero-dots { left: 14px; bottom: 28px; }
+  .jg-hero-slider .jg-hero-dot { width: 20px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .jg-hero-slider .jg-slide img { transform: none; transition: none; }
+  .jg-hero-slider .jg-slide.is-entering,
+  .jg-hero-slider .jg-slide.is-leaving { animation: none !important; }
+}
+
+/* ===== Home page: header is transparent over the banner until the page is scrolled ===== */
+body.jg-home .prague-header.simple.sticky-menu.light:not(.scroll):not(.open-menu) {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+body.jg-home .prague-header.simple.sticky-menu.light:not(.scroll):not(.open-menu) .main-menu li a {
+  color: #fff !important;
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.55);
+}
+
+body.jg-home .prague-header.simple.sticky-menu.light:not(.scroll):not(.open-menu) .main-menu li a:hover,
+body.jg-home .prague-header.simple.sticky-menu.light:not(.scroll):not(.open-menu) .main-menu li.current-menu-item > a {
+  color: #E3CD93 !important;
+}
+
+body.jg-home .prague-header.simple.sticky-menu.light:not(.scroll):not(.open-menu) .prague-social-nav a {
+  border-color: rgba(255, 255, 255, 0.7) !important;
+  color: #fff !important;
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.55);
+}
+
+body.jg-home .prague-header.simple.sticky-menu.light:not(.scroll):not(.open-menu) .prague-social-nav a:hover {
+  background-color: #fff !important;
+  border-color: #fff !important;
+  color: #123F8C !important;
+  text-shadow: none;
+}
+
+body.jg-home .prague-header.simple.sticky-menu.light:not(.scroll):not(.open-menu) .prague-nav-menu-icon a i,
+body.jg-home .prague-header.simple.sticky-menu.light:not(.scroll):not(.open-menu) .prague-nav-menu-icon a i:before,
+body.jg-home .prague-header.simple.sticky-menu.light:not(.scroll):not(.open-menu) .prague-nav-menu-icon a i:after {
+  background-color: #fff !important;
+}
+
+body.jg-home .prague-header {
+  transition: background-color 0.35s ease, box-shadow 0.35s ease;
+}
+/* ===== Home hero: the banner is exactly the shape of the pictures, so nothing is cut off ===== */
+@media only screen and (min-width: 768px) {
+  body.jg-home .jg-hero-slider {
+    height: auto !important;
+    min-height: 0 !important;
+    aspect-ratio: 2.55 / 1;
+  }
+}
+
+/* phones: a fixed height, so the picture is not tiny (a little is cropped at the sides) */
+@media only screen and (max-width: 767px) {
+  body.jg-home .jg-hero-slider {
+    height: 300px !important;
+    min-height: 0 !important;
+  }
+}
+
+/* keep the slow zoom very gentle so it never crops the edges noticeably */
+.jg-hero-slider .jg-slide img { transform: scale(1.025); }
+.jg-hero-slider .jg-slide.is-active img { transform: scale(1); }
+
+/* ===== Home hero: taller banner. The picture is stretched to fit instead of being cropped ===== */
+@media only screen and (min-width: 768px) {
+  body.jg-home .jg-hero-slider {
+    height: 85vh !important;
+    min-height: 560px !important;
+    aspect-ratio: auto;
+  }
+  .jg-hero-slider .jg-slide img {
+    object-fit: fill;
+  }
+}
+
+/* ===== Home hero: logo card as clear frosted glass (see-through, blurred, like water) ===== */
+.jg-hero-slider .jg-hero-card {
+  background: rgba(255, 255, 255, 0.10);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+          backdrop-filter: blur(14px) saturate(140%);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-top: 2px solid rgba(227, 205, 147, 0.9);
+  box-shadow: 0 10px 34px rgba(0, 0, 0, 0.22);
+}
+
+/* the logo is turned white so it stays readable on any banner */
+.jg-hero-slider .jg-hero-logo img {
+  filter: brightness(0) invert(1) drop-shadow(0 1px 6px rgba(0, 0, 0, 0.35));
+}
+
+.jg-hero-slider .jg-hero-info { border-left-color: rgba(255, 255, 255, 0.35); }
+.jg-hero-slider .jg-hero-label { color: #E3CD93; text-shadow: 0 1px 6px rgba(0, 0, 0, 0.45); }
+.jg-hero-slider .jg-hero-title { color: #fff !important; text-shadow: 0 1px 8px rgba(0, 0, 0, 0.5); }
+.jg-hero-slider .jg-hero-loc { color: rgba(255, 255, 255, 0.9); text-shadow: 0 1px 6px rgba(0, 0, 0, 0.5); }
+
+/* ===== Home hero card: original logo colours, light frosted glass, smaller ===== */
+.jg-hero-slider .jg-hero-card {
+  right: 24px;
+  bottom: 24px;
+  padding: 8px 16px 8px 12px;
+  background: rgba(255, 255, 255, 0.52);
+  -webkit-backdrop-filter: blur(16px) saturate(150%);
+          backdrop-filter: blur(16px) saturate(150%);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-top: 2px solid #B59B5B;
+  border-radius: 5px;
+  box-shadow: 0 8px 26px rgba(0, 0, 0, 0.2);
+}
+
+.jg-hero-slider .jg-hero-logo img {
+  height: 50px;
+  filter: none;
+}
+
+.jg-hero-slider .jg-hero-info {
+  min-width: 130px;
+  margin-left: 12px;
+  padding-left: 12px;
+  border-left: 1px solid rgba(18, 63, 140, 0.25);
+}
+
+.jg-hero-slider .jg-hero-label { font-size: 9px; margin-bottom: 2px; color: #7d6a35; text-shadow: none; }
+.jg-hero-slider .jg-hero-title { font-size: 15px; color: #123F8C !important; text-shadow: none; }
+.jg-hero-slider .jg-hero-loc { margin-top: 1px; font-size: 12px; color: #2b2b2b; text-shadow: none; }
+
+@media only screen and (max-width: 767px) {
+  .jg-hero-slider .jg-hero-card { right: 12px; bottom: 12px; padding: 6px 10px 6px 8px; }
+  .jg-hero-slider .jg-hero-logo img { height: 36px; }
+  .jg-hero-slider .jg-hero-info { min-width: 0; margin-left: 9px; padding-left: 9px; }
+  .jg-hero-slider .jg-hero-title { font-size: 12px; }
+  .jg-hero-slider .jg-hero-loc { font-size: 10px; }
+}
+
+/* ===== Home hero card: even smaller ===== */
+.jg-hero-slider .jg-hero-card {
+  right: 20px;
+  bottom: 20px;
+  padding: 6px 12px 6px 9px;
+}
+
+.jg-hero-slider .jg-hero-logo img { height: 38px; }
+
+.jg-hero-slider .jg-hero-info {
+  min-width: 0;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+.jg-hero-slider .jg-hero-label { display: none; }
+.jg-hero-slider .jg-hero-title { font-size: 13px; letter-spacing: 0.03em; }
+.jg-hero-slider .jg-hero-loc { font-size: 11px; }
+
+@media only screen and (max-width: 767px) {
+  .jg-hero-slider .jg-hero-card { right: 10px; bottom: 10px; padding: 5px 9px 5px 7px; }
+  .jg-hero-slider .jg-hero-logo img { height: 30px; }
+  .jg-hero-slider .jg-hero-info { margin-left: 8px; padding-left: 8px; }
+  .jg-hero-slider .jg-hero-title { font-size: 11px; }
+  .jg-hero-slider .jg-hero-loc { font-size: 9px; }
+}
+/* Header logo is the transparent PNG. Over the home banner (menu bar still transparent) a faint light glow keeps it readable. */
+body.jg-home .prague-header.simple.sticky-menu.light:not(.scroll):not(.open-menu) .prague-logo img {
+  filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.85)) drop-shadow(0 0 14px rgba(255, 255, 255, 0.5));
+}
+
+/* Wide screens: scale the content of every section with the screen width so it does not stay small.
+   Each step enlarges the container (text, images, spacing together). Full-width bands and the hero are untouched. */
+@media (min-width: 1400px) { .container { zoom: 1.15; } }
+@media (min-width: 1700px) { .container { zoom: 1.4; } }
+@media (min-width: 2000px) { .container { zoom: 1.65; } }
+@media (min-width: 2400px) { .container { zoom: 2; } }
+@media (min-width: 3000px) { .container { zoom: 2.5; } }
+/* the counters strip already scales with vw */
+.jg-strip .container { zoom: 1; }
+
+/* Footer content is not inside a .container, so it gets the same wide-screen steps */
+@media (min-width: 1400px) { .jg-cta-footer .prague-footer .footer-content-outer { zoom: 1.15; } }
+@media (min-width: 1700px) { .jg-cta-footer .prague-footer .footer-content-outer { zoom: 1.4; } }
+@media (min-width: 2000px) { .jg-cta-footer .prague-footer .footer-content-outer { zoom: 1.65; } }
+@media (min-width: 2400px) { .jg-cta-footer .prague-footer .footer-content-outer { zoom: 2; } }
+@media (min-width: 3000px) { .jg-cta-footer .prague-footer .footer-content-outer { zoom: 2.5; } }

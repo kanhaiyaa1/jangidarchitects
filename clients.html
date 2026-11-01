@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/unit-test.css">
     <link rel="stylesheet" href="css/style30f4.css?v=inter">
-    <link rel="stylesheet" href="css/jangid-overrides.css?v=44">
+    <link rel="stylesheet" href="css/jangid-overrides.css?v=73">
     <link rel="icon" href="client-data/favicon.ico?v=1" sizes="any">
     <link rel="shortcut icon" href="client-data/favicon.ico?v=1">
 </head>
@@ -61,7 +61,7 @@
 
         <div class="prague-logo">
             <a href="index.html">
-                <img src="client-data/jangid-architects-cropped.jpeg" class="image_logo" alt="Jangid Architects" /> </a>
+                <img src="client-data/jangid-architects-cropped-removebg-preview.png" class="image_logo" alt="Jangid Architects" /> </a>
         </div>
 
         <div class="prague-header-wrapper">
@@ -134,19 +134,11 @@
                 .jg-clients .jg-clients-head .subtitle { font-size: 14px; letter-spacing: 3px; text-transform: uppercase; color: #B59B5B; margin-bottom: 15px; }
                 .jg-clients .jg-clients-head h2 { font-family: 'Jost', sans-serif; font-weight: 500; font-size: 38px; line-height: 1.25; color: #262626; margin: 0; }
                 .jg-clients .jg-clients-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 24px; max-width: 1140px; margin: 0 auto; }
-                .jg-clients .jg-client-cell { flex: 0 0 calc((100% - 72px) / 4); box-sizing: border-box; position: relative; display: flex; align-items: center; justify-content: center; height: 96px; padding: 12px 16px; border: 1px solid #eceef2; border-radius: 8px; background: #fff; box-shadow: 0 8px 26px rgba(60, 80, 120, .16); transition: transform .3s ease, box-shadow .3s ease, border-color .3s ease; }
-                .jg-clients .jg-client-cell:after { content: ''; position: absolute; left: 14px; right: 14px; bottom: 0; height: 3px; border-radius: 3px 3px 0 0; background: #B59B5B; transform: scaleX(0); transform-origin: center; transition: transform .3s ease; }
-                .jg-clients .jg-client-cell:hover { transform: translateY(-5px); border-color: #dccfae; box-shadow: 0 18px 40px rgba(60, 80, 120, .28); animation: jg-card-glow 1.6s ease-in-out infinite; }
-                @keyframes jg-card-glow {
-                        0%   { box-shadow: 0 16px 36px rgba(181, 155, 91, .55), 0 0 0 0 rgba(181, 155, 91, .60); }
-                        50%  { box-shadow: 0 26px 52px rgba(60, 80, 120, .38), 0 0 0 14px rgba(181, 155, 91, 0); }
-                        100% { box-shadow: 0 16px 36px rgba(181, 155, 91, .55), 0 0 0 0 rgba(181, 155, 91, .60); }
-                }
-                @media (prefers-reduced-motion: reduce) { .jg-clients .jg-client-cell:hover { animation: none; } }
-                .jg-clients .jg-client-cell:hover:after { transform: scaleX(1); }
-                .jg-clients .jg-client-cell img { transition: transform .3s ease; }
-                .jg-clients .jg-client-cell:hover img { transform: scale(1.07); }
-                .jg-clients .jg-client-cell img { max-width: 100%; object-fit: contain; }
+                .jg-clients .jg-client-cell { flex: 0 0 calc((100% - 72px) / 4); box-sizing: border-box; display: flex; align-items: center; justify-content: center; height: 96px; padding: 12px 16px; }
+                .jg-clients .jg-client-cell { position: relative; transition: transform .3s ease; }
+                .jg-clients .jg-client-cell:hover { transform: translateY(-6px); }
+                .jg-clients .jg-client-cell img { max-width: 100%; object-fit: contain; transition: transform .3s ease; }
+                .jg-clients .jg-client-cell:hover img { transform: scale(1.08); }
                 @media (max-width: 991px) { .jg-clients .jg-clients-grid { gap: 18px; } .jg-clients .jg-client-cell { flex-basis: calc((100% - 36px) / 3); } }
                 @media (max-width: 767px) { .jg-clients { padding: 40px 0 60px; } .jg-clients .jg-clients-head h2 { font-size: 30px; } .jg-clients .jg-clients-grid { gap: 14px; } .jg-clients .jg-client-cell { flex-basis: calc((100% - 14px) / 2); } .jg-clients .jg-client-cell { height: 84px; } }
         </style>
@@ -157,35 +149,35 @@
                                 <h2>Trusted by Mumbai's<br>leading developers</h2>
                         </div>
                         <div class="jg-clients-grid">
-                                <div class="jg-client-cell"><img src="img/clients/rajhans-group.png" alt="Rajhans Group" style="width:150px;height:53px;" loading="lazy"></div>
-                                <div class="jg-client-cell"><img src="img/clients/poddar-matushree.png" alt="Poddar Matushree" style="width:68px;height:68px;" loading="lazy"></div>
-                                <div class="jg-client-cell"><img src="img/clients/aikya.png" alt="Aikya Developers" style="width:56px;height:68px;" loading="lazy"></div>
-                                <div class="jg-client-cell"><img src="img/clients/lotus-group.png" alt="Lotus Group" style="width:56px;height:68px;" loading="lazy"></div>
+                                <div class="jg-client-cell"><img src="img/clients-clean/bhutra.png" alt="Bhutra Group" style="max-width:140px;max-height:68px;width:auto;height:auto;" loading="lazy"></div>
+                                <div class="jg-client-cell"><img src="img/clients/rander.png" alt="Rander" style="width:64px;height:68px;" loading="lazy"></div>
+                                <div class="jg-client-cell"><img src="img/clients/alamdar-infra.png" alt="Alamdar Infra" style="width:150px;height:31px;" loading="lazy"></div>
                                 <div class="jg-client-cell"><img src="img/clients/ektwa-group.png" alt="Ektwa Group" style="width:95px;height:68px;" loading="lazy"></div>
+                                <div class="jg-client-cell"><img src="img/clients-clean/yash.png" alt="Yash Realty" style="max-width:140px;max-height:68px;width:auto;height:auto;" loading="lazy"></div>
+                                <div class="jg-client-cell"><img src="img/clients-clean/pinal.png" alt="Pinal Realty" style="max-width:140px;max-height:68px;width:auto;height:auto;" loading="lazy"></div>
+                                <div class="jg-client-cell"><img src="img/clients-clean/poddar.png" alt="Poddar Matushree" style="max-width:140px;max-height:68px;width:auto;height:auto;" loading="lazy"></div>
+                                <div class="jg-client-cell"><img src="img/clients/lotus-group.png" alt="Lotus Group" style="width:56px;height:68px;" loading="lazy"></div>
+                                <div class="jg-client-cell"><img src="img/clients-clean/satviki.png" alt="Satviki Developers" style="max-width:140px;max-height:68px;width:auto;height:auto;" loading="lazy"></div>
+                                <div class="jg-client-cell"><img src="img/clients-clean/aikya.png" alt="Aikya Developers" style="max-width:140px;max-height:68px;width:auto;height:auto;" loading="lazy"></div>
                                 <div class="jg-client-cell"><img src="img/clients/nakasha-group.png" alt="Nakasha Group" style="width:150px;height:44px;" loading="lazy"></div>
                                 <div class="jg-client-cell"><img src="img/clients/aakash-infra.png" alt="Aakash Infra" style="width:150px;height:38px;" loading="lazy"></div>
-                                <div class="jg-client-cell"><img src="img/clients/citimake.png" alt="Citimake" style="width:67px;height:68px;" loading="lazy"></div>
-                                <div class="jg-client-cell"><img src="img/clients/dharma-construction.png" alt="Dharma Construction" style="width:134px;height:60px;" loading="lazy"></div>
+                                <div class="jg-client-cell"><img src="img/clients-clean/citimake.png" alt="Citimake" style="max-width:140px;max-height:68px;width:auto;height:auto;" loading="lazy"></div>
                                 <div class="jg-client-cell"><img src="img/clients/gini-citicorp.png" alt="Gini Citicorp" style="width:123px;height:65px;" loading="lazy"></div>
-                                <div class="jg-client-cell"><img src="client-data/developers%20logo/bhutra%20group%20logo.webp" alt="Bhutra Group" style="max-width:120px;max-height:60px;width:auto;height:auto;" loading="lazy"></div>
-                                <div class="jg-client-cell"><img src="img/clients/vardhman.png" alt="Vardhman Developers" style="width:121px;height:66px;" loading="lazy"></div>
-                                <div class="jg-client-cell"><img src="img/clients/mahalaxmi.png" alt="Mahalaxmi Developers" style="width:145px;height:55px;" loading="lazy"></div>
-                                <div class="jg-client-cell"><img src="client-data/developers%20logo/Satviki-Developer%20logo.webp" alt="Satviki Developers" style="max-width:120px;max-height:60px;width:auto;height:auto;" loading="lazy"></div>
-                                <div class="jg-client-cell"><img src="img/clients/pinal-realty.png" alt="Pinal Realty" style="width:69px;height:68px;" loading="lazy"></div>
-                                <div class="jg-client-cell"><img src="img/clients/vishwakarma.png" alt="Vishwakarma Charitable Trust" style="width:150px;height:41px;" loading="lazy"></div>
-                                <div class="jg-client-cell"><img src="img/clients/sant-kranti.png" alt="Sant Kranti Foundation" style="width:75px;height:68px;" loading="lazy"></div>
-                                <div class="jg-client-cell"><img src="img/clients/yash-realty.png" alt="Yash Realty" style="width:142px;height:56px;" loading="lazy"></div>
+                                <div class="jg-client-cell"><img src="img/clients-clean/vardhman.png" alt="Vardhman Developers" style="max-width:140px;max-height:68px;width:auto;height:auto;" loading="lazy"></div>
+                                <div class="jg-client-cell"><img src="img/clients-clean/mahalaxmi.png" alt="Mahalaxmi Developers" style="max-width:140px;max-height:68px;width:auto;height:auto;" loading="lazy"></div>
+                                <div class="jg-client-cell"><img src="img/clients-clean/sant-kranti.png" alt="Sant Kranti Foundation" style="max-width:140px;max-height:68px;width:auto;height:auto;" loading="lazy"></div>
                                 <div class="jg-client-cell"><img src="img/clients/shiv-mangal.png" alt="Shiv Mangal" style="width:150px;height:44px;" loading="lazy"></div>
                                 <div class="jg-client-cell"><img src="img/clients/michigan-commerce.png" alt="Michigan Commerce" style="width:150px;height:38px;" loading="lazy"></div>
-                                <div class="jg-client-cell"><img src="img/clients/alamdar-infra.png" alt="Alamdar Infra" style="width:150px;height:31px;" loading="lazy"></div>
                                 <div class="jg-client-cell"><img src="img/clients/hansini-developers.png" alt="Hansini Developers" style="width:120px;height:67px;" loading="lazy"></div>
-                                <div class="jg-client-cell"><img src="img/clients/jangid-seva-sangh.png" alt="Jangid Seva Sangh" style="width:150px;height:43px;" loading="lazy"></div>
                                 <div class="jg-client-cell"><img src="img/clients/anjani-kumar-developers.png" alt="Anjani Kumar Developers" style="width:133px;height:60px;" loading="lazy"></div>
-                                <div class="jg-client-cell"><img src="img/clients/rh-zaveri.png" alt="R.H. Zaveri" style="width:150px;height:50px;" loading="lazy"></div>
-                                <div class="jg-client-cell"><img src="img/clients/rajhans-estates.png" alt="Rajhans Estates" style="width:150px;height:49px;" loading="lazy"></div>
-                                <div class="jg-client-cell"><img src="img/clients/rander.png" alt="Rander" style="width:64px;height:68px;" loading="lazy"></div>
-                                <div class="jg-client-cell"><img src="img/clients/rander-niketam.png" alt="Rander Niketam" style="width:150px;height:31px;" loading="lazy"></div>
+                                <div class="jg-client-cell"><img src="img/clients-clean/rajhans-group.png" alt="Rajhans Group" style="max-width:140px;max-height:68px;width:auto;height:auto;" loading="lazy"></div>
                                 <div class="jg-client-cell"><img src="img/clients/sk-oswal.png" alt="SK Oswal" style="width:150px;height:47px;" loading="lazy"></div>
+                                <div class="jg-client-cell"><img src="img/clients-clean/dharma.png" alt="Dharma Construction" style="max-width:140px;max-height:68px;width:auto;height:auto;" loading="lazy"></div>
+                                <div class="jg-client-cell"><img src="img/clients-clean/vishwakarma.png" alt="Vishwakarma Charitable Trust" style="max-width:140px;max-height:68px;width:auto;height:auto;" loading="lazy"></div>
+                                <div class="jg-client-cell"><img src="img/clients/jangid-seva-sangh.png" alt="Jangid Seva Sangh" style="width:150px;height:43px;" loading="lazy"></div>
+                                <div class="jg-client-cell"><img src="img/clients-clean/rh-zaveri.png" alt="R.H. Zaveri" style="max-width:140px;max-height:68px;width:auto;height:auto;" loading="lazy"></div>
+                                <div class="jg-client-cell"><img src="img/clients-clean/rajhans-estates.png" alt="Rajhans Estates" style="max-width:140px;max-height:68px;width:auto;height:auto;" loading="lazy"></div>
+                                <div class="jg-client-cell"><img src="img/clients/rander-niketam.png" alt="Rander Niketam" style="width:150px;height:31px;" loading="lazy"></div>
                         </div>
                 </div>
         </section>
@@ -310,7 +302,7 @@
                                 </div>
                                 <div class="col-lg-3 col-md-6 col-sm-6">
                                         <div class="jg-counter">
-                                                <p class="number jg-timer" data-from="0" data-to="70" data-suffix="+">70+</p>
+                                                <p class="number jg-timer" data-from="0" data-to="100" data-suffix="+">100+</p>
                                                 <p class="caption">Projects completed across Mumbai MMR</p>
                                         </div>
                                 </div>
