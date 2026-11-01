@@ -650,11 +650,12 @@ body.jg-home .prague-header {
   }
 }
 
-/* phones: a fixed height, so the picture is not tiny (a little is cropped at the sides) */
+/* phones: full screen height (the wide pictures are cropped at the sides to fill it) */
 @media only screen and (max-width: 767px) {
   body.jg-home .jg-hero-slider {
-    height: 300px !important;
-    min-height: 0 !important;
+    height: 100vh !important;
+    height: 100svh !important;
+    min-height: 480px !important;
   }
 }
 
@@ -779,3 +780,175 @@ body.jg-home .prague-header.simple.sticky-menu.light:not(.scroll):not(.open-menu
 @media (min-width: 2000px) { .jg-cta-footer .prague-footer .footer-content-outer { zoom: 1.65; } }
 @media (min-width: 2400px) { .jg-cta-footer .prague-footer .footer-content-outer { zoom: 2; } }
 @media (min-width: 3000px) { .jg-cta-footer .prague-footer .footer-content-outer { zoom: 2.5; } }
+
+/* Footer: a night project render under a deep navy veil, white text */
+body .jg-cta-footer {
+  background-color: #0b1a33;
+  background-image:
+    linear-gradient(180deg, rgba(8, 20, 42, 0.80) 0%, rgba(8, 20, 42, 0.86) 100%),
+    url('../client-data/PROJECTS/1A%20%3D%20PMG%20ANURADHA%2C%20VILE%20PARLE%2C%20MUMBAI/pmg-banner.png');
+  background-size: 100% 100%, cover;
+  background-position: 0 0, center center;
+  background-repeat: no-repeat;
+}
+body .jg-cta-footer .jg-cta h2 { color: #fff !important; }
+body .jg-cta-footer .jg-cta p { color: rgba(255, 255, 255, 0.85) !important; }
+body .jg-cta-footer .jg-cta .jg-btn-primary { background-color: #fff !important; border-color: #fff !important; color: #123F8C !important; }
+body .jg-cta-footer .jg-cta .jg-btn-primary:hover { background-color: transparent !important; border-color: #fff !important; color: #fff !important; }
+body .jg-cta-footer .jg-cta .jg-btn-outline { background-color: transparent !important; border-color: rgba(255, 255, 255, 0.85) !important; color: #fff !important; }
+body .jg-cta-footer .jg-cta .jg-btn-outline:hover { background-color: #fff !important; border-color: #fff !important; color: #123F8C !important; }
+body .jg-cta-footer .prague-footer .footer-top-content { border-bottom-color: rgba(255, 255, 255, 0.18); }
+body .jg-cta-footer .prague-footer p,
+body .jg-cta-footer .prague-footer a,
+body .jg-cta-footer .prague-footer .footer-copyright,
+body .jg-cta-footer .jg-f-list li { color: rgba(255, 255, 255, 0.86) !important; }
+body .jg-cta-footer .prague-footer h6,
+body .jg-cta-footer .prague-footer .footer-info-block-title { color: #fff !important; }
+body .jg-cta-footer .prague-footer a:hover { color: #E3CD93 !important; }
+body .jg-cta-footer .prague-footer .social-content li a { border-color: rgba(255, 255, 255, 0.4) !important; }
+body .jg-cta-footer .prague-footer .social-content li a:hover { border-color: #E3CD93 !important; }
+body .jg-cta-footer .jg-f-tagline { color: #E3CD93; }
+/* the logo keeps its own colours, on a soft white plate so the dark lettering stays readable */
+body .jg-cta-footer .jg-f-logo { display: inline-block; max-width: 100%; }
+body .jg-cta-footer .jg-f-logo img { width: 100%; max-width: 230px !important; filter: none; margin-bottom: 14px !important; }
+/* smooth top edge: the page colour fades into the footer instead of a hard line */
+body .jg-cta-footer { position: relative; }
+body .jg-cta-footer:before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 26px; background: linear-gradient(to bottom, #f5f5f3 0%, rgba(245, 245, 243, 0.4) 45%, rgba(245, 245, 243, 0) 100%); z-index: 0; pointer-events: none; }
+body .jg-cta-footer > .jg-cta, body .jg-cta-footer > .prague-footer { position: relative; z-index: 1; }
+
+/* Inner pages: the hero image starts below the white header instead of running behind it (home keeps its overlay) */
+body:not(.jg-home) .top-banner { margin-top: 104px; }
+@media (max-width: 767px) { body:not(.jg-home) .top-banner { margin-top: 80px; } }
+
+/* Projects page cards: clean image by default; on hover the name and location appear on the image and two thin lines cross in one corner */
+.project-masonry-wrapper .project-masonry-item-img-link img { transition: transform .8s cubic-bezier(0.4, 0, 0.2, 1); }
+.project-masonry-wrapper .project-masonry-item-img-link:hover img { transform: scale(1.06); }
+.project-masonry-wrapper .project-masonry-item-img-link:hover .project-masonry-item-img { transform: none; }
+.project-masonry-wrapper .project-masonry-item-img-link .project-masonry-item-img:after { background: linear-gradient(to top, rgba(0,0,0,.78), rgba(0,0,0,.15) 65%); opacity: 0; transition: opacity .45s ease; }
+.project-masonry-wrapper .project-masonry-item-img-link:hover .project-masonry-item-img:after { opacity: 1; }
+.project-masonry-wrapper .project-masonry-item-content {
+  left: 0; right: 0; bottom: 0; max-width: none;
+  padding: 0 26px 30px 36px;
+  background: transparent;
+  z-index: 3;
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity .4s ease, transform .45s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.project-masonry-wrapper .project-masonry-item-img-link:hover .project-masonry-item-content { opacity: 1; transform: translateY(0); transition-delay: .05s; }
+.project-masonry-wrapper .project-masonry-item-title { color: #fff !important; font-size: 19px; line-height: 1.3; text-shadow: 0 1px 8px rgba(0,0,0,.35); }
+.project-masonry-wrapper .project-masonry-item-category { color: rgba(255,255,255,.88); font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase; line-height: 1.6; }
+.project-masonry-wrapper .project-masonry-item-img-link:before,
+.project-masonry-wrapper .project-masonry-item-img-link:after { content: ''; position: absolute; z-index: 2; background: rgba(255,255,255,.95); pointer-events: none; transition: transform .6s cubic-bezier(0.4, 0, 0.2, 1); }
+.project-masonry-wrapper .project-masonry-item-img-link:before { bottom: 14px; left: 0; width: 85%; height: 1px; transform: scaleX(0); transform-origin: left center; }
+.project-masonry-wrapper .project-masonry-item-img-link:after { bottom: 0; left: 16px; width: 1px; height: 85%; transform: scaleY(0); transform-origin: center bottom; }
+.project-masonry-wrapper .project-masonry-item-img-link:hover:before { transform: scaleX(1); }
+.project-masonry-wrapper .project-masonry-item-img-link:hover:after { transform: scaleY(1); }
+@media (prefers-reduced-motion: reduce) {
+  .project-masonry-wrapper .project-masonry-item-img-link img, .project-masonry-wrapper .project-masonry-item-content, .project-masonry-wrapper .project-masonry-item-img-link:before, .project-masonry-wrapper .project-masonry-item-img-link:after { transition: none; }
+}
+
+/* Mobile footer: everything centred */
+@media (max-width: 767px) {
+  body .jg-cta-footer .jg-f-col, body .jg-cta-footer .jg-f-brand { text-align: center; padding-right: 0; }
+  body .jg-cta-footer .jg-f-logo img { margin-left: auto; margin-right: auto; }
+  body .jg-cta-footer .jg-f-brand p { margin-left: auto; margin-right: auto; }
+  body .jg-cta-footer .footer-bottom-content { display: block; text-align: center; }
+  body .jg-cta-footer .footer-bottom-content .footer-copyright { text-align: center; margin-bottom: 18px; }
+  body .jg-cta-footer .footer-bottom-content .prague-social-nav { float: none; display: block; text-align: center; margin: 0 auto; }
+  body .jg-cta-footer .footer-bottom-content .prague-social-nav .social-content { display: flex; flex-wrap: wrap; justify-content: center; margin: 0; padding: 0; }
+}
+
+/* Mobile footer: Navigation and Services side by side, brand and Contact full width */
+@media (max-width: 767px) {
+  body .jg-cta-footer .jg-f-col { flex: 0 0 50%; min-width: 0; box-sizing: border-box; padding: 0 8px 20px; }
+  body .jg-cta-footer .jg-f-brand, body .jg-cta-footer .jg-f-col:last-child { flex: 0 0 100%; }
+}
+
+/* Home hero: <picture> wrapper must fill the slide so the image can fill it too */
+.jg-hero-slider .jg-slide picture { display: block; width: 100%; height: 100%; }
+/* Phones: the portrait banners are used as they are, no extra zoom */
+@media only screen and (max-width: 767px) {
+  .jg-hero-slider .jg-slide img { object-position: center center; }
+}
+
+/* ===== Home hero: motion cues so visitors see the banner is about to change ===== */
+/* 1. slow sideways pan: the banner (8% wider than the screen, full height so nothing is cut at the top or bottom) glides across while it is showing; the leaving banner stays where it was while it slides out */
+.jg-hero-slider .jg-slide img { width: 108%; max-width: none; height: 100%; transform: translateX(0); transition: none; will-change: transform; }
+.jg-hero-slider .jg-slide.is-active img,
+.jg-hero-slider .jg-slide.is-leaving img { animation: jg-pan 4.2s cubic-bezier(0.33, 0.1, 0.33, 1) forwards; }
+.jg-hero-slider:not(.is-ready) .jg-slide.is-active img { animation-play-state: paused; }
+@keyframes jg-pan { from { transform: translateX(0); } to { transform: translateX(-7.4%); } }
+
+/* 2. the active line in the dots fills up with gold until the next banner arrives */
+.jg-hero-slider .jg-hero-dot.is-on:before { background: rgba(255, 255, 255, 0.5); }
+.jg-hero-slider .jg-hero-dot.is-on:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 100%;
+  height: 3px;
+  border-radius: 2px;
+  background: #B59B5B;
+  transform-origin: left center;
+  transform: scaleX(0) scaleY(1.7);
+  animation: jg-dot-fill 2.5s linear forwards;
+}
+.jg-hero-slider:not(.is-ready) .jg-hero-dot.is-on:after { animation-play-state: paused; }
+@keyframes jg-dot-fill { from { transform: scaleX(0) scaleY(1.7); } to { transform: scaleX(1) scaleY(1.7); } }
+
+@media (prefers-reduced-motion: reduce) {
+  .jg-hero-slider .jg-slide img, .jg-hero-slider .jg-slide.is-active img, .jg-hero-slider .jg-slide.is-leaving img { transform: none; transition: none; animation: none; }
+  .jg-hero-slider .jg-hero-dot.is-on:after { animation: none; transform: scaleX(1) scaleY(1.7); }
+}
+
+/* Home hero card: a bit further from the right edge; on phones also a bit higher */
+body.jg-home .jg-hero-slider .jg-hero-card { right: 96px; bottom: 36px; }
+@media only screen and (max-width: 767px) {
+  body.jg-home .jg-hero-slider .jg-hero-card { right: 30px; bottom: 72px; }
+}
+
+/* ===== Page sections: a very slightly dull white instead of pure white (the header menu and the cards stay white) ===== */
+:root { --jg-paper: #f5f5f3; --jg-paper-alt: #ebebe8; }
+body { background-color: var(--jg-paper); }
+body .jg-strip, body .jg-clients, body .jg-services, body .jg-featured, body .jg-reg, body .jg-help,
+body .jg-svc, body .jg-story, body .jg-expertise, body .jg-contact, body .jg-cats, body .jg-careers,
+body .jg-blog, body .jg-article, body .jg-achievement, body .jg-mapstrip { background-color: var(--jg-paper) !important; }
+/* the soft fade above the home counters strip follows the same colour */
+body .jg-strip:before { background: linear-gradient(to bottom, rgba(245, 245, 243, 0), rgba(245, 245, 243, .55) 55%, #f5f5f3); }
+/* the two light-grey bands are a touch darker so they still stand apart from the sections around them */
+body .jg-journey, body .jg-jump, body .jg-process { background-color: var(--jg-paper-alt) !important; }
+
+/* Every off-white section: soft sky blue and violet glow, fading out at the top and bottom so no edge shows */
+body .jg-strip, body .jg-services, body .jg-reg, body .jg-story, body .jg-contact, body .jg-blog, body .jg-careers,
+body .jg-achievement, body .jg-svc, body .jg-cats,
+body .jg-featured, body .jg-clients, body .jg-help, body .jg-expertise, body .jg-article, body .jg-mapstrip {
+  position: relative;
+  overflow: hidden;
+}
+/* the other off-white sections are plain again (no colour glow); only What We Do and Our Clients (below) keep a tint */
+/* where the footer starts straight after a page section (no "Let's Talk" block above it), leave room for the soft top edge */
+body .jg-cta-footer > style + footer.prague-footer .footer-content-outer { padding-top: 70px; }
+@media (max-width: 767px) { body .jg-cta-footer > style + footer.prague-footer .footer-content-outer { padding-top: 60px; } }
+
+/* What We Do and Our Clients (home page): a solid #ebebe8 background.
+   Before this: a faint sky-blue tint (rgba(56, 189, 248, 0.09)) fading out at the top and bottom edges */
+body .jg-services, body .jg-clients {
+  background-color: #ebebe8 !important;
+  background-image: none;
+}
+
+/* Projects page: a small gap between the images */
+.prague_masonry.prague_gap_col15 { margin-left: -5px; margin-right: -5px; }
+.prague_masonry.prague_gap_col15 .portfolio-item { margin: 0 5px 10px !important; }
+
+/* The phone number in the header has no border box (all screen sizes) */
+body .prague-header .prague-social-nav > a,
+body .prague-header .prague-social-nav > a:hover,
+body.jg-home .prague-header.simple.sticky-menu.light:not(.scroll):not(.open-menu) .prague-social-nav > a {
+  border: 0 !important;
+  background-color: transparent !important;
+}
+body .prague-header .prague-social-nav > a:hover { color: #B59B5B !important; }
+body.jg-home .prague-header.simple.sticky-menu.light:not(.scroll):not(.open-menu) .prague-social-nav > a:hover { color: #E3CD93 !important; }

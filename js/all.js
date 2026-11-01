@@ -180,6 +180,9 @@
     /**********************************/
     // social icons
     $('.prague-social-nav > a').on('click', function (e) {
+        // a phone or email link in the header must open normally (call / mail app), not be treated as a toggle button
+        var href = this.getAttribute('href') || '';
+        if (/^(tel:|mailto:)/i.test(href)) { return; }
         var thisItem = $(this);
         var thisParent = $(this).parent('.prague-social-nav');
         var siblings = $(thisParent).find('.social-content');

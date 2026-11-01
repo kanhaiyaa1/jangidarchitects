@@ -82,6 +82,17 @@
         x0 = null;
     }, { passive: true });
 
+    /* the first banner's motion and the autoplay wait until the preloader has gone, so the first banner is seen moving too */
+    function whenReady(cb) {
+        var pre = document.getElementById('jg-preloader');
+        if (!pre || pre.classList.contains('jg-hide')) { cb(); return; }
+        var done = false;
+        function fire() { if (done) return; done = true; mo.disconnect(); cb(); }
+        var mo = new MutationObserver(function () { if (pre.classList.contains('jg-hide')) fire(); });
+        mo.observe(pre, { attributes: true, attributeFilter: ['class'] });
+        setTimeout(fire, 6000);
+    }
+
     mark();
-    start();
+    whenReady(function () { root.classList.add('is-ready'); start(); });
 })();
