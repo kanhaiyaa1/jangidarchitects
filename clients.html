@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/unit-test.css">
     <link rel="stylesheet" href="css/style30f4.css?v=inter">
-    <link rel="stylesheet" href="css/jangid-overrides.css?v=165">
+    <link rel="stylesheet" href="css/jangid-overrides.css?v=190">
     <link rel="icon" href="client-data/favicon.ico?v=1" sizes="any">
     <link rel="shortcut icon" href="client-data/favicon.ico?v=1">
 </head>
@@ -140,9 +140,10 @@
                 .jg-clients .jg-client-cell { position: relative; transition: transform .3s ease; }
                 .jg-clients .jg-client-cell:hover { transform: translateY(-6px); }
                 .jg-clients .jg-client-cell img { max-width: 100%; object-fit: contain; transition: transform .3s ease; }
+                .jg-clients .jg-client-cell img.jg-lg { max-width: 215px !important; }
                 .jg-clients .jg-client-cell:hover img { transform: scale(1.08); }
                 @media (max-width: 991px) { .jg-clients .jg-clients-grid { gap: 18px; } .jg-clients .jg-client-cell { flex-basis: calc((100% - 36px) / 3); } }
-                @media (max-width: 767px) { .jg-clients { padding: 40px 0 60px; } .jg-clients .jg-clients-head h2 { font-size: 30px; } .jg-clients .jg-clients-grid { gap: 14px; } .jg-clients .jg-client-cell { flex-basis: calc((100% - 14px) / 2); } .jg-clients .jg-client-cell { height: 84px; } }
+                @media (max-width: 767px) { .jg-clients .jg-client-cell img.jg-lg { max-width: 100% !important; } .jg-clients { padding: 40px 0 60px; } .jg-clients .jg-clients-head h2 { font-size: 30px; } .jg-clients .jg-clients-grid { gap: 14px; } .jg-clients .jg-client-cell { flex-basis: calc((100% - 14px) / 2); } .jg-clients .jg-client-cell { height: 84px; } }
         </style>
         <section class="jg-clients" id="clients">
                 <div class="container">
@@ -153,7 +154,7 @@
                         <div class="jg-clients-grid">
                                 <div class="jg-client-cell"><img src="img/clients-clean/bhutra.png" alt="Bhutra Group" style="max-width:140px;max-height:68px;width:auto;height:auto;" loading="lazy"></div>
                                 <div class="jg-client-cell"><img src="img/clients-clean/rander.png" alt="Rander" style="width:64px;height:68px;" loading="lazy"></div>
-                                <div class="jg-client-cell"><img src="img/clients-clean/alamdar.png" alt="Alamdar Infra" style="width:150px;height:31px;" loading="lazy"></div>
+                                <div class="jg-client-cell"><img class="jg-lg" src="img/clients-clean/alamdar.png" alt="Alamdar Infra" style="max-width:215px;max-height:68px;width:auto;height:auto;" loading="lazy"></div>
                                 <div class="jg-client-cell"><img src="img/clients-clean/ektwa.png" alt="Ektwa Group" style="width:95px;height:68px;" loading="lazy"></div>
                                 <div class="jg-client-cell"><img src="img/clients-clean/yash.png" alt="Yash Realty" style="max-width:140px;max-height:68px;width:auto;height:auto;" loading="lazy"></div>
                                 <div class="jg-client-cell"><img src="img/clients-clean/pinal.png" alt="Pinal Realty" style="max-width:140px;max-height:68px;width:auto;height:auto;" loading="lazy"></div>
@@ -176,7 +177,6 @@
                                 <div class="jg-client-cell"><img src="img/clients-clean/sk-oswal.png" alt="SK Oswal" style="width:150px;height:47px;" loading="lazy"></div>
                                 <div class="jg-client-cell"><img src="img/clients-clean/dharma.png" alt="Dharma Construction" style="max-width:140px;max-height:68px;width:auto;height:auto;" loading="lazy"></div>
                                 <div class="jg-client-cell"><img src="img/clients-clean/vishwakarma.png" alt="Vishwakarma Charitable Trust" style="max-width:140px;max-height:68px;width:auto;height:auto;" loading="lazy"></div>
-                                <div class="jg-client-cell"><img src="img/clients-clean/jangid-seva.png" alt="Jangid Seva Sangh" style="width:150px;height:43px;" loading="lazy"></div>
                                 <div class="jg-client-cell"><img src="img/clients-clean/rh-zaveri.png" alt="R.H. Zaveri" style="max-width:140px;max-height:68px;width:auto;height:auto;" loading="lazy"></div>
                                 <div class="jg-client-cell"><img src="img/clients-clean/rajhans-estates.png" alt="Rajhans Estates" style="max-width:140px;max-height:68px;width:auto;height:auto;" loading="lazy"></div>
                                 <div class="jg-client-cell"><img src="img/clients-clean/rander-niketam.png" alt="Rander Niketam" style="width:150px;height:31px;" loading="lazy"></div>
@@ -316,7 +316,7 @@
                                 </div>
                                 <div class="col-lg-3 col-md-6 col-sm-6">
                                         <div class="jg-counter">
-                                                <p class="number jg-timer" data-from="0" data-to="6" data-suffix="+">6+</p>
+                                                <p class="number jg-timer" data-from="0" data-to="5" data-suffix="+">5+</p>
                                                 <p class="caption">Government authorities we liaise with</p>
                                         </div>
                                 </div>
@@ -404,7 +404,7 @@
                                 <div class="jg-f-col jg-f-brand">
                                         <a href="index.html" class="jg-f-logo"><img src="client-data/jangid-architects-footer-logo.png" alt="Jangid Architects" style="display:block;width:100%;max-width:300px;height:auto;margin-bottom:14px;"></a>
                                         <div class="jg-f-tagline">Architecture &middot; Planning &middot; Liaisoning</div>
-                                        <p>302, Raj Chambers, Manchubhai Road,<br>Malad (East), Mumbai 400 097,<br>Maharashtra, India</p>
+                                        <p>302 &amp; 303, Raj Chambers, Manchubhai Road,<br>Malad (East), Mumbai 400 097,<br>Maharashtra, India</p>
                                 </div>
                                 <div class="jg-f-col">
                                         <h6 class="footer-info-block-title">Navigation</h6>
@@ -415,6 +415,7 @@
                                                 <li><a href="projects.html">Projects</a></li>
                                                 <li><a href="clients.html">Our Clients</a></li>
                                                 <li><a href="blog.html">Blog</a></li>
+                                                <li><a href="careers.html">Careers</a></li>
                                                 <li><a href="contact.html">Contact</a></li>
                                         </ul>
                                 </div>
@@ -423,11 +424,11 @@
                                         <ul class="jg-f-list">
                                                 <li><a href="services.html#architecture-planning">Architecture &amp; Planning</a></li>
                                                 <li><a href="services.html#liaisoning">BMC Liaisoning</a></li>
-                                                <li><a href="services.html#building-plan-approvals">MHADA Approvals</a></li>
+                                                <li><a href="services.html#liaisoning">MBMC Approvals</a></li>
                                                 <li><a href="services.html#liaisoning">SRA Liaisoning</a></li>
-                                                <li><a href="services.html#redevelopment-consultancy">Redevelopment</a></li>
+                                                <li><a href="services.html#redevelopment-consultancy">Redevelopment Consultancy</a></li>
                                                 <li><a href="services.html#interior-design">Interior Design</a></li>
-                                                <li><a href="services.html#project-management">Project Management</a></li>
+                                                <li><a href="services.html#development-permissions">Development Permissions</a></li>
                                         </ul>
                                 </div>
                                 <div class="jg-f-col">

@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/unit-test.css">
     <link rel="stylesheet" href="css/style30f4.css?v=inter">
-    <link rel="stylesheet" href="css/jangid-overrides.css?v=165">
+    <link rel="stylesheet" href="css/jangid-overrides.css?v=193">
     <link rel="icon" href="client-data/favicon.ico?v=1" sizes="any">
     <link rel="shortcut icon" href="client-data/favicon.ico?v=1">
 </head>
@@ -183,21 +183,22 @@
 
         <!-- PLANNING AND REGULATORY SUPPORT -->
         <style>
-                .jg-help { padding: 0 0 55px; background: #fff; }
-                .jg-help .jg-h-head { text-align: center; margin-bottom: 28px; }
+                .jg-help { padding: 0 0 70px; background: #fff; }
+                .jg-help .jg-h-wrap { display: grid; grid-template-columns: 4fr 7fr; gap: 70px; align-items: center; }
                 .jg-help .jg-h-head .subtitle { font-size: 14px; letter-spacing: 3px; text-transform: uppercase; color: #B59B5B; margin-bottom: 15px; }
-                .jg-help .jg-h-head h2 { font-family: 'Jost', sans-serif; font-weight: 500; font-size: 30px; line-height: 1.3; color: #262626; margin: 0; }
-                .jg-help .jg-h-row { display: flex; flex-wrap: wrap; justify-content: center; margin: 0; padding: 0; list-style: none; }
-                .jg-help .jg-h-item { flex: 1 1 0; min-width: 150px; padding: 0 8px; text-align: center; transition: transform .3s; }
-                .jg-help .jg-h-item:hover { transform: translateY(-6px); }
-                .jg-help .jg-h-icon { display: flex; align-items: center; justify-content: center; width: 46px; height: 46px; margin: 0 auto 10px; border: 1px solid #ddd; border-radius: 50%; font-size: 17px; color: #000; background: #fff; transition: border-color .3s; }
-                .jg-help .jg-h-item:hover .jg-h-icon { border-color: #000; }
-                .jg-help .jg-h-item h4 { font-size: 14px; font-weight: 500; line-height: 1.4; color: #000 !important; margin: 0; white-space: nowrap; }
-                @media (max-width: 991px) { .jg-help .jg-h-item { flex: 0 0 33.3333%; margin-bottom: 26px; } .jg-help .jg-h-head h2 { font-size: 26px; } }
-                @media (max-width: 575px) { .jg-help .jg-h-item { flex: 0 0 50%; } .jg-help .jg-h-item h4 { white-space: normal; } }
+                .jg-help .jg-h-head h2 { font-family: 'Jost', sans-serif; font-weight: 500; font-size: 36px; line-height: 1.25; color: #262626; margin: 0; }
+                .jg-help .jg-h-row { margin: 0; padding: 0; list-style: none; border-top: 1px solid #e8e8e8; }
+                .jg-help .jg-h-item { display: flex; align-items: center; padding: 18px 8px; border-bottom: 1px solid #e8e8e8; transition: padding-left .3s; }
+                .jg-help .jg-h-item:hover { padding-left: 18px; }
+                .jg-help .jg-h-icon { flex: 0 0 48px; display: flex; align-items: center; justify-content: center; width: 48px; height: 48px; margin-right: 22px; border: 1px solid #ddd; border-radius: 50%; font-size: 18px; color: #000; background: #fff; transition: border-color .3s; }
+                .jg-help .jg-h-item:hover .jg-h-icon { border-color: #B59B5B; }
+                .jg-help .jg-h-item h4 { font-size: 17px !important; font-weight: 500; line-height: 1.5 !important; color: #000 !important; margin: 0; }
+                @media (max-width: 991px) { .jg-help .jg-h-wrap { grid-template-columns: 1fr; gap: 30px; } .jg-help .jg-h-head h2 { font-size: 30px; } }
+                @media (max-width: 575px) { .jg-help .jg-h-item h4 { font-size: 15px !important; } .jg-help .jg-h-icon { flex-basis: 42px; width: 42px; height: 42px; margin-right: 16px; font-size: 16px; } }
         </style>
         <section class="jg-help">
                 <div class="container">
+                        <div class="jg-h-wrap">
                         <div class="jg-h-head">
                                 <div class="subtitle">HOW WE HELP</div>
                                 <h2>Planning and regulatory support</h2>
@@ -205,25 +206,26 @@
                         <ul class="jg-h-row">
                                 <li class="jg-h-item">
                                         <div class="jg-h-icon"><i class="fa fa-search" aria-hidden="true"></i></div>
-                                        <h4>Site Review</h4>
+                                        <h4>Assess the development potential of a site</h4>
                                 </li>
                                 <li class="jg-h-item">
                                         <div class="jg-h-icon"><i class="fa fa-calculator" aria-hidden="true"></i></div>
-                                        <h4>Area Statements</h4>
+                                        <h4>Prepare and fine-tune area statements</h4>
                                 </li>
                                 <li class="jg-h-item">
                                         <div class="jg-h-icon"><i class="fa fa-th-large" aria-hidden="true"></i></div>
-                                        <h4>Layout Planning</h4>
+                                        <h4>Plan for efficient space use and full code compliance</h4>
                                 </li>
                                 <li class="jg-h-item">
                                         <div class="jg-h-icon"><i class="fa fa-shield" aria-hidden="true"></i></div>
-                                        <h4>Regulatory Checks</h4>
+                                        <h4>Regulatory checks for banks and developers</h4>
                                 </li>
                                 <li class="jg-h-item">
                                         <div class="jg-h-icon"><i class="fa fa-university" aria-hidden="true"></i></div>
-                                        <h4>Statutory Approvals</h4>
+                                        <h4>Secure clearances from government authorities</h4>
                                 </li>
                         </ul>
+                        </div>
                 </div>
         </section>
 
@@ -244,12 +246,10 @@
                         <div class="jg-jump-label">Jump to a service</div>
                         <ul class="jg-chips">
                                 <li><a href="#architecture-planning">Architecture &amp; Planning</a></li>
-                                <li><a href="#building-plan-approvals">Building Plan Approvals</a></li>
+                                <li><a href="#building-plan-approvals">Building Plan Approvals &amp; Development Permissions</a></li>
                                 <li><a href="#liaisoning">BMC / MHADA / SRA Liaisoning</a></li>
-                                <li><a href="#redevelopment-consultancy">Redevelopment Consultancy</a></li>
+                                <li><a href="#redevelopment-consultancy">Redevelopment Consultancy &amp; Project Management (PMC)</a></li>
                                 <li><a href="#feasibility-studies">Feasibility Studies</a></li>
-                                <li><a href="#project-management">Project Management (PMC)</a></li>
-                                <li><a href="#development-permissions">Development Permissions</a></li>
                                 <li><a href="#interior-design">Interior Design &amp; Build</a></li>
                         </ul>
                 </div>
@@ -304,6 +304,7 @@
                 </div>
 
                 <!-- Service 2: text left, image right -->
+                <span id="development-permissions" class="jg-anchor"></span>
                 <div class="jg-svc-row is-reverse" id="building-plan-approvals">
                     <div class="jg-svc-img">
                         <img src="client-data/PROJECTS/21.%20INA%20APARTMENTS%2C%20GOREGAON%2C%20MUMBAI/Gemini_Generated_Image_8n77x8n77x8n77x8-clean.png" alt="Building plan approvals - residential building, Goregaon" loading="lazy">
@@ -311,18 +312,23 @@
                     </div>
                     <div class="jg-svc-text">
                         <div class="subtitle">02</div>
-                        <h2>Building Plan Approvals</h2>
-                        <p>Plan approval is the most time-sensitive part of any project. Our approvals team handles submission, follow-up and rectification so you don't have to.</p>
-                        <p>We prepare the documents for BMC, MHADA, SRA, MBMC or MMRDA, whichever has jurisdiction, and liaise with officers until the approval is in hand.</p>
+                        <h2>Building Plan Approvals &amp; Development Permissions</h2>
+                        <p>Plan approval is the most time-sensitive part of any project. Our approvals team handles submission, follow-up and rectification, and prepares the documents for BMC, MHADA, SRA, MBMC or MMRDA, whichever has jurisdiction.</p>
+                        <p>Some projects also need permissions beyond plan approval, such as change of user, land conversion, height or FSI relaxations and environmental clearances. We prepare, submit and follow up every one, so a missing clearance never holds up your project.</p>
                         <div class="jg-svc-label">What's included</div>
                         <ul class="jg-svc-list">
                             <li>IOD/IOA (Intimation of Disapproval / Approval) application &amp; follow-up</li>
                             <li>CC (Commencement Certificate): plinth, upper floors, basement</li>
                             <li>OC (Occupancy Certificate) application</li>
                             <li>DP remarks &amp; zoning certificate procurement</li>
-                            <li>NA order coordination (where applicable)</li>
                             <li>Documents: title report, architect and structural certificates</li>
                             <li>Authority queries, objections &amp; rectifications</li>
+                            <li>Change of user (CU) permission and NA (Non-Agricultural) land conversion</li>
+                            <li>Height relaxation permissions (aviation, defence)</li>
+                            <li>Environmental clearance (EC) for large projects</li>
+                            <li>Fire NOC &amp; lift inspector coordination</li>
+                            <li>Tree cutting &amp; garden permission, road-widening and reservation release</li>
+                            <li>Special permissions under Section 37/38 of MR&amp;TP Act</li>
                         </ul>
                     </div>
                 </div>
@@ -331,7 +337,7 @@
                 <div class="jg-svc-row" id="liaisoning">
                     <div class="jg-svc-img">
                         <img src="client-data/PROJECTS/33.%20TOWNSHIP%2C%20BOISAR%2C%20PALGHAR/township-2.png" alt="Government liaisoning - Om Abhishek, Borivali" loading="lazy">
-                        <div class="jg-svc-badge"><strong>5</strong><span>Authorities covered</span></div>
+                        <div class="jg-svc-badge"><strong>5+</strong><span>Authorities covered</span></div>
                     </div>
                     <div class="jg-svc-text">
                         <div class="subtitle">03</div>
@@ -351,6 +357,7 @@
                 </div>
 
                 <!-- Service 4: text left, image right -->
+                <span id="project-management" class="jg-anchor"></span>
                 <div class="jg-svc-row is-reverse" id="redevelopment-consultancy">
                     <div class="jg-svc-img">
                         <img src="client-data/PROJECTS/9.%20SANGAM%20JANSEVA%2C%20JOGESHWARI%2C%20MUMBAI/citimake%20sangam%20janseva.jpeg" alt="Redevelopment consultancy - residential tower, Jogeshwari" loading="lazy">
@@ -358,9 +365,9 @@
                     </div>
                     <div class="jg-svc-text">
                         <div class="subtitle">04</div>
-                        <h2>Redevelopment Consultancy</h2>
-                        <p>Mumbai's ageing cessed and society buildings are ready for redevelopment, but the legal, regulatory and financial side needs a specialist.</p>
-                        <p>We guide societies, landlords and developers from first negotiations and society resolution to approval, transit accommodation and handover.</p>
+                        <h2>Redevelopment Consultancy &amp; Project Management (PMC)</h2>
+                        <p>Mumbai's ageing cessed and society buildings are ready for redevelopment, but the legal, regulatory and financial side needs a specialist. We guide societies, landlords and developers from first negotiations and society resolution to approval, transit accommodation and handover.</p>
+                        <p>Our PMC service then puts a qualified architect on site to monitor progress, quality and compliance, so what is built matches what was approved.</p>
                         <div class="jg-svc-label">What's included</div>
                         <ul class="jg-svc-list">
                             <li>Society meeting support &amp; resolution drafting</li>
@@ -371,6 +378,10 @@
                             <li>Transit accommodation planning</li>
                             <li>FSI &amp; TDR utilisation strategy</li>
                             <li>New building design &amp; approval post-demolition</li>
+                            <li>Contractor selection &amp; tender evaluation support</li>
+                            <li>Site inspection, quality monitoring &amp; progress reporting</li>
+                            <li>Approval compliance checks against sanctioned plans, CC conditions &amp; stage clearances</li>
+                            <li>Bill certification, payment milestone tracking &amp; snag list before handover</li>
                         </ul>
                     </div>
                 </div>
@@ -401,63 +412,13 @@
                 </div>
 
                 <!-- Service 6: text left, image right -->
-                <div class="jg-svc-row is-reverse" id="project-management">
-                    <div class="jg-svc-img">
-                        <img src="img/bridge-construction/stock-photo-81710985.jpg" alt="Construction site with excavator - project management consultancy" loading="lazy">
-                        <div class="jg-svc-badge"><strong>On-Site</strong><span>Regular inspections</span></div>
-                    </div>
-                    <div class="jg-svc-text">
-                        <div class="subtitle">06</div>
-                        <h2>Project Management Consultancy (PMC)</h2>
-                        <p>A well-designed building can still go wrong on site. Our PMC service puts a qualified architect on site to monitor progress, quality and compliance, so what is built matches what was approved.</p>
-                        <p>We work alongside your contractor, catching issues before they become rework and keeping the project on schedule.</p>
-                        <div class="jg-svc-label">What's included</div>
-                        <ul class="jg-svc-list">
-                            <li>Contractor selection &amp; tender evaluation support</li>
-                            <li>Site inspection &amp; quality monitoring</li>
-                            <li>Progress reporting to client &amp; developers</li>
-                            <li>Coordination of structural, MEP &amp; finishing contractors</li>
-                            <li>Material &amp; specification compliance checks</li>
-                            <li>Approval compliance checks against sanctioned plans, CC conditions &amp; stage clearances</li>
-                            <li>Bill certification &amp; payment milestone tracking</li>
-                            <li>Snag list preparation before handover</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Service 7: image left, text right -->
-                <div class="jg-svc-row" id="development-permissions">
-                    <div class="jg-svc-img">
-                        <img src="client-data/PROJECTS/32.%20Indstri%20Office%2C%20Mumbai/Gemini_Generated_Image_hixtdyhixtdyhixt.png" alt="Development permissions - commercial building, Mumbai" loading="lazy">
-                        <div class="jg-svc-badge"><strong>Multi-dept</strong><span>Simultaneous coordination</span></div>
-                    </div>
-                    <div class="jg-svc-text">
-                        <div class="subtitle">07</div>
-                        <h2>Development Permissions</h2>
-                        <p>Some projects need permissions beyond plan approval: change of user, land conversion, height or FSI relaxations and environmental clearances, each from a different department.</p>
-                        <p>We prepare, submit and follow up every one, so a missing clearance never holds up your project.</p>
-                        <div class="jg-svc-label">What's included</div>
-                        <ul class="jg-svc-list">
-                            <li>Change of user (CU) permission applications</li>
-                            <li>NA (Non-Agricultural) land conversion</li>
-                            <li>Height relaxation permissions (aviation, defence)</li>
-                            <li>Environmental clearance (EC) for large projects</li>
-                            <li>Fire NOC &amp; lift inspector coordination</li>
-                            <li>Tree cutting &amp; garden permission (MTDC/BMC)</li>
-                            <li>Road-widening &amp; reservation release coordination</li>
-                            <li>Special permissions under Section 37/38 of MR&amp;TP Act</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Service 8: text left, image right -->
                 <div class="jg-svc-row is-reverse" id="interior-design">
                     <div class="jg-svc-img">
                         <img src="client-data/PROJECTS/3.%20RBC25%20PANCHAM%2C%20BORIVALI%2C%20MUMBAI/Screenshot%202026-07-22%20162316.png" alt="Interior design and build - entrance lobby and parking design" loading="lazy">
                         <div class="jg-svc-badge"><strong>Turnkey</strong><span>Design through to handover</span></div>
                     </div>
                     <div class="jg-svc-text">
-                        <div class="subtitle">08</div>
+                        <div class="subtitle">06</div>
                         <h2>Interior Design &amp; Build</h2>
                         <p>We take spaces from bare shell to move-in ready: residential interiors, office fitouts, showrooms and hospitality, from space planning and materials to execution on site.</p>
                         <p>With architecture and interiors under one team, the design stays consistent from facade to final finish.</p>
@@ -595,7 +556,7 @@
                                 <div class="jg-f-col jg-f-brand">
                                         <a href="index.html" class="jg-f-logo"><img src="client-data/jangid-architects-footer-logo.png" alt="Jangid Architects" style="display:block;width:100%;max-width:300px;height:auto;margin-bottom:14px;"></a>
                                         <div class="jg-f-tagline">Architecture &middot; Planning &middot; Liaisoning</div>
-                                        <p>302, Raj Chambers, Manchubhai Road,<br>Malad (East), Mumbai 400 097,<br>Maharashtra, India</p>
+                                        <p>302 &amp; 303, Raj Chambers, Manchubhai Road,<br>Malad (East), Mumbai 400 097,<br>Maharashtra, India</p>
                                 </div>
                                 <div class="jg-f-col">
                                         <h6 class="footer-info-block-title">Navigation</h6>
@@ -606,6 +567,7 @@
                                                 <li><a href="projects.html">Projects</a></li>
                                                 <li><a href="clients.html">Our Clients</a></li>
                                                 <li><a href="blog.html">Blog</a></li>
+                                                <li><a href="careers.html">Careers</a></li>
                                                 <li><a href="contact.html">Contact</a></li>
                                         </ul>
                                 </div>
@@ -614,11 +576,11 @@
                                         <ul class="jg-f-list">
                                                 <li><a href="services.html#architecture-planning">Architecture &amp; Planning</a></li>
                                                 <li><a href="services.html#liaisoning">BMC Liaisoning</a></li>
-                                                <li><a href="services.html#building-plan-approvals">MHADA Approvals</a></li>
+                                                <li><a href="services.html#liaisoning">MBMC Approvals</a></li>
                                                 <li><a href="services.html#liaisoning">SRA Liaisoning</a></li>
-                                                <li><a href="services.html#redevelopment-consultancy">Redevelopment</a></li>
+                                                <li><a href="services.html#redevelopment-consultancy">Redevelopment Consultancy</a></li>
                                                 <li><a href="services.html#interior-design">Interior Design</a></li>
-                                                <li><a href="services.html#project-management">Project Management</a></li>
+                                                <li><a href="services.html#development-permissions">Development Permissions</a></li>
                                         </ul>
                                 </div>
                                 <div class="jg-f-col">

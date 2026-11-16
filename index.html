@@ -21,7 +21,7 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/unit-test.css">
         <link rel="stylesheet" href="css/style3860.css?v=inter">
-    <link rel="stylesheet" href="css/jangid-overrides.css?v=170">
+    <link rel="stylesheet" href="css/jangid-overrides.css?v=193">
     <link rel="icon" href="client-data/favicon.ico?v=1" sizes="any">
     <link rel="shortcut icon" href="client-data/favicon.ico?v=1">
 </head>
@@ -176,7 +176,7 @@
                                         <p class="caption">Active projects</p>
                                 </div>
                                 <div class="jg-strip-item">
-                                        <p class="number jg-timer" data-from="0" data-to="6" data-suffix="+">6+</p>
+                                        <p class="number jg-timer" data-from="0" data-to="5" data-suffix="+">5+</p>
                                         <p class="caption">Authorities liaised with</p>
                                 </div>
                         </div>
@@ -186,7 +186,7 @@
                 (function () {
                         var els = document.querySelectorAll('.jg-timer');
                         function run(el) {
-                                var from = +el.getAttribute('data-from'), to = +el.getAttribute('data-to'), suffix = el.getAttribute('data-suffix') || '', dur = 5000, t0 = null;
+                                var from = +el.getAttribute('data-from'), to = +el.getAttribute('data-to'), suffix = el.getAttribute('data-suffix') || '', dur = 2000, t0 = null;
                                 function step(t) {
                                         if (t0 === null) t0 = t;
                                         var p = Math.min((t - t0) / dur, 1);
@@ -223,7 +223,7 @@
                         <div class="row">
                                 <div class="col-md-10 jg-intro-text">
                                         <div class="subtitle">ABOUT US</div>
-                                        <h2>Shaping Mumbai's Skyline Since 2006</h2>
+                                        <h2>Shaping Mumbai's Skyline Since 2007</h2>
                                         <p>We are a consulting and liaisoning firm that believes every project deserves the right guidance. For two decades, we have stood alongside developers, housing societies and property owners, helping them with architectural design, building approvals and redevelopment with confidence.</p>
                                         <p>With our in-house team and trusted consultants, we bring design and liaisoning together, coordinating with BMC, MHADA, SRA, MBMC and MMRDA to make the journey smoother and more organised.</p>
                                         <p>With 100+ completed projects across residential, commercial, SRA, township and interior developments, we bring the experience, clarity and commitment needed to help every project move forward.</p>
@@ -258,14 +258,6 @@
                 .jg-services .jg-card .jg-num { font-family: 'Jost', sans-serif; font-weight: 300; font-size: 40px; line-height: 1; color: #B59B5B; margin-bottom: 15px; }
                 .jg-services .jg-card h4 { font-size: 20px; font-weight: 500; color: #262626; margin: 0 0 12px; }
                 .jg-services .jg-card p { font-size: 15px; line-height: 1.8; color: #444; margin: 0; }
-                .jg-services .jg-m-only { display: none; }
-                @media (max-width: 767px) {
-                        .jg-services .jg-d-only { display: none; }
-                        .jg-services .jg-m-only { display: block; }
-                        .jg-services .jg-late { order: 1; }
-                        .jg-services .jg-flex-row > div .jg-num[data-m] { font-size: 0; }
-                        .jg-services .jg-flex-row > div .jg-num[data-m]:before { content: attr(data-m); font-size: 40px; line-height: 1; }
-                }
                 @media (max-width: 991px) { .jg-services .jg-services-head h2 { font-size: 30px; } .jg-services .jg-services-head .jg-all { text-align: left; padding-top: 20px; } }
         </style>
         <section class="jg-services">
@@ -282,67 +274,46 @@
                                 </div>
                         </div>
                         <div class="row jg-flex-row">
-                                <div class="col-md-3 col-sm-6">
+                                <div class="col-md-4 col-sm-6">
                                         <div class="jg-card">
-                                                <div class="jg-num" data-m="01">01</div>
+                                                <div class="jg-num">01</div>
                                                 <h4>Architecture &amp; Planning</h4>
                                                 <p>Residential, commercial, mixed-use and township design, from layouts to working drawings.</p>
                                         </div>
                                 </div>
-                                <div class="col-md-3 col-sm-6 jg-d-only">
+                                <div class="col-md-4 col-sm-6">
                                         <div class="jg-card">
                                                 <div class="jg-num">02</div>
-                                                <h4>BMC &amp; Municipal Liaisoning</h4>
-                                                <p>BMC building plan submissions, IOD/IOA, CC and OC.</p>
+                                                <h4>BMC &amp; MBMC Liaisoning</h4>
+                                                <p>Building plan submissions and approvals with BMC and MBMC, including IOD/IOA, CC and OC.</p>
                                         </div>
                                 </div>
-                                <div class="col-md-3 col-sm-6 jg-late">
+                                <div class="col-md-4 col-sm-6">
                                         <div class="jg-card">
-                                                <div class="jg-num" data-m="04">03</div>
-                                                <h4>MBMC Liaisoning</h4>
-                                                <p>Building permissions, plan approvals and follow-up with MBMC for Mira Road and Bhayander.</p>
+                                                <div class="jg-num">03</div>
+                                                <h4>SRA &amp; MHADA Liaisoning</h4>
+                                                <p>Approvals and follow-up for SRA schemes, MHADA colonies and MMRDA township projects.</p>
                                         </div>
                                 </div>
-                                <div class="col-md-3 col-sm-6">
+                                <div class="col-md-4 col-sm-6">
                                         <div class="jg-card">
-                                                <div class="jg-num" data-m="02">04</div>
+                                                <div class="jg-num">04</div>
                                                 <h4>Development Permissions</h4>
-                                                <p>Plan approvals, environmental clearances and statutory permissions.</p>
+                                                <p>Building plan approvals, environmental clearances and other statutory permissions.</p>
                                         </div>
                                 </div>
-                                <div class="col-md-3 col-sm-6 jg-d-only">
+                                <div class="col-md-4 col-sm-6">
                                         <div class="jg-card">
                                                 <div class="jg-num">05</div>
-                                                <h4>SRA &amp; MHADA Liaisoning</h4>
-                                                <p>SRA schemes, MHADA approvals and cessed building redevelopment.</p>
+                                                <h4>PMC &amp; Redevelopment</h4>
+                                                <p>Feasibility, society support and redevelopment planning, with site supervision to handover.</p>
                                         </div>
                                 </div>
-                                <div class="col-md-3 col-sm-6 jg-d-only">
+                                <div class="col-md-4 col-sm-6">
                                         <div class="jg-card">
                                                 <div class="jg-num">06</div>
-                                                <h4>Redevelopment Consultancy</h4>
-                                                <p>Feasibility, society support and complete redevelopment planning.</p>
-                                        </div>
-                                </div>
-                                <div class="col-md-3 col-sm-6 jg-m-only">
-                                        <div class="jg-card">
-                                                <div class="jg-num" data-m="03">03</div>
-                                                <h4>Liaisoning &amp; Development Permissions</h4>
-                                                <p>BMC, SRA and MHADA liaisoning, redevelopment approvals and statutory permissions.</p>
-                                        </div>
-                                </div>
-                                <div class="col-md-3 col-sm-6 jg-late">
-                                        <div class="jg-card">
-                                                <div class="jg-num" data-m="05">07</div>
-                                                <h4>Project Management Consultancy</h4>
-                                                <p>On-site supervision, quality control and progress reporting from start to handover.</p>
-                                        </div>
-                                </div>
-                                <div class="col-md-3 col-sm-6 jg-late">
-                                        <div class="jg-card">
-                                                <div class="jg-num" data-m="06">08</div>
                                                 <h4>Interior Design &amp; Build</h4>
-                                                <p>Interior design and build for homes, offices and showrooms, from space planning to execution.</p>
+                                                <p>Interior design and build for homes, offices and showrooms, from planning to execution.</p>
                                         </div>
                                 </div>
                         </div>
@@ -381,7 +352,7 @@
                                 <div class="col-md-3 jg-all">
                                         <a href="projects.html" class="a-btn-2 creative jg-btn-sec">
                                                 <span class="a-btn-line"></span>
-                                                All 35+ projects</a>
+                                                View All</a>
                                 </div>
                         </div>
                 </div>
@@ -389,52 +360,31 @@
                         <div class="jg-fp-track">
                                 <div class="jg-fp-set">
                                         <a href="projects.html" class="jg-project" tabindex="-1">
-                                                <img src="client-data/PROJECTS/33.%20TOWNSHIP%2C%20BOISAR%2C%20PALGHAR/township.png" alt="Township Boisar Palghar" loading="lazy">
-                                                <div class="jg-caption">
-                                                        <h4>Township, Boisar</h4>
-                                                        <span>Palghar, Maharashtra</span>
-                                                </div>
-                                        </a>
-                                        <a href="projects.html" class="jg-project" tabindex="-1">
-                                                <img src="client-data/PROJECTS/25%20Metro%20Mist%20Lofts%2C%20MUMBAI/Gemini_Generated_Image_cwunijcwunijcwun-clean.png" alt="Metro Mist Lofts Mumbai" loading="lazy">
-                                                <div class="jg-caption">
-                                                        <h4>Metro Mist Lofts</h4>
-                                                        <span>Mumbai</span>
-                                                </div>
-                                        </a>
-                                        <a href="projects.html" class="jg-project" tabindex="-1">
-                                                <img src="client-data/PROJECTS/10A%20%3D%20om%20abhishek%2C%20BORIVALI/om-abhishek.png" alt="Om Abhishek Borivali" loading="lazy">
-                                                <div class="jg-caption">
-                                                        <h4>Om Abhishek</h4>
-                                                        <span>Borivali, Mumbai</span>
-                                                </div>
-                                        </a>
-                                        <a href="projects.html" class="jg-project" tabindex="-1">
-                                                <img src="client-data/PROJECTS/4.%20AIKYA%20HEIGHTS%2C%20BYCULLA%2C%20MUMBAI/Aikya%20heights.jpg" alt="Aikya Heights Byculla" loading="lazy">
+                                                <img src="client-data/PROJECTS/4.%20AIKYA%20HEIGHTS%2C%20BYCULLA%2C%20MUMBAI/Aikya%20heights%202.jpg" alt="Aikya Heights Byculla, night view" loading="lazy">
                                                 <div class="jg-caption">
                                                         <h4>Aikya Heights</h4>
                                                         <span>Byculla, Mumbai</span>
                                                 </div>
                                         </a>
                                         <a href="projects.html" class="jg-project" tabindex="-1">
-                                                <img src="client-data/PROJECTS/14.%20PODDAR%20VASUNDHARA%2C%20VILE%20PARLE%2C%20MUMBAI/Gemini_Generated_Image_7ovbtv7ovbtv7ovb-clean.png" alt="Poddar Vasundhara Vile Parle" loading="lazy">
+                                                <img src="img/projects/om-abhishek-web.jpg" alt="Om Abhishek Borivali" loading="lazy">
                                                 <div class="jg-caption">
-                                                        <h4>Poddar Vasundhara</h4>
-                                                        <span>Vile Parle, Mumbai</span>
+                                                        <h4>Om Abhishek</h4>
+                                                        <span>Borivali, Mumbai</span>
                                                 </div>
                                         </a>
                                         <a href="projects.html" class="jg-project" tabindex="-1">
-                                                <img src="client-data/PROJECTS/26.%20Rippling%20Azure%2C%20Mumbai/Gemini_Generated_Image_wyjhwowyjhwowyjh-clean.png" alt="Rippling Azure Mumbai" loading="lazy">
+                                                <img src="client-data/PROJECTS/12.%20Sri%20Niwas%2C%20Malad%2C%20Mumbai/WhatsApp%20Image%202026-08-03%20at%2012.39.04%20PM.jpeg" alt="Sri Niwas Malad" loading="lazy">
                                                 <div class="jg-caption">
-                                                        <h4>Rippling Azure</h4>
-                                                        <span>Mumbai</span>
-                                                </div>
-                                        </a>
-                                        <a href="projects.html" class="jg-project" tabindex="-1">
-                                                <img src="client-data/PROJECTS/16.%20Rajhans%20Solitare%2C%20Malad%2C%20Mumbai/Gemini_Generated_Image_mi4dmmmi4dmmmi4d-clean.png" alt="Rajhans Solitare Malad" loading="lazy">
-                                                <div class="jg-caption">
-                                                        <h4>Rajhans Solitare</h4>
+                                                        <h4>Sri Niwas</h4>
                                                         <span>Malad, Mumbai</span>
+                                                </div>
+                                        </a>
+                                        <a href="projects.html" class="jg-project" tabindex="-1">
+                                                <img src="img/projects/rajhans-serenity-web.jpg" alt="Rajhans Serenity Santacruz" loading="lazy">
+                                                <div class="jg-caption">
+                                                        <h4>Rajhans Serenity</h4>
+                                                        <span>Santacruz, Mumbai</span>
                                                 </div>
                                         </a>
                                         <a href="projects.html" class="jg-project" tabindex="-1">
@@ -445,61 +395,68 @@
                                                 </div>
                                         </a>
                                         <a href="projects.html" class="jg-project" tabindex="-1">
-                                                <img src="img/projects/rajhans-serenity-web.jpg" alt="Rajhans Serenity Santacruz" loading="lazy">
+                                                <img src="client-data/PROJECTS/17.%20EVERSHINE%20HEIGHTS%2C%20MUMBAI/Gemini_Generated_Image_irciyxirciyxirci.png" alt="Evershine Heights Mumbai" loading="lazy">
                                                 <div class="jg-caption">
-                                                        <h4>Rajhans Serenity</h4>
-                                                        <span>Santacruz, Mumbai</span>
+                                                        <h4>Evershine Heights</h4>
+                                                        <span>Mumbai</span>
+                                                </div>
+                                        </a>
+                                        <a href="projects.html" class="jg-project" tabindex="-1">
+                                                <img src="client-data/PROJECTS/11.%20OM%20GURU%20KRIPA%2C%20ANDHERI%2C%20MUMBAI/Gemini_Generated_Image_5q1r0o5q1r0o5q1r-clean.png" alt="Om Guru Kripa Andheri" loading="lazy">
+                                                <div class="jg-caption">
+                                                        <h4>Om Guru Kripa</h4>
+                                                        <span>Andheri, Mumbai</span>
+                                                </div>
+                                        </a>
+                                        <a href="projects.html" class="jg-project" tabindex="-1">
+                                                <img src="client-data/PROJECTS/16.%20Rajhans%20Solitare%2C%20Malad%2C%20Mumbai/Gemini_Generated_Image_mi4dmmmi4dmmmi4d-clean.png" alt="Rajhans Solitaire Malad" loading="lazy">
+                                                <div class="jg-caption">
+                                                        <h4>Rajhans Solitaire</h4>
+                                                        <span>Malad, Mumbai</span>
+                                                </div>
+                                        </a>
+                                        <a href="projects.html" class="jg-project" tabindex="-1">
+                                                <img src="client-data/PROJECTS/19.%20Echo%20Edge%2C%20MUMBAI/Gemini_Generated_Image_7enfs27enfs27enf.png" alt="Echo Edge Mumbai" loading="lazy">
+                                                <div class="jg-caption">
+                                                        <h4>Echo Edge</h4>
+                                                        <span>Mumbai</span>
+                                                </div>
+                                        </a>
+                                        <a href="projects.html" class="jg-project" tabindex="-1">
+                                                <img src="client-data/PROJECTS/33.%20TOWNSHIP%2C%20BOISAR%2C%20PALGHAR/township.png" alt="Township Boisar Palghar" loading="lazy">
+                                                <div class="jg-caption">
+                                                        <h4>Township, Boisar</h4>
+                                                        <span>Palghar, Maharashtra</span>
                                                 </div>
                                         </a>
                                 </div>
                                 <div class="jg-fp-set" aria-hidden="true">
                                         <a href="projects.html" class="jg-project" tabindex="-1">
-                                                <img src="client-data/PROJECTS/33.%20TOWNSHIP%2C%20BOISAR%2C%20PALGHAR/township.png" alt="Township Boisar Palghar" loading="lazy">
-                                                <div class="jg-caption">
-                                                        <h4>Township, Boisar</h4>
-                                                        <span>Palghar, Maharashtra</span>
-                                                </div>
-                                        </a>
-                                        <a href="projects.html" class="jg-project" tabindex="-1">
-                                                <img src="client-data/PROJECTS/25%20Metro%20Mist%20Lofts%2C%20MUMBAI/Gemini_Generated_Image_cwunijcwunijcwun-clean.png" alt="Metro Mist Lofts Mumbai" loading="lazy">
-                                                <div class="jg-caption">
-                                                        <h4>Metro Mist Lofts</h4>
-                                                        <span>Mumbai</span>
-                                                </div>
-                                        </a>
-                                        <a href="projects.html" class="jg-project" tabindex="-1">
-                                                <img src="client-data/PROJECTS/10A%20%3D%20om%20abhishek%2C%20BORIVALI/om-abhishek.png" alt="Om Abhishek Borivali" loading="lazy">
-                                                <div class="jg-caption">
-                                                        <h4>Om Abhishek</h4>
-                                                        <span>Borivali, Mumbai</span>
-                                                </div>
-                                        </a>
-                                        <a href="projects.html" class="jg-project" tabindex="-1">
-                                                <img src="client-data/PROJECTS/4.%20AIKYA%20HEIGHTS%2C%20BYCULLA%2C%20MUMBAI/Aikya%20heights.jpg" alt="Aikya Heights Byculla" loading="lazy">
+                                                <img src="client-data/PROJECTS/4.%20AIKYA%20HEIGHTS%2C%20BYCULLA%2C%20MUMBAI/Aikya%20heights%202.jpg" alt="Aikya Heights Byculla, night view" loading="lazy">
                                                 <div class="jg-caption">
                                                         <h4>Aikya Heights</h4>
                                                         <span>Byculla, Mumbai</span>
                                                 </div>
                                         </a>
                                         <a href="projects.html" class="jg-project" tabindex="-1">
-                                                <img src="client-data/PROJECTS/14.%20PODDAR%20VASUNDHARA%2C%20VILE%20PARLE%2C%20MUMBAI/Gemini_Generated_Image_7ovbtv7ovbtv7ovb-clean.png" alt="Poddar Vasundhara Vile Parle" loading="lazy">
+                                                <img src="img/projects/om-abhishek-web.jpg" alt="Om Abhishek Borivali" loading="lazy">
                                                 <div class="jg-caption">
-                                                        <h4>Poddar Vasundhara</h4>
-                                                        <span>Vile Parle, Mumbai</span>
+                                                        <h4>Om Abhishek</h4>
+                                                        <span>Borivali, Mumbai</span>
                                                 </div>
                                         </a>
                                         <a href="projects.html" class="jg-project" tabindex="-1">
-                                                <img src="client-data/PROJECTS/26.%20Rippling%20Azure%2C%20Mumbai/Gemini_Generated_Image_wyjhwowyjhwowyjh-clean.png" alt="Rippling Azure Mumbai" loading="lazy">
+                                                <img src="client-data/PROJECTS/12.%20Sri%20Niwas%2C%20Malad%2C%20Mumbai/WhatsApp%20Image%202026-08-03%20at%2012.39.04%20PM.jpeg" alt="Sri Niwas Malad" loading="lazy">
                                                 <div class="jg-caption">
-                                                        <h4>Rippling Azure</h4>
-                                                        <span>Mumbai</span>
-                                                </div>
-                                        </a>
-                                        <a href="projects.html" class="jg-project" tabindex="-1">
-                                                <img src="client-data/PROJECTS/16.%20Rajhans%20Solitare%2C%20Malad%2C%20Mumbai/Gemini_Generated_Image_mi4dmmmi4dmmmi4d-clean.png" alt="Rajhans Solitare Malad" loading="lazy">
-                                                <div class="jg-caption">
-                                                        <h4>Rajhans Solitare</h4>
+                                                        <h4>Sri Niwas</h4>
                                                         <span>Malad, Mumbai</span>
+                                                </div>
+                                        </a>
+                                        <a href="projects.html" class="jg-project" tabindex="-1">
+                                                <img src="img/projects/rajhans-serenity-web.jpg" alt="Rajhans Serenity Santacruz" loading="lazy">
+                                                <div class="jg-caption">
+                                                        <h4>Rajhans Serenity</h4>
+                                                        <span>Santacruz, Mumbai</span>
                                                 </div>
                                         </a>
                                         <a href="projects.html" class="jg-project" tabindex="-1">
@@ -510,10 +467,38 @@
                                                 </div>
                                         </a>
                                         <a href="projects.html" class="jg-project" tabindex="-1">
-                                                <img src="img/projects/rajhans-serenity-web.jpg" alt="Rajhans Serenity Santacruz" loading="lazy">
+                                                <img src="client-data/PROJECTS/17.%20EVERSHINE%20HEIGHTS%2C%20MUMBAI/Gemini_Generated_Image_irciyxirciyxirci.png" alt="Evershine Heights Mumbai" loading="lazy">
                                                 <div class="jg-caption">
-                                                        <h4>Rajhans Serenity</h4>
-                                                        <span>Santacruz, Mumbai</span>
+                                                        <h4>Evershine Heights</h4>
+                                                        <span>Mumbai</span>
+                                                </div>
+                                        </a>
+                                        <a href="projects.html" class="jg-project" tabindex="-1">
+                                                <img src="client-data/PROJECTS/11.%20OM%20GURU%20KRIPA%2C%20ANDHERI%2C%20MUMBAI/Gemini_Generated_Image_5q1r0o5q1r0o5q1r-clean.png" alt="Om Guru Kripa Andheri" loading="lazy">
+                                                <div class="jg-caption">
+                                                        <h4>Om Guru Kripa</h4>
+                                                        <span>Andheri, Mumbai</span>
+                                                </div>
+                                        </a>
+                                        <a href="projects.html" class="jg-project" tabindex="-1">
+                                                <img src="client-data/PROJECTS/16.%20Rajhans%20Solitare%2C%20Malad%2C%20Mumbai/Gemini_Generated_Image_mi4dmmmi4dmmmi4d-clean.png" alt="Rajhans Solitaire Malad" loading="lazy">
+                                                <div class="jg-caption">
+                                                        <h4>Rajhans Solitaire</h4>
+                                                        <span>Malad, Mumbai</span>
+                                                </div>
+                                        </a>
+                                        <a href="projects.html" class="jg-project" tabindex="-1">
+                                                <img src="client-data/PROJECTS/19.%20Echo%20Edge%2C%20MUMBAI/Gemini_Generated_Image_7enfs27enfs27enf.png" alt="Echo Edge Mumbai" loading="lazy">
+                                                <div class="jg-caption">
+                                                        <h4>Echo Edge</h4>
+                                                        <span>Mumbai</span>
+                                                </div>
+                                        </a>
+                                        <a href="projects.html" class="jg-project" tabindex="-1">
+                                                <img src="client-data/PROJECTS/33.%20TOWNSHIP%2C%20BOISAR%2C%20PALGHAR/township.png" alt="Township Boisar Palghar" loading="lazy">
+                                                <div class="jg-caption">
+                                                        <h4>Township, Boisar</h4>
+                                                        <span>Palghar, Maharashtra</span>
                                                 </div>
                                         </a>
                                 </div>
@@ -543,7 +528,7 @@
                                 last = t;
                                 requestAnimationFrame(tick);
                         }
-                        window.addEventListener('load', function () { size(); box.scrollLeft = S / 2; pos = box.scrollLeft; });
+                        window.addEventListener('load', function () { size(); box.scrollLeft = 1; pos = 1; });
                         window.addEventListener('resize', size);
                         box.addEventListener('mouseenter', function () { paused = true; });
                         box.addEventListener('mouseleave', function () { if (!dragging) { paused = false; pos = box.scrollLeft; } });
@@ -565,23 +550,6 @@
                 })();
         </script>
 
-
-        <!-- MAP STRIP -->
-        <style>
-                .jg-mapstrip { background: #fff; }
-                .jg-mapstrip .jg-mapstrip-text { padding: 0 15px 22px; text-align: center; font-size: 15px; line-height: 1.7; color: #444; }
-                .jg-mapstrip .jg-mapstrip-text strong { font-weight: 500; color: #262626; }
-                .jg-mapstrip .jg-mapstrip-map { position: relative; height: 260px; overflow: hidden; background: #eee; }
-                .jg-mapstrip .jg-mapstrip-map iframe { position: absolute; top: 0; left: 0; width: 100%; height: 380px; border: 0; display: block; }
-                @media (max-width: 767px) { .jg-mapstrip .jg-mapstrip-map { height: 240px; } .jg-mapstrip .jg-mapstrip-text { font-size: 14px; } }
-        </style>
-        <section class="jg-mapstrip">
-                <p class="jg-mapstrip-text"><strong>Visit our office in Malad, Mumbai</strong><br>302, Raj Chambers, Manchubhai Road, Malad (East), Mumbai 400 097, Maharashtra, India</p>
-                <div class="jg-mapstrip-map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60138.378481334534!2d72.81038891923995!3d19.188145097612583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7e1d0eba43d%3A0x4f285f534edaa4d3!2sJANGID%20ASSOCIATES!5e1!3m2!1sen!2sin!4v1792920796774!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="Jangid Architects location map"></iframe>
-                </div>
-        </section>
-
         <!-- OUR CLIENTS -->
         <style>
                 .jg-clients { padding: 40px 0 100px; background: #fff; overflow: hidden; }
@@ -596,12 +564,13 @@
                 .jg-mq-set { display: flex; flex-shrink: 0; }
                 .jg-mq-item { display: flex; align-items: center; justify-content: center; width: 200px; height: 100px; padding: 0 20px; box-sizing: border-box; transition: transform .3s ease; }
                 .jg-mq-item img { display: block; max-width: 140px; max-height: 68px; width: auto; height: auto; object-fit: contain; transition: transform .3s ease; }
+                .jg-mq-item img.jg-lg { max-width: 185px !important; }
                 .jg-mq-item:hover { transform: translateY(-6px); }
                 .jg-mq-item:hover img { transform: scale(1.12); }
                 @keyframes jg-mq-left { from { transform: translateX(0); } to { transform: translateX(-50%); } }
                 @keyframes jg-mq-right { from { transform: translateX(-50%); } to { transform: translateX(0); } }
                 @media (prefers-reduced-motion: reduce) { .jg-mq-track { animation: none; } .jg-mq-row { overflow-x: auto; } .jg-mq-set[aria-hidden] { display: none; } }
-                @media (max-width: 767px) { .jg-clients { padding: 40px 0 60px; } .jg-clients .jg-clients-head h2 { font-size: 30px; } .jg-mq-item { width: 160px; height: 84px; padding: 0 14px; } .jg-mq-item img { max-width: 112px; max-height: 56px; } }
+                @media (max-width: 767px) { .jg-mq-item img.jg-lg { max-width: 130px !important; } .jg-clients { padding: 40px 0 60px; } .jg-clients .jg-clients-head h2 { font-size: 30px; } .jg-mq-item { width: 160px; height: 84px; padding: 0 14px; } .jg-mq-item img { max-width: 112px; max-height: 56px; } }
         </style>
         <section class="jg-clients" id="clients">
                 <div class="container">
@@ -615,7 +584,7 @@
                                 <div class="jg-mq-track">
                                         <div class="jg-mq-set">
                                         <div class="jg-mq-item"><img src="img/clients-clean/bhutra.png" alt="Bhutra Group" style="max-width:140px;max-height:68px;width:auto;height:auto;"></div>
-                                        <div class="jg-mq-item"><img src="img/clients-clean/alamdar.png" alt="Alamdar Infra" style="width:150px;height:31px;"></div>
+                                        <div class="jg-mq-item"><img class="jg-lg" src="img/clients-clean/alamdar.png" alt="Alamdar Infra" style="max-width:185px;max-height:68px;width:auto;height:auto;"></div>
                                         <div class="jg-mq-item"><img src="img/clients-clean/yash.png" alt="Yash Realty" style="max-width:140px;max-height:68px;width:auto;height:auto;"></div>
                                         <div class="jg-mq-item"><img src="img/clients-clean/poddar.png" alt="Poddar Matushree" style="max-width:140px;max-height:68px;width:auto;height:auto;"></div>
                                         <div class="jg-mq-item"><img src="img/clients-clean/satviki.png" alt="Satviki Developers" style="max-width:140px;max-height:68px;width:auto;height:auto;"></div>
@@ -632,7 +601,7 @@
                                         </div>
                                         <div class="jg-mq-set" aria-hidden="true">
                                         <div class="jg-mq-item"><img src="img/clients-clean/bhutra.png" alt="Bhutra Group" style="max-width:140px;max-height:68px;width:auto;height:auto;"></div>
-                                        <div class="jg-mq-item"><img src="img/clients-clean/alamdar.png" alt="Alamdar Infra" style="width:150px;height:31px;"></div>
+                                        <div class="jg-mq-item"><img class="jg-lg" src="img/clients-clean/alamdar.png" alt="Alamdar Infra" style="max-width:185px;max-height:68px;width:auto;height:auto;"></div>
                                         <div class="jg-mq-item"><img src="img/clients-clean/yash.png" alt="Yash Realty" style="max-width:140px;max-height:68px;width:auto;height:auto;"></div>
                                         <div class="jg-mq-item"><img src="img/clients-clean/poddar.png" alt="Poddar Matushree" style="max-width:140px;max-height:68px;width:auto;height:auto;"></div>
                                         <div class="jg-mq-item"><img src="img/clients-clean/satviki.png" alt="Satviki Developers" style="max-width:140px;max-height:68px;width:auto;height:auto;"></div>
@@ -664,7 +633,6 @@
                                         <div class="jg-mq-item"><img src="img/clients-clean/hansini.png" alt="Hansini Developers" style="width:120px;height:67px;"></div>
                                         <div class="jg-mq-item"><img src="img/clients-clean/rajhans-group.png" alt="Rajhans Group" style="max-width:140px;max-height:68px;width:auto;height:auto;"></div>
                                         <div class="jg-mq-item"><img src="img/clients-clean/dharma.png" alt="Dharma Construction" style="max-width:140px;max-height:68px;width:auto;height:auto;"></div>
-                                        <div class="jg-mq-item"><img src="img/clients-clean/jangid-seva.png" alt="Jangid Seva Sangh" style="width:150px;height:43px;"></div>
                                         <div class="jg-mq-item"><img src="img/clients-clean/rajhans-estates.png" alt="Rajhans Estates" style="max-width:140px;max-height:68px;width:auto;height:auto;"></div>
                                         </div>
                                         <div class="jg-mq-set" aria-hidden="true">
@@ -680,7 +648,6 @@
                                         <div class="jg-mq-item"><img src="img/clients-clean/hansini.png" alt="Hansini Developers" style="width:120px;height:67px;"></div>
                                         <div class="jg-mq-item"><img src="img/clients-clean/rajhans-group.png" alt="Rajhans Group" style="max-width:140px;max-height:68px;width:auto;height:auto;"></div>
                                         <div class="jg-mq-item"><img src="img/clients-clean/dharma.png" alt="Dharma Construction" style="max-width:140px;max-height:68px;width:auto;height:auto;"></div>
-                                        <div class="jg-mq-item"><img src="img/clients-clean/jangid-seva.png" alt="Jangid Seva Sangh" style="width:150px;height:43px;"></div>
                                         <div class="jg-mq-item"><img src="img/clients-clean/rajhans-estates.png" alt="Rajhans Estates" style="max-width:140px;max-height:68px;width:auto;height:auto;"></div>
                                         </div>
                                 </div>
@@ -691,6 +658,29 @@
 
 
      
+        <!-- MAP STRIP -->
+        <style>
+                .jg-mapstrip { background: #fff; }
+                .jg-mapstrip { padding-top: 70px; }
+                .jg-mapstrip .jg-mapstrip-text { padding: 0 15px 30px; text-align: center; }
+                .jg-mapstrip .jg-mapstrip-text .subtitle { font-size: 14px; letter-spacing: 3px; text-transform: uppercase; color: #B59B5B; margin-bottom: 12px; }
+                .jg-mapstrip .jg-mapstrip-text h2 { font-family: 'Jost', sans-serif; font-weight: 500; font-size: 32px; line-height: 1.25; color: #262626; margin: 0 0 12px; }
+                .jg-mapstrip .jg-mapstrip-text p { font-size: 15px; line-height: 1.7; color: #444; margin: 0; }
+                .jg-mapstrip .jg-mapstrip-map { position: relative; height: 420px; overflow: hidden; background: #eee; }
+                .jg-mapstrip .jg-mapstrip-map iframe { position: absolute; top: 0; left: 0; width: 100%; height: 540px; border: 0; display: block; }
+                @media (max-width: 767px) { .jg-mapstrip { padding-top: 50px; } .jg-mapstrip .jg-mapstrip-map { height: 340px; } .jg-mapstrip .jg-mapstrip-text h2 { font-size: 26px; } .jg-mapstrip .jg-mapstrip-text p { font-size: 14px; } }
+        </style>
+        <section class="jg-mapstrip">
+                <div class="jg-mapstrip-text">
+                        <div class="subtitle">OUR OFFICE</div>
+                        <h2>Visit our office in Malad, Mumbai</h2>
+                        <p>302 &amp; 303, Raj Chambers, Manchubhai Road, Malad (East), Mumbai 400 097, Maharashtra, India</p>
+                </div>
+                <div class="jg-mapstrip-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60138.378481334534!2d72.81038891923995!3d19.188145097612583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7e1d0eba43d%3A0x4f285f534edaa4d3!2sJANGID%20ASSOCIATES!5e1!3m2!1sen!2sin!4v1792920796774!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="Jangid Architects location map"></iframe>
+                </div>
+        </section>
+
         <!-- CTA + FOOTER (shared background image) -->
         <div class="jg-cta-footer">
         <style>
@@ -739,7 +729,7 @@
                                 <div class="jg-f-col jg-f-brand">
                                         <a href="index.html" class="jg-f-logo"><img src="client-data/jangid-architects-footer-logo.png" alt="Jangid Architects" style="display:block;width:100%;max-width:300px;height:auto;margin-bottom:14px;"></a>
                                         <div class="jg-f-tagline">Architecture &middot; Planning &middot; Liaisoning</div>
-                                        <p>302, Raj Chambers, Manchubhai Road,<br>Malad (East), Mumbai 400 097,<br>Maharashtra, India</p>
+                                        <p>302 &amp; 303, Raj Chambers, Manchubhai Road,<br>Malad (East), Mumbai 400 097,<br>Maharashtra, India</p>
                                 </div>
                                 <div class="jg-f-col">
                                         <h6 class="footer-info-block-title">Navigation</h6>
@@ -750,6 +740,7 @@
                                                 <li><a href="projects.html">Projects</a></li>
                                                 <li><a href="clients.html">Our Clients</a></li>
                                                 <li><a href="blog.html">Blog</a></li>
+                                                <li><a href="careers.html">Careers</a></li>
                                                 <li><a href="contact.html">Contact</a></li>
                                         </ul>
                                 </div>
@@ -758,11 +749,11 @@
                                         <ul class="jg-f-list">
                                                 <li><a href="services.html#architecture-planning">Architecture &amp; Planning</a></li>
                                                 <li><a href="services.html#liaisoning">BMC Liaisoning</a></li>
-                                                <li><a href="services.html#building-plan-approvals">MHADA Approvals</a></li>
+                                                <li><a href="services.html#liaisoning">MBMC Approvals</a></li>
                                                 <li><a href="services.html#liaisoning">SRA Liaisoning</a></li>
-                                                <li><a href="services.html#redevelopment-consultancy">Redevelopment</a></li>
+                                                <li><a href="services.html#redevelopment-consultancy">Redevelopment Consultancy</a></li>
                                                 <li><a href="services.html#interior-design">Interior Design</a></li>
-                                                <li><a href="services.html#project-management">Project Management</a></li>
+                                                <li><a href="services.html#development-permissions">Development Permissions</a></li>
                                         </ul>
                                 </div>
                                 <div class="jg-f-col">

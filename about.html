@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/unit-test.css">
     <link rel="stylesheet" href="css/style30f4.css?v=inter">
-    <link rel="stylesheet" href="css/jangid-overrides.css?v=167">
+    <link rel="stylesheet" href="css/jangid-overrides.css?v=190">
     <link rel="icon" href="client-data/favicon.ico?v=1" sizes="any">
     <link rel="shortcut icon" href="client-data/favicon.ico?v=1">
 </head>
@@ -111,7 +111,7 @@
             <div class="col-sm-12 no-padd">
                 
                         <div class="container-fluid top-banner no-padd  simple fullheight light">
-                            <span class="overlay"></span> <img src="client-data/PROJECTS/33.%20TOWNSHIP%2C%20BOISAR%2C%20PALGHAR/Gemini_Generated_Image_y8tgopy8tgopy8tg-clean.png"
+                            <span class="overlay"></span> <img src="client-data/PROJECTS/20.%20Skyline%20Spire,%20MUMBAI/skyline-spire.png"
                                 class="s-img-switch" alt="banner image">
                             <div class="content">
                                 <div class="prague-svg-animation-text">
@@ -146,7 +146,7 @@
                                         <div class="subtitle">OUR STORY</div>
                                         <h2>Who We Are</h2>
                                         <p>We understand that building or redeveloping a property is a big decision. It takes the right planning, clear guidance and people you can trust along the way.</p>
-                                        <p>Since 2006, Jangid Architects, also known as Jangid Associates (OPC) Pvt. Ltd., has been helping developers, housing societies and property owners across Mumbai and MMR turn their plans into reality.</p>
+                                        <p>Since 2007, Jangid Architects, also known as Jangid Associates (OPC) Pvt. Ltd., has been helping developers, housing societies and property owners across Mumbai and MMR turn their plans into reality.</p>
                                         <p>Our work goes beyond architectural design. We guide projects through building approvals, including IOD/IOA, CC and OC, and provide redevelopment support through our in-house team and trusted consultants, coordinating with BMC, MHADA, SRA, MBMC and MMRDA.</p>
                                         <p>With 100+ completed projects across residential redevelopment, SRA, commercial, mixed-use, township, industrial and interior projects, we bring experience and practical understanding to every assignment.</p>
                                         <a href="contact.html" class="a-btn-2 creative jg-story-btn">
@@ -206,19 +206,19 @@
                         <div class="jg-track">
                                 <div class="jg-line"></div>
                                 <div class="jg-progress"></div>
-                                <button type="button" class="jg-node is-active" data-i="0" style="left:0%" aria-label="2006"><span class="jg-dot"></span><span class="jg-year">2006</span></button>
-                                <button type="button" class="jg-node" data-i="1" style="left:33.333%" aria-label="2010"><span class="jg-dot"></span><span class="jg-year">2010</span></button>
+                                <button type="button" class="jg-node is-active" data-i="0" style="left:0%" aria-label="2007"><span class="jg-dot"></span><span class="jg-year">2007</span></button>
+                                <button type="button" class="jg-node" data-i="1" style="left:33.333%" aria-label="2012"><span class="jg-dot"></span><span class="jg-year">2012</span></button>
                                 <button type="button" class="jg-node" data-i="2" style="left:66.666%" aria-label="2017"><span class="jg-dot"></span><span class="jg-year">2017</span></button>
                                 <button type="button" class="jg-node" data-i="3" style="left:100%" aria-label="2026"><span class="jg-dot"></span><span class="jg-year">2026</span></button>
                         </div>
                         <div class="jg-stage" aria-live="polite">
                                 <div class="jg-panel is-active">
-                                        <div class="jg-watermark">2006</div>
+                                        <div class="jg-watermark">2007</div>
                                         <h3>The Beginning of a Vision</h3>
                                         <p>Our journey began in Goregaon with a passion for creating spaces and turning ideas into reality, offering Architecture, Interior Design, BMC Liaisoning and Approval services.</p>
                                 </div>
                                 <div class="jg-panel">
-                                        <div class="jg-watermark">2010</div>
+                                        <div class="jg-watermark">2012</div>
                                         <h3>Growing Beyond Boundaries</h3>
                                         <p>With growing opportunities and client trust, we moved to a bigger office in Malad and expanded our expertise into SRA and MHADA projects.</p>
                                 </div>
@@ -298,16 +298,23 @@
                 .jg-expertise .jg-e-head { text-align: center; margin-bottom: 60px; }
                 .jg-expertise .jg-e-head .subtitle { font-size: 14px; letter-spacing: 3px; text-transform: uppercase; color: #B59B5B; margin-bottom: 15px; }
                 .jg-expertise .jg-e-head h2 { font-family: 'Jost', sans-serif; font-weight: 500; font-size: 38px; line-height: 1.3; color: #262626; margin: 0; }
-                .jg-expertise .jg-e-card { margin-bottom: 40px; background: #fff; box-shadow: 0 6px 30px rgba(0,0,0,.07); transition: transform .3s, box-shadow .3s; }
-                .jg-expertise .jg-e-card:hover { transform: translateY(-6px); box-shadow: 0 14px 40px rgba(0,0,0,.12); }
-                .jg-expertise .jg-e-img { position: relative; height: 230px; overflow: hidden; background: #eee; }
-                .jg-expertise .jg-e-img img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; transition: transform .6s; }
+                /* tall picture tiles: the title sits on the picture, the description slides up on hover (always shown on touch screens) */
+                .jg-expertise .jg-e-card { position: relative; display: flex; flex-direction: column; justify-content: flex-end; height: 430px; margin-bottom: 30px; padding: 0 22px 28px; overflow: hidden; background: #0b1a33; box-shadow: 0 6px 30px rgba(0,0,0,.10); }
+                .jg-expertise .jg-e-img { position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: auto; overflow: hidden; background: #0b1a33; }
+                .jg-expertise .jg-e-img img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 35%; transition: transform .8s cubic-bezier(.4,0,.2,1); }
                 .jg-expertise .jg-e-card:hover .jg-e-img img { transform: scale(1.07); }
-                .jg-expertise .jg-e-body { position: relative; padding: 28px 28px 30px; border-top: 4px solid #B59B5B; }
-                .jg-expertise .jg-e-num { position: absolute; top: -26px; right: 24px; width: 48px; height: 48px; line-height: 48px; text-align: center; background: #262626; color: #B59B5B; font-family: 'Jost', sans-serif; font-size: 18px; }
-                .jg-expertise .jg-e-body h4 { font-size: 21px; font-weight: 500; color: #262626; margin: 0 0 12px; }
-                .jg-expertise .jg-e-body p { font-size: 15px; line-height: 1.8; color: #444; margin: 0; }
-                @media (max-width: 767px) { .jg-expertise { padding: 60px 0 40px; } .jg-expertise .jg-e-head h2 { font-size: 28px; } }
+                .jg-expertise .jg-e-card:before { content: ''; position: absolute; left: 0; right: 0; bottom: 0; height: 75%; z-index: 1; background: linear-gradient(to top, rgba(8,20,42,.92) 0%, rgba(8,20,42,.55) 45%, rgba(8,20,42,0) 100%); pointer-events: none; }
+                .jg-expertise .jg-e-card:after { content: ''; position: absolute; left: 22px; bottom: 0; width: 46px; height: 4px; z-index: 3; background: #B59B5B; transition: width .5s ease; }
+                .jg-expertise .jg-e-card:hover:after { width: calc(100% - 44px); }
+                .jg-expertise .jg-e-body { display: contents; }
+                .jg-expertise .jg-e-num { position: absolute; top: 22px; left: 22px; right: auto; z-index: 2; width: auto; height: auto; line-height: 1; background: transparent; color: #E3CD93; font-family: 'Jost', sans-serif; font-weight: 400; font-size: 34px; letter-spacing: 1px; text-shadow: 0 1px 10px rgba(0,0,0,.55); }
+                .jg-expertise .jg-e-body h4 { font-size: 20px; font-weight: 500; line-height: 1.3; color: #fff !important; margin: 0 0 8px; text-shadow: 0 1px 8px rgba(0,0,0,.3); position: relative; z-index: 2; }
+                .jg-expertise .jg-e-body p { font-size: 14px; line-height: 1.7; color: rgba(255,255,255,.9); margin: 0; position: relative; z-index: 2; max-height: 0; opacity: 0; overflow: hidden; transition: max-height .55s ease, opacity .45s ease, margin .45s ease; }
+                .jg-expertise .jg-e-card:hover .jg-e-body p { max-height: 160px; opacity: 1; margin-top: 4px; }
+                @media (hover: none) { .jg-expertise .jg-e-body p { max-height: none; opacity: 1; } .jg-expertise .jg-e-card:after { width: calc(100% - 44px); } }
+                @media (prefers-reduced-motion: reduce) { .jg-expertise .jg-e-body p, .jg-expertise .jg-e-card:after, .jg-expertise .jg-e-img img { transition: none; } }
+                @media (max-width: 991px) { .jg-expertise .jg-e-card { height: 400px; } }
+                @media (max-width: 767px) { .jg-expertise { padding: 60px 0 40px; } .jg-expertise .jg-e-head h2 { font-size: 28px; } .jg-expertise .jg-e-card { height: 380px; } }
         </style>
         <section class="jg-expertise">
                 <div class="container">
@@ -316,63 +323,83 @@
                                 <h2>What we do best</h2>
                         </div>
                         <div class="row jg-flex-row">
-                                <div class="col-md-4 col-sm-6">
+                                <div class="col-md-3 col-sm-6">
                                         <div class="jg-e-card">
-                                                <div class="jg-e-img"><img src="client-data/PROJECTS/4.%20AIKYA%20HEIGHTS%2C%20BYCULLA%2C%20MUMBAI/Aikya%20heights%202.jpg" alt="Residential project" loading="lazy"></div>
+                                                <div class="jg-e-img"><img src="client-data/PROJECTS/4.%20AIKYA%20HEIGHTS%2C%20BYCULLA%2C%20MUMBAI/Aikya%20heights%202.jpg" alt="Cess building redevelopment, Aikya Heights, Byculla" loading="lazy"></div>
                                                 <div class="jg-e-body">
                                                         <div class="jg-e-num">01</div>
-                                                        <h4>Residential</h4>
-                                                        <p>Mid-rise and high-rise apartment buildings, row houses, and bungalow projects across Mumbai's western and eastern suburbs.</p>
+                                                        <h4>Cess Building Redevelopment</h4>
+                                                        <p>Redevelopment of old cessed buildings, from tenant and landlord coordination to approvals and completion.</p>
                                                 </div>
                                         </div>
                                 </div>
-                                <div class="col-md-4 col-sm-6">
+                                <div class="col-md-3 col-sm-6">
                                         <div class="jg-e-card">
-                                                <div class="jg-e-img"><img src="client-data/PROJECTS/1A%20%3D%20PMG%20ANURADHA%2C%20VILE%20PARLE%2C%20MUMBAI/WhatsApp%20Image%202026-08-05%20at%205.45.28%20PM.jpeg" alt="Redevelopment project, PMG Anuradha co-operative housing society, Vile Parle" loading="lazy"></div>
+                                                <div class="jg-e-img"><img src="client-data/PROJECTS/3.%20RBC25%20PANCHAM%2C%20BORIVALI%2C%20MUMBAI/RBC25-Pancham.png" alt="Society redevelopment, RBC25 Pancham, Borivali" loading="lazy"></div>
                                                 <div class="jg-e-body">
                                                         <div class="jg-e-num">02</div>
-                                                        <h4>Redevelopment</h4>
-                                                        <p>Cessed building redevelopment, cooperative society schemes, and MHADA cluster redevelopment, from feasibility to OC.</p>
+                                                        <h4>Society Redevelopment</h4>
+                                                        <p>Support for housing societies through feasibility, developer selection, approvals and the design of the new building.</p>
                                                 </div>
                                         </div>
                                 </div>
-                                <div class="col-md-4 col-sm-6">
+                                <div class="col-md-3 col-sm-6">
                                         <div class="jg-e-card">
-                                                <div class="jg-e-img"><img src="client-data/PROJECTS/1.%20MUFADDAL%20PARK%2C%20MAZGAON%2C%20MUMBAI/banner1.png" alt="SRA project" loading="lazy"></div>
+                                                <div class="jg-e-img"><img src="client-data/PROJECTS/1.%20MUFADDAL%20PARK%2C%20MAZGAON%2C%20MUMBAI/banner1.png" alt="SRA rehabilitation project, Mufaddal Park, Mazgaon" loading="lazy"></div>
                                                 <div class="jg-e-body">
                                                         <div class="jg-e-num">03</div>
-                                                        <h4>SRA Projects</h4>
+                                                        <h4>SRA Rehabilitation Projects</h4>
                                                         <p>Slum Rehabilitation Authority housing schemes: scheme registration, DP remarks, IOD/IOA and CC under the SRA framework.</p>
                                                 </div>
                                         </div>
                                 </div>
-                                <div class="col-md-4 col-sm-6">
+                                <div class="col-md-3 col-sm-6">
                                         <div class="jg-e-card">
-                                                <div class="jg-e-img"><img src="client-data/PROJECTS/35%20TradeGate%2C%20MUMBAI/commercial.png" alt="Commercial project" loading="lazy"></div>
+                                                <div class="jg-e-img"><img src="client-data/PROJECTS/2.%20SATVIKI%20HORIZON%2C%20DADAR%2C%20MUMBAI/satviki%20horizon.jpg" alt="MHADA redevelopment, Satviki Horizon, Dadar" loading="lazy"></div>
                                                 <div class="jg-e-body">
                                                         <div class="jg-e-num">04</div>
-                                                        <h4>Commercial</h4>
-                                                        <p>Office buildings, retail complexes, corporate headquarters, showrooms, and mixed-use developments with commercial ground floor podiums.</p>
+                                                        <h4>MHADA Redevelopment</h4>
+                                                        <p>MHADA colony and cluster redevelopment, from feasibility and approvals through to the OC.</p>
                                                 </div>
                                         </div>
                                 </div>
-                                <div class="col-md-4 col-sm-6">
+                                <div class="col-md-3 col-sm-6">
                                         <div class="jg-e-card">
-                                                <div class="jg-e-img"><img src="client-data/PROJECTS/33.%20TOWNSHIP%2C%20BOISAR%2C%20PALGHAR/township.png" alt="Township planning project" loading="lazy"></div>
+                                                <div class="jg-e-img"><img src="client-data/PROJECTS/1A%20%3D%20PMG%20ANURADHA%2C%20VILE%20PARLE%2C%20MUMBAI/WhatsApp%20Image%202026-08-05%20at%205.45.28%20PM.jpeg" alt="BMC redevelopment, PMG Anuradha, Vile Parle" loading="lazy"></div>
                                                 <div class="jg-e-body">
                                                         <div class="jg-e-num">05</div>
+                                                        <h4>BMC Redevelopment</h4>
+                                                        <p>Redevelopment within Greater Mumbai, with plans and approvals handled through BMC from IOD/IOA to OC.</p>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                        <div class="jg-e-card">
+                                                <div class="jg-e-img"><img src="img/projects/rajhans-serenity-web.jpg" alt="MBMC development and redevelopment, Rajhans Serenity, Santacruz" loading="lazy"></div>
+                                                <div class="jg-e-body">
+                                                        <div class="jg-e-num">06</div>
+                                                        <h4>MBMC Development / Redevelopment</h4>
+                                                        <p>New development and redevelopment in Mira Road and Bhayander, with building permissions handled through MBMC.</p>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                        <div class="jg-e-card">
+                                                <div class="jg-e-img"><img src="client-data/PROJECTS/33.%20TOWNSHIP%2C%20BOISAR%2C%20PALGHAR/township.png" alt="Township planning, Boisar" loading="lazy"></div>
+                                                <div class="jg-e-body">
+                                                        <div class="jg-e-num">07</div>
                                                         <h4>Township Planning</h4>
                                                         <p>Integrated township layouts and master planning for peripheral Mumbai and MMR sites under MMRDA and MBMC jurisdictions.</p>
                                                 </div>
                                         </div>
                                 </div>
-                                <div class="col-md-4 col-sm-6">
+                                <div class="col-md-3 col-sm-6">
                                         <div class="jg-e-card">
                                                 <div class="jg-e-img"><img src="img/bridge-construction/stock-photo-81710985.jpg" alt="Project management consultancy on a construction site" loading="lazy"></div>
                                                 <div class="jg-e-body">
-                                                        <div class="jg-e-num">06</div>
-                                                        <h4>PMC</h4>
-                                                        <p>Project management consultancy: on-site supervision, contractor coordination, quality checks and progress reporting from start to handover.</p>
+                                                        <div class="jg-e-num">08</div>
+                                                        <h4>PMC &amp; Consultancy</h4>
+                                                        <p>Project management and advisory: on-site supervision, quality checks and progress reporting from start to handover.</p>
                                                 </div>
                                         </div>
                                 </div>
@@ -438,7 +465,7 @@
                                 <div class="jg-f-col jg-f-brand">
                                         <a href="index.html" class="jg-f-logo"><img src="client-data/jangid-architects-footer-logo.png" alt="Jangid Architects" style="display:block;width:100%;max-width:300px;height:auto;margin-bottom:14px;"></a>
                                         <div class="jg-f-tagline">Architecture &middot; Planning &middot; Liaisoning</div>
-                                        <p>302, Raj Chambers, Manchubhai Road,<br>Malad (East), Mumbai 400 097,<br>Maharashtra, India</p>
+                                        <p>302 &amp; 303, Raj Chambers, Manchubhai Road,<br>Malad (East), Mumbai 400 097,<br>Maharashtra, India</p>
                                 </div>
                                 <div class="jg-f-col">
                                         <h6 class="footer-info-block-title">Navigation</h6>
@@ -449,6 +476,7 @@
                                                 <li><a href="projects.html">Projects</a></li>
                                                 <li><a href="clients.html">Our Clients</a></li>
                                                 <li><a href="blog.html">Blog</a></li>
+                                                <li><a href="careers.html">Careers</a></li>
                                                 <li><a href="contact.html">Contact</a></li>
                                         </ul>
                                 </div>
@@ -457,11 +485,11 @@
                                         <ul class="jg-f-list">
                                                 <li><a href="services.html#architecture-planning">Architecture &amp; Planning</a></li>
                                                 <li><a href="services.html#liaisoning">BMC Liaisoning</a></li>
-                                                <li><a href="services.html#building-plan-approvals">MHADA Approvals</a></li>
+                                                <li><a href="services.html#liaisoning">MBMC Approvals</a></li>
                                                 <li><a href="services.html#liaisoning">SRA Liaisoning</a></li>
-                                                <li><a href="services.html#redevelopment-consultancy">Redevelopment</a></li>
+                                                <li><a href="services.html#redevelopment-consultancy">Redevelopment Consultancy</a></li>
                                                 <li><a href="services.html#interior-design">Interior Design</a></li>
-                                                <li><a href="services.html#project-management">Project Management</a></li>
+                                                <li><a href="services.html#development-permissions">Development Permissions</a></li>
                                         </ul>
                                 </div>
                                 <div class="jg-f-col">

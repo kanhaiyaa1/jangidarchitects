@@ -663,10 +663,11 @@ body.jg-home .prague-header {
 .jg-hero-slider .jg-slide img { transform: scale(1.025); }
 .jg-hero-slider .jg-slide.is-active img { transform: scale(1); }
 
-/* ===== Home hero: taller banner. The picture is stretched to fit instead of being cropped ===== */
+/* ===== Home hero: full screen height on desktop (the counters strip starts below the first screen). The picture is stretched to fit instead of being cropped ===== */
 @media only screen and (min-width: 768px) {
   body.jg-home .jg-hero-slider {
-    height: 85vh !important;
+    height: 100vh !important;
+    height: 100svh !important;
     min-height: 560px !important;
     aspect-ratio: auto;
   }
