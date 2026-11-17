@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/unit-test.css">
     <link rel="stylesheet" href="css/style30f4.css?v=inter">
-    <link rel="stylesheet" href="css/jangid-overrides.css?v=190">
+    <link rel="stylesheet" href="css/jangid-overrides.css?v=195">
     <link rel="icon" href="client-data/favicon.ico?v=1" sizes="any">
     <link rel="shortcut icon" href="client-data/favicon.ico?v=1">
 </head>
@@ -170,7 +170,7 @@
                     <p class="jg-c-text">Every project gives our team direct experience of design, drawings, site work and government approvals. We welcome people who want to learn this work properly and take responsibility for it.</p>
                     <div class="jg-c-block">
                         <div class="jg-c-label">Roles we hire for</div>
-                        <p class="jg-c-value">Architects, draftspersons, liaisoning executives, interns, engineers etc</p>
+                        <p class="jg-c-value">Architects, draftsmen, CAD technicians, liaisoning executives, interns, engineers etc</p>
                     </div>
                     <div class="jg-c-block">
                         <div class="jg-c-label">Email</div>
@@ -184,40 +184,41 @@
                 <div class="col-md-7">
                     <div class="jg-form-card">
                         <h3>Send your application</h3>
-                        <!-- Forminit: set the form action to the Forminit endpoint when it is ready, for example action="https://forminit.com/f/FORM_ID" -->
-                        <form id="jgCareerForm" action="" method="POST" enctype="multipart/form-data" novalidate>
+                        <form id="jgCareerForm" action="https://forminit.com/f/f23eapw84bb" method="POST" enctype="multipart/form-data" novalidate>
+                            <input type="hidden" name="fi-text-form" value="Career application">
+                            <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;opacity:0;height:0;width:0;">
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="jg-field">
                                         <label for="jgCName">Name</label>
-                                        <input type="text" id="jgCName" name="name" autocomplete="name" required>
-                                        <p class="jg-err">Please enter your name.</p>
+                                        <input type="text" id="jgCName" name="fi-sender-fullName" autocomplete="name" required>
+                                        <p class="jg-err">Please enter your name using letters only.</p>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="jg-field">
                                         <label for="jgCPhone">Phone</label>
-                                        <input type="tel" id="jgCPhone" name="phone" autocomplete="tel" required>
+                                        <input type="tel" id="jgCPhone" name="fi-text-phone" autocomplete="tel" required>
                                         <p class="jg-err">Please enter your phone number.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="jg-field">
                                 <label for="jgCEmail">Email</label>
-                                <input type="email" id="jgCEmail" name="email" autocomplete="email" required>
+                                <input type="email" id="jgCEmail" name="fi-sender-email" autocomplete="email" required>
                                 <p class="jg-err">Please enter a valid email address.</p>
                             </div>
                             <div class="jg-field">
                                 <label for="jgCResume">Resume</label>
-                                <input type="file" id="jgCResume" name="resume" accept=".pdf,.doc,.docx" required>
+                                <input type="file" id="jgCResume" name="fi-file-resume" accept=".pdf,.doc,.docx" required>
                                 <p class="jg-hint">PDF, DOC or DOCX, up to 5 MB.</p>
                                 <p class="jg-err">Please attach your resume as a PDF, DOC or DOCX file up to 5 MB.</p>
                             </div>
                             <div class="jg-field">
                                 <label for="jgCMessage">Message</label>
-                                <textarea id="jgCMessage" name="message" rows="4"></textarea>
+                                <textarea id="jgCMessage" name="fi-text-message" rows="4"></textarea>
                             </div>
-                            <p class="jg-note">Send your portfolio & CV upto 5MB on <a href="mailto:jangidarchitects@gmail.com">jangidarchitects@gmail.com</a> or <a href="https://wa.me/919322742472?text=Hi%20Jangid%20Architects%2C%20I%27d%20like%20to%20share%20my%20resume." target="_blank" rel="noopener">+91 93227 42472</a></p>
+                            <p class="jg-note">Send your portfolio on email <a href="mailto:jangidarchitects@gmail.com">jangidarchitects@gmail.com</a> or WhatsApp <a href="https://wa.me/919322742472?text=Hi%20Jangid%20Architects%2C%20I%27d%20like%20to%20share%20my%20resume." target="_blank" rel="noopener">+91 93227 42472</a></p>
 <br>                            <button type="submit" class="jg-submit">Submit Application</button>
                             <p class="jg-status" id="jgCStatus" role="status" aria-live="polite"></p>
                         </form>
@@ -226,6 +227,7 @@
             </div>
         </div>
     </section>
+    <script src="js/jangid-forms.js?v=1"></script>
     <script>
         (function () {
             var form = document.getElementById('jgCareerForm');
@@ -235,16 +237,14 @@
             function mark(id, bad) { document.getElementById(id).parentNode.classList.toggle('has-error', bad); return !bad; }
             form.addEventListener('submit', function (e) {
                 var ok = true;
-                ok = mark('jgCName', !document.getElementById('jgCName').value.trim()) && ok;
+                ok = mark('jgCName', !/^[\p{L}\p{M} .'-]+$/u.test(document.getElementById('jgCName').value.trim())) && ok;
                 ok = mark('jgCPhone', document.getElementById('jgCPhone').value.replace(/\D/g, '').length < 7) && ok;
                 ok = mark('jgCEmail', !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(document.getElementById('jgCEmail').value.trim())) && ok;
                 var f = document.getElementById('jgCResume').files[0];
                 ok = mark('jgCResume', !f || !/\.(pdf|doc|docx)$/i.test(f.name) || f.size > MAX) && ok;
-                if (!ok) { e.preventDefault(); status.textContent = ''; return; }
-                if (!form.getAttribute('action')) {
-                    e.preventDefault();
-                    status.textContent = 'Online submission is not active yet. Please email your resume to jangidarchitects@gmail.com.';
-                }
+                e.preventDefault();
+                if (!ok) { status.textContent = ''; return; }
+                jgSubmitForm(form, status, 'Thank you. Your application has been sent. Our team will get back to you if there is a suitable role.');
             });
         })();
     </script>

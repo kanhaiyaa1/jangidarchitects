@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="css/unit-test.css">
     <link rel="stylesheet" href="css/google_map.min.css">
     <link rel="stylesheet" href="css/style7b30.css?v=inter">
-    <link rel="stylesheet" href="css/jangid-overrides.css?v=190">
+    <link rel="stylesheet" href="css/jangid-overrides.css?v=195">
     <link rel="icon" href="client-data/favicon.ico?v=1" sizes="any">
     <link rel="shortcut icon" href="client-data/favicon.ico?v=1">
 </head>
@@ -111,7 +111,7 @@
     <div class="container-fluid no-padd">
         <div class="row-fluid no-padd">
             <div class="col-sm-12 no-padd">
-                <div class="container-fluid top-banner no-padd  big  light no-marg-bottom vindow-height">
+                <div class="container-fluid top-banner no-padd  big  light no-marg-bottom vindow-height" style="--jg-ar:2.96;">
                     <span class="overlay"></span> <img src="client-data/temp.jpeg" class="s-img-switch"
                         alt="banner image">
                     <div class="content">
@@ -180,64 +180,61 @@
                 <div class="col-md-7">
                     <div class="jg-form-card">
                         <h3>Send us a message</h3>
-                        <form id="jgEnquiryForm" novalidate>
+                        <form id="jgEnquiryForm" action="https://forminit.com/f/f23eapw84bb" method="POST" novalidate>
+                            <input type="hidden" name="fi-text-form" value="Website enquiry">
+                            <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;opacity:0;height:0;width:0;">
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="jg-field">
-                                        <input type="text" id="jgName" name="name" placeholder="Your name *" aria-label="Your name" required>
+                                        <input type="text" id="jgName" name="fi-sender-fullName" placeholder="Your name *" aria-label="Your name" required>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="jg-field">
-                                        <input type="tel" id="jgPhone" name="phone" placeholder="Phone number *" aria-label="Phone number" required>
+                                        <input type="tel" id="jgPhone" name="fi-text-phone" placeholder="Phone number *" aria-label="Phone number" required>
                                     </div>
                                 </div>
                             </div>
                             <div class="jg-field">
-                                <select id="jgService" name="service" aria-label="Service required">
+                                <select id="jgService" name="fi-select-service" aria-label="Service required">
                                     <option value="">Service required</option>
                                     <option>Architecture &amp; Planning</option>
-                                    <option>Building Plan Approvals</option>
+                                    <option>Building Plan Approvals &amp; Development Permissions</option>
                                     <option>BMC / MHADA / SRA / MBMC / MMRDA Liaisoning</option>
-                                    <option>Redevelopment Consultancy</option>
+                                    <option>Redevelopment Consultancy &amp; Project Management (PMC)</option>
                                     <option>Feasibility Studies</option>
-                                    <option>Project Management (PMC)</option>
-                                    <option>Development Permissions</option>
                                     <option>Interior Design &amp; Build</option>
                                     <option>Other</option>
                                 </select>
                             </div>
                             <div class="jg-field">
-                                <textarea id="jgMessage" name="message" rows="3" placeholder="Your message" aria-label="Your message"></textarea>
+                                <textarea id="jgMessage" name="fi-text-message" rows="3" placeholder="Your message" aria-label="Your message"></textarea>
                             </div>
                             <button type="submit" class="jg-submit">Send Message</button>
+                            <p class="jg-status" id="jgStatus" role="status" aria-live="polite" style="margin:12px 0 0;font-size:14px;line-height:1.6;"></p>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <script src="js/jangid-forms.js?v=1"></script>
     <script>
         (function () {
             var form = document.getElementById('jgEnquiryForm');
             if (!form) return;
+            var status = document.getElementById('jgStatus');
             form.addEventListener('submit', function (e) {
                 e.preventDefault();
                 var ok = true;
                 ['jgName', 'jgPhone'].forEach(function (id) {
-                    var el = document.getElementById(id), bad = !el.value.trim();
+                    var el = document.getElementById(id), val = el.value.trim();
+                    var bad = id === 'jgName' ? !/^[\p{L}\p{M} .'-]+$/u.test(val) : !val;
                     el.parentNode.classList.toggle('has-error', bad);
                     if (bad) ok = false;
                 });
-                if (!ok) return;
-                var v = function (id) { var el = document.getElementById(id); return el ? el.value.trim() : ''; };
-                var lines = ['Hi Jangid Architects, I would like to discuss a project.', '',
-                    'Name: ' + v('jgName'), 'Phone: ' + v('jgPhone')];
-                if (v('jgEmail')) lines.push('Email: ' + v('jgEmail'));
-                if (v('jgService')) lines.push('Service: ' + v('jgService'));
-                if (v('jgLocation')) lines.push('Location: ' + v('jgLocation'));
-                if (v('jgMessage')) lines.push('', v('jgMessage'));
-                window.open('https://wa.me/919322742472?text=' + encodeURIComponent(lines.join('\n')), '_blank');
+                if (!ok) { status.textContent = 'Please enter your name (letters only) and your phone number.'; status.style.color = '#d9534f'; return; }
+                jgSubmitForm(form, status, 'Thank you. Your message has been sent. We will contact you shortly.');
             });
         })();
     </script>

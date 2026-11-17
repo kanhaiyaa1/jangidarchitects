@@ -242,6 +242,16 @@ body:not(.jg-home) .top-banner {
   min-height: 380px !important;
 }
 
+/* Desktop: the breadcrumb banner takes the full shape of its photo (about 2.8 : 1), so the photo is not trimmed at the top or bottom.
+   On wide screens it becomes taller instead. A page can set --jg-ar on its banner if its photo has a different shape. */
+@media (min-width: 992px) {
+  body:not(.jg-home) .top-banner {
+    height: auto !important;
+    aspect-ratio: var(--jg-ar, 2.8);
+    min-height: 380px !important;
+  }
+}
+
 /* "This is what we do." card headings: smaller */
 .prague-services-wrapper .services-item-title {
   font-size: 24px !important;
@@ -953,3 +963,6 @@ body.jg-home .prague-header.simple.sticky-menu.light:not(.scroll):not(.open-menu
 }
 body .prague-header .prague-social-nav > a:hover { color: #B59B5B !important; }
 body.jg-home .prague-header.simple.sticky-menu.light:not(.scroll):not(.open-menu) .prague-social-nav > a:hover { color: #E3CD93 !important; }
+
+/* Projects grid: the image box is exactly the card size, so photos are not trimmed top or bottom */
+.project-masonry-wrapper .project-masonry-item-img { height: 100% !important; background-size: cover; background-position: center center; }
