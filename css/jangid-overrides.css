@@ -797,7 +797,7 @@ body .jg-cta-footer {
   background-color: #0b1a33;
   background-image:
     linear-gradient(180deg, rgba(8, 20, 42, 0.80) 0%, rgba(8, 20, 42, 0.86) 100%),
-    url('../client-data/PROJECTS/1A%20%3D%20PMG%20ANURADHA%2C%20VILE%20PARLE%2C%20MUMBAI/pmg-banner.png');
+    url('../assets/images/banners/pmg-anuradha-vile-parle-mumbai-banner.webp');
   background-size: 100% 100%, cover;
   background-position: 0 0, center center;
   background-repeat: no-repeat;
@@ -966,3 +966,6 @@ body.jg-home .prague-header.simple.sticky-menu.light:not(.scroll):not(.open-menu
 
 /* Projects grid: the image box is exactly the card size, so photos are not trimmed top or bottom */
 .project-masonry-wrapper .project-masonry-item-img { height: 100% !important; background-size: cover; background-position: center center; }
+
+/* Visually hidden text that search engines and screen readers still read (used for headings that the design shows another way) */
+.jg-sr-only { position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }

@@ -27,6 +27,23 @@
         }, 350);
     }
 
+    /* Slides after the first keep their picture in data-src / data-srcset, so the first banner downloads alone.
+       The others are fetched right after the page has loaded, and the next one is always ready before it is shown. */
+    function loadSlide(k) {
+        var s = slides[k];
+        if (!s || s.getAttribute('data-loaded')) return;
+        s.setAttribute('data-loaded', '1');
+        var srcs = s.querySelectorAll('source[data-srcset]');
+        for (var a = 0; a < srcs.length; a++) srcs[a].setAttribute('srcset', srcs[a].getAttribute('data-srcset'));
+        var im = s.querySelector('img[data-src]');
+        if (im) im.setAttribute('src', im.getAttribute('data-src'));
+    }
+    function loadRest() {
+        loadSlide(1);
+        setTimeout(function () { for (var k = 2; k < n; k++) loadSlide(k); }, 1200);
+    }
+    if (document.readyState === 'complete') { loadRest(); } else { window.addEventListener('load', loadRest); }
+
     function mark() {
         for (var k = 0; k < dots.length; k++) dots[k].classList.toggle('is-on', k === cur);
     }
@@ -37,6 +54,7 @@
         var from = slides[cur], to = slides[i];
         root.classList.toggle('is-back', !!back);
 
+        loadSlide(i); loadSlide((i + 1) % n);
         from.classList.remove('is-active');
         to.classList.add('is-active');
         cur = i;

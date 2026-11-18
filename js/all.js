@@ -299,13 +299,25 @@
             $parent = _this.closest(parent_sel);
             $parent = $parent.length ? $parent : _this.parent();
 
-            if ($imgDataSibling) {
-                $parent.addClass('s-back-sibling-switch');
-                $neighbor = _this.next();
-                $neighbor = $neighbor.length ? $neighbor : _this.next();
-                $neighbor.css('background-image', 'url(' + this.src + ')').addClass('s-sibling-switch');
+            var imgEl = this;
+            /* values are copied per image because the background may be set later, after the loop has moved on */
+            var applyBg = (function (sib, par, me) {
+                return function () {
+                    if (sib) {
+                        par.addClass('s-back-sibling-switch');
+                        var nb = me.next();
+                        nb = nb.length ? nb : me.next();
+                        nb.css('background-image', 'url(' + imgEl.src + ')').addClass('s-sibling-switch');
+                    } else {
+                        par.css('background-image', 'url(' + imgEl.src + ')').addClass('s-back-switch');
+                    }
+                };
+            })($imgDataSibling, $parent, _this);
+            /* images marked loading="lazy" set their background only once the browser has fetched them (when they come near the screen) */
+            if ($imgDataHidden && imgEl.getAttribute('loading') === 'lazy' && !imgEl.complete) {
+                _this.one('load', applyBg);
             } else {
-                $parent.css('background-image', 'url(' + this.src + ')').addClass('s-back-switch');
+                applyBg();
             }
 
             if ($imgDataHidden) {
