@@ -969,3 +969,14 @@ body.jg-home .prague-header.simple.sticky-menu.light:not(.scroll):not(.open-menu
 
 /* Visually hidden text that search engines and screen readers still read (used for headings that the design shows another way) */
 .jg-sr-only { position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+
+/* Footer credit: starts on its own line, and the developer name is always gold */
+body .jg-cta-footer .prague-footer .footer-copyright .jg-credit { display: block; margin-top: 6px; font: inherit !important; letter-spacing: inherit !important; }
+body .jg-cta-footer .prague-footer .footer-copyright a.jg-credit-link,
+body .jg-cta-footer .prague-footer .footer-copyright a.jg-credit-link:link,
+body .jg-cta-footer .prague-footer .footer-copyright a.jg-credit-link:visited,
+body .jg-cta-footer .prague-footer .footer-copyright a.jg-credit-link:hover,
+body .jg-cta-footer .prague-footer .footer-copyright a.jg-credit-link:focus,
+body .jg-cta-footer .prague-footer .footer-copyright a.jg-credit-link:active { color: #B59B5B !important; text-decoration: none; }
+/* keep the developer name exactly the size and spacing of the line around it */
+body .jg-cta-footer .prague-footer .footer-copyright a.jg-credit-link { font-family: inherit !important; font-size: inherit !important; line-height: inherit !important; letter-spacing: inherit !important; text-transform: none !important; font-weight: 900; }
