@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Jangid Architects - Website Text Editor</title>
+<style>
+/* fonts are stored inside this file so the editor works with no internet connection */
+@font-face { font-family: 'Inter'; font-style: normal; font-weight: 100 900; font-display: swap; src: url(data:font/woff2;base64,__INTER__) format('woff2'); }
+@font-face { font-family: 'Jost'; font-style: normal; font-weight: 100 900; font-display: swap; src: url(data:font/woff2;base64,__JOST__) format('woff2'); }
+:root {
+  /* To use Cormorant Garamond for headings instead, install the font and change the next line to: 'Cormorant Garamond', Georgia, serif */
+  --heading: 'Jost', 'Segoe UI', Arial, sans-serif;
+  --body: 'Inter', 'Segoe UI', Arial, sans-serif;
+  --blue: #123F8C; --gold: #B59B5B; --ink: #262626; --text: #444; --line: #e4e1d8; --paper: #f5f5f3; --card: #fff; --red: #c0392b; --green: #2e7d32;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 150px; }
+body { margin: 0; background: var(--paper); color: var(--text); font-family: var(--body); font-size: 15px; line-height: 1.6; }
+button { font-family: inherit; cursor: pointer; }
+
+/* ---------- top bar ---------- */
+.top { position: sticky; top: 0; z-index: 30; background: #fff; border-bottom: 1px solid var(--line); }
+.top-row { display: flex; align-items: center; gap: 14px; padding: 12px 22px; flex-wrap: wrap; }
+.brand { font-family: var(--heading); font-weight: 500; font-size: 20px; color: var(--blue); letter-spacing: .5px; margin-right: auto; }
+.brand small { display: block; font-family: var(--body); font-size: 11px; letter-spacing: 2.5px; text-transform: uppercase; color: var(--gold); font-weight: 500; }
+.search { width: 260px; max-width: 100%; padding: 9px 12px; border: 1px solid var(--line); border-radius: 6px; font: inherit; background: #fafaf8; }
+.search:focus { outline: 0; border-color: var(--gold); background: #fff; }
+.btn { padding: 9px 14px; border: 1px solid var(--line); border-radius: 6px; background: #fff; color: var(--ink); font-size: 13px; }
+.btn:hover { border-color: var(--gold); }
+.btn.danger:hover { border-color: var(--red); color: var(--red); }
+.tabs { display: flex; gap: 2px; padding: 0 16px; overflow-x: auto; scrollbar-width: thin; }
+.tab { flex: 0 0 auto; padding: 11px 14px 10px; border: 0; background: none; font-size: 13.5px; color: #666; border-bottom: 3px solid transparent; white-space: nowrap; }
+.tab:hover { color: var(--blue); }
+.tab.on { color: var(--blue); border-bottom-color: var(--gold); font-weight: 600; }
+.tab .n { display: inline-block; min-width: 20px; margin-left: 6px; padding: 0 6px; border-radius: 10px; background: var(--gold); color: #fff; font-size: 11px; line-height: 18px; text-align: center; }
+.tab .n.hit { background: #e8e4d6; color: #555; }
+.tab .n[hidden] { display: none; }
+
+/* ---------- layout ---------- */
+.wrap { display: flex; gap: 26px; max-width: 1280px; margin: 0 auto; padding: 22px 22px 120px; }
+.side { flex: 0 0 230px; position: sticky; top: 132px; align-self: flex-start; max-height: calc(100vh - 150px); overflow: auto; font-size: 13px; }
+.side h4 { margin: 0 0 8px; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #999; font-weight: 600; }
+.side a { display: flex; justify-content: space-between; gap: 8px; padding: 7px 10px; border-radius: 6px; color: #555; text-decoration: none; line-height: 1.35; }
+.side a:hover { background: #ebe8de; color: var(--blue); }
+.side a .c { color: var(--gold); font-weight: 600; }
+main { flex: 1; min-width: 0; }
+.pagehead { margin: 0 0 16px; }
+.pagehead h1 { margin: 0; font-family: var(--heading); font-weight: 500; font-size: 30px; color: var(--blue); }
+.pagehead p { margin: 4px 0 0; color: #777; font-size: 13px; }
+.help { background: #fffdf4; border: 1px solid #eadfb9; border-radius: 8px; padding: 14px 18px; margin: 0 0 20px; font-size: 14px; position: relative; }
+.help b { color: var(--ink); }
+.help ol { margin: 6px 0 0; padding-left: 20px; }
+.help .x { position: absolute; right: 8px; top: 6px; border: 0; background: none; font-size: 20px; color: #999; }
+
+.sec { background: var(--card); border: 1px solid var(--line); border-radius: 8px; margin: 0 0 22px; overflow: hidden; }
+.sec-h { display: flex; align-items: center; gap: 12px; padding: 11px 16px; background: #faf8f2; border-bottom: 1px solid var(--line); }
+.sec-h .t { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: var(--gold); font-weight: 600; margin-right: auto; }
+.sec-h .t span { color: var(--ink); letter-spacing: .3px; text-transform: none; font-size: 14px; margin-left: 8px; font-weight: 500; }
+.sec-h .cnt { font-size: 12px; color: var(--gold); font-weight: 600; }
+.sec-h .btn { padding: 5px 10px; font-size: 12px; }
+.sec-h .btn[disabled] { opacity: .35; cursor: default; }
+.sec-h .btn[disabled]:hover { border-color: var(--line); }
+
+.field { padding: 12px 16px 14px; border-bottom: 1px solid #f0eee7; border-left: 3px solid transparent; }
+.field:last-child { border-bottom: 0; }
+.field.changed { border-left-color: var(--gold); background: #fffef9; }
+.field-meta { display: flex; align-items: center; gap: 10px; margin: 0 0 5px; font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: #9a9a9a; }
+.field-meta .k { font-family: Consolas, Menlo, monospace; text-transform: none; letter-spacing: 0; color: #b5b5b5; margin-left: auto; font-size: 11px; user-select: all; }
+.field-meta .flag { display: none; padding: 1px 7px; border-radius: 9px; background: var(--gold); color: #fff; letter-spacing: .5px; font-size: 10px; }
+.field.changed .flag { display: inline-block; }
+.field-meta .rs { display: none; border: 0; background: none; color: var(--blue); font-size: 12px; text-transform: none; letter-spacing: 0; text-decoration: underline; padding: 0; }
+.field.changed .rs { display: inline; }
+.field-meta .sh { color: #3a7bd5; text-transform: none; letter-spacing: 0; }
+.ed { display: block; width: 100%; padding: 7px 10px; margin: 0 -10px; border: 1px dashed transparent; border-radius: 6px; outline: 0; min-height: 1.6em; white-space: pre-wrap; word-wrap: break-word; transition: border-color .15s, background .15s; }
+.ed:hover { border-color: #d8d3c0; }
+.ed:focus { border-color: var(--gold); border-style: solid; background: #fff; box-shadow: 0 0 0 3px rgba(181,155,91,.15); }
+.ed:empty::before { content: 'Type here...'; color: #bbb; }
+.orig { margin-top: 6px; padding: 6px 10px; background: #f6f4ec; border-radius: 6px; font-size: 12.5px; color: #777; display: none; }
+.field.changed .orig { display: block; }
+.orig b { color: #999; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; font-size: 10px; margin-right: 6px; }
+.hint { margin-top: 4px; font-size: 12px; color: #999; }
+.warn { margin-top: 6px; font-size: 12.5px; color: var(--red); display: none; }
+.field.bad .warn { display: block; }
+
+/* text looks like the live site */
+.t-h1 .ed { font-family: var(--heading); font-weight: 500; font-size: 34px; line-height: 1.2; color: var(--blue); }
+.t-h2 .ed { font-family: var(--heading); font-weight: 500; font-size: 27px; line-height: 1.25; color: var(--blue); }
+.t-h3 .ed { font-family: var(--heading); font-weight: 500; font-size: 21px; line-height: 1.3; color: var(--blue); }
+.t-h4 .ed, .t-h5 .ed, .t-h6 .ed { font-family: var(--heading); font-weight: 500; font-size: 17px; line-height: 1.35; color: var(--blue); }
+.t-p .ed, .t-li .ed, .t-text .ed { font-family: var(--body); font-size: 15px; line-height: 1.75; color: #444; }
+.t-sub .ed { font-family: var(--body); font-size: 13px; letter-spacing: 3px; text-transform: uppercase; color: var(--gold); }
+.t-stat .ed { font-family: var(--heading); font-weight: 500; font-size: 40px; line-height: 1.1; color: var(--blue); }
+.t-cap .ed { font-size: 14px; font-weight: 500; color: var(--ink); }
+.t-btn .ed { display: inline-block; width: auto; min-width: 140px; margin: 0; padding: 9px 20px; background: var(--blue); color: #fff; border-radius: 4px; font-weight: 600; font-size: 13px; letter-spacing: 1.5px; text-transform: uppercase; }
+.t-btn .ed:focus { background: #0e3274; }
+.t-btn .ed:empty::before { color: #ccd; }
+.t-meta .ed { font-family: var(--body); font-size: 14.5px; color: #333; background: #f6f6f6; border-color: #e9e9e9; }
+.t-lab .ed { font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase; color: #777; font-weight: 500; }
+.tk { border-bottom: 1px dotted var(--gold); }
+.tk-void { display: inline-block; margin: 0 3px; padding: 0 5px; border-radius: 3px; background: #ece9dc; color: #aaa; font-size: 10px; line-height: 16px; user-select: none; vertical-align: 1px; }
+.tk-lock { background: #eef2fa; border-radius: 3px; padding: 0 3px; color: #3b5a9a; user-select: none; }
+
+/* ---------- floating export button ---------- */
+.fab { position: fixed; right: 26px; bottom: 26px; z-index: 40; display: flex; align-items: center; gap: 10px; padding: 14px 22px; border: 0; border-radius: 40px; background: var(--blue); color: #fff; font-size: 15px; font-weight: 600; box-shadow: 0 8px 26px rgba(18,63,140,.35); }
+.fab:hover { background: #0e3274; }
+.fab .n { min-width: 24px; padding: 0 7px; border-radius: 12px; background: var(--gold); color: #fff; font-size: 13px; line-height: 24px; text-align: center; }
+.fab.empty { background: #8c97ab; box-shadow: none; }
+.fab.empty .n { background: #b8c0cf; }
+.toast { position: fixed; left: 50%; bottom: 90px; transform: translateX(-50%) translateY(20px); z-index: 50; max-width: 90vw; padding: 12px 20px; border-radius: 8px; background: #262626; color: #fff; font-size: 14px; opacity: 0; pointer-events: none; transition: opacity .25s, transform .25s; }
+.toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+.nomatch { padding: 40px; text-align: center; color: #999; }
+.foot { text-align: center; font-size: 12px; color: #aaa; padding: 10px 0 0; }
+
+@media (max-width: 900px) {
+  .side { display: none; }
+  .wrap { padding: 16px 12px 110px; }
+  .top-row { padding: 10px 12px; }
+  .search { width: 100%; order: 5; }
+  .fab { right: 14px; bottom: 14px; padding: 12px 18px; }
+  .t-h1 .ed { font-size: 26px; }
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="top-row">
+    <div class="brand">Jangid Architects<small>Website text editor</small></div>
+    <input id="search" class="search" type="search" placeholder="Search all text..." autocomplete="off">
+    <button class="btn" id="btnOpen" title="Load a changes file you downloaded earlier and carry on editing">Open saved changes</button>
+    <button class="btn danger" id="btnResetAll">Reset everything</button>
+  </div>
+  <nav class="tabs" id="tabs" aria-label="Pages"></nav>
+</header>
+
+<div class="wrap">
+  <aside class="side" id="side"></aside>
+  <main>
+    <div class="help" id="help">
+      <button class="x" id="helpX" aria-label="Close">&times;</button>
+      <b>How to use this page</b>
+      <ol>
+        <li>Pick a page above, click any text and type your correction. The text looks like it does on the website.</li>
+        <li>Corrected text gets a gold mark and shows the original underneath. <b>Reset</b> puts back the original.</li>
+        <li>When you are done, press <b>Export Changes</b> (bottom right). A small file downloads. Send that file back to us.</li>
+      </ol>
+      <div class="hint">Your work is saved in this browser while you edit, so you can close the page and come back. Nothing is uploaded anywhere.</div>
+    </div>
+    <div class="pagehead"><h1 id="phTitle"></h1><p id="phSub"></p></div>
+    <div id="panes"></div>
+    <div class="nomatch" id="nomatch" hidden>No text matches your search on this page.</div>
+    <div class="foot">Editor built on __BUILT__</div>
+  </main>
+</div>
+
+<button class="fab empty" id="fab" title="Download your corrections as a file"><span>Export Changes</span><span class="n" id="fabN">0</span></button>
+<div class="toast" id="toast" role="status"></div>
+<input type="file" id="fileIn" accept=".json,application/json" hidden>
+
+<script>
+(function () {
+'use strict';
+var DATA = __DATA__;
+var STORE = 'jangid-text-editor-' + DATA.buildId;
+var HELP_KEY = 'jangid-text-editor-help';
+
+/* ------------------------------------------------------------------ helpers */
+var ta = document.createElement('textarea');
+function decode(s) { ta.innerHTML = s; return ta.value; }
+function esc(s) { return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/ /g, '&nbsp;'); }
+function mk(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text !== undefined) e.textContent = text; return e; }
+var PLAIN_OK = (function () { var d = document.createElement('div'); try { d.contentEditable = 'plaintext-only'; } catch (e) { return false; } return d.contentEditable === 'plaintext-only'; })();
+function toast(msg) { var t = document.getElementById('toast'); t.textContent = msg; t.classList.add('show'); clearTimeout(toast.t); toast.t = setTimeout(function () { t.classList.remove('show'); }, 3800); }
+function stripTags(s) { return decode(s.replace(/<br\s*\/?>/gi, ' / ').replace(/<[^>]+>/g, '')); }
+
+/* ------------------------------------------------------------------ reading and writing the editable boxes */
+function normText(s) { return s.replace(/[ \t\r\f]+/g, ' ').replace(/ ?\n ?/g, '\n').replace(/\n{3,}/g, '\n\n').replace(/^\s+|\s+$/g, ''); }
+function readText(el) {
+  var out = '';
+  (function walk(n) {
+    n.childNodes.forEach(function (c) {
+      if (c.nodeType === 3) out += c.nodeValue;
+      else if (c.nodeName === 'BR') out += '\n';
+      else { if (/^(DIV|P)$/.test(c.nodeName) && out && out.slice(-1) !== '\n') out += '\n'; walk(c); }
+    });
+  })(el);
+  return normText(out);
+}
+function normHtml(s) { return s.replace(/[ \t\r\n\f]+/g, ' ').replace(/ ?<br> ?/g, '<br>').replace(/^\s+|\s+$/g, ''); }
+function readHtml(el) {
+  var out = '';
+  (function walk(n) {
+    n.childNodes.forEach(function (c) {
+      if (c.nodeType === 3) out += esc(c.nodeValue);
+      else if (c.nodeType === 1) {
+        var cl = c.classList;
+        if (c.nodeName === 'BR') out += '<br>';
+        else if (cl.contains('tk-void') || cl.contains('tk-lock')) out += c.getAttribute('data-raw');
+        else if (cl.contains('tk')) { out += c.getAttribute('data-open'); walk(c); out += c.getAttribute('data-close'); }
+        else if (/^(DIV|P)$/.test(c.nodeName)) { if (out && out.slice(-4) !== '<br>') out += '<br>'; walk(c); }
+        else walk(c);
+      }
+    });
+  })(el);
+  return normHtml(out);
+}
+var CONTACT = /href\s*=\s*["']?(mailto:|tel:|https?:\/\/wa\.me)/i;
+function fillHtml(el, html) {
+  el.textContent = '';
+  var re = /(<\/?[a-zA-Z][^>]*>)|([^<]+)/g, m, root = { c: [] }, cur = root, stk = [root];
+  while ((m = re.exec(html))) {
+    if (m[2] !== undefined) { cur.c.push({ t: 'x', s: m[2] }); continue; }
+    var tag = m[1];
+    if (tag.charAt(1) === '/') {
+      if (stk.length > 1) { var done = stk.pop(); done.close = tag; done.end = m.index + tag.length; cur = stk[stk.length - 1]; }
+      continue;
+    }
+    var name = /^<([a-zA-Z0-9]+)/.exec(tag)[1].toLowerCase();
+    if (name === 'br') { cur.c.push({ t: 'b' }); continue; }
+    var node = { t: 'e', name: name, open: tag, start: m.index, c: [] };
+    cur.c.push(node); stk.push(node); cur = node;
+  }
+  function textOf(n) { return n.c.map(function (x) { return x.t === 'x' ? x.s : x.t === 'e' ? textOf(x) : ''; }).join(''); }
+  (function build(list, parent) {
+    list.forEach(function (n) {
+      if (n.t === 'x') parent.appendChild(document.createTextNode(decode(n.s)));
+      else if (n.t === 'b') parent.appendChild(document.createElement('br'));
+      else {
+        var raw = html.slice(n.start, n.end || html.length);
+        var txt = textOf(n).replace(/\s+/g, '');
+        if (!txt) { var v = mk('span', 'tk-void', '◆'); v.contentEditable = 'false'; v.setAttribute('data-raw', raw); v.title = 'Icon or decoration - kept as it is'; parent.appendChild(v); }
+        else if (n.name === 'a' && CONTACT.test(n.open)) { var l = mk('span', 'tk-lock', decode(textOf(n))); l.contentEditable = 'false'; l.setAttribute('data-raw', raw); l.title = 'Phone, email or WhatsApp link - managed by the developer'; parent.appendChild(l); }
+        else { var s = mk('span', 'tk'); s.setAttribute('data-open', n.open); s.setAttribute('data-close', n.close || ('</' + n.name + '>')); s.title = n.name === 'a' ? 'Link text - you can change the words, the link stays' : 'Formatted text'; build(n.c, s); parent.appendChild(s); }
+      }
+    });
+  })(root.c, el);
+}
+function setContent(f, value) {
+  if (f.d.kind === 'html') fillHtml(f.ed, value); else f.ed.textContent = value;
+}
+function read(f) { return f.d.kind === 'html' ? readHtml(f.ed) : readText(f.ed); }
+function tokenCount(html) { return (html.match(/<(?!\/)(?!br)[a-zA-Z][^>]*>/g) || []).length; }
+
+/* ------------------------------------------------------------------ build the screen */
+var F = {};            /* key -> field object */
+var SECS = {};         /* page slug -> [section objects] */
+var PAGES = DATA.pages;
+var current = PAGES[0].slug;
+var query = '';
+
+function buildPane(p) {
+  var pane = mk('section', 'pane'); pane.id = 'pane-' + p.slug; pane.hidden = true;
+  var list = DATA.fields.filter(function (d) { return d.page === p.slug; });
+  var order = []; var by = {};
+  list.forEach(function (d) { if (!by[d.sectionId]) { by[d.sectionId] = { id: d.sectionId, label: d.sectionLabel, kind: d.sectionKind, fields: [] }; order.push(by[d.sectionId]); } by[d.sectionId].fields.push(d); });
+  /* the search-listing block (page title and description) goes first */
+  order.sort(function (a, b) { return (a.id === 'meta' ? 0 : 1) - (b.id === 'meta' ? 0 : 1); });
+  SECS[p.slug] = order.map(function (s, i) {
+    var sec = mk('div', 'sec'); sec.id = 'sec-' + p.slug + '-' + i;
+    var h = mk('div', 'sec-h');
+    var t = mk('div', 't'); t.appendChild(document.createTextNode(s.kind === 'meta' ? 'Search listing' : s.kind === 'header' ? 'Menu' : s.kind === 'footer' ? 'Footer' : s.kind === 'banner' ? 'Banner' : s.kind === 'cta' ? 'Bottom banner' : 'Section'));
+    t.appendChild(mk('span', '', s.label)); h.appendChild(t);
+    var cnt = mk('span', 'cnt'); h.appendChild(cnt);
+    var rb = mk('button', 'btn', 'Reset section'); rb.disabled = true; rb.title = 'Put back the original text in this section'; h.appendChild(rb);
+    sec.appendChild(h);
+    var so = { el: sec, label: s.label, cnt: cnt, rb: rb, fields: [], i: i };
+    s.fields.forEach(function (d) {
+      var box = mk('div', 'field ' + typeClass(d));
+      var meta = mk('div', 'field-meta');
+      meta.appendChild(mk('span', '', d.typeLabel));
+      meta.appendChild(mk('span', 'flag', 'Changed'));
+      if (d.page === 'shared' && d.appearsOn) meta.appendChild(mk('span', 'sh', 'appears on ' + d.appearsOn + ' pages'));
+      var rs = mk('button', 'rs', 'Reset'); meta.appendChild(rs);
+      var k = mk('span', 'k', d.key); k.title = d.selector; meta.appendChild(k);
+      box.appendChild(meta);
+      var ed = mk('div', 'ed'); ed.spellcheck = true; ed.lang = 'en-IN';
+      ed.contentEditable = (d.kind === 'text' && PLAIN_OK) ? 'plaintext-only' : 'true';
+      ed.setAttribute('role', 'textbox'); ed.setAttribute('aria-label', d.typeLabel);
+      box.appendChild(ed);
+      if (d.stat) box.appendChild(mk('div', 'hint', 'This number counts up on the website. Add + or other symbols after it if needed, for example 100+'));
+      var orig = mk('div', 'orig'); orig.appendChild(mk('b', '', 'Original')); orig.appendChild(document.createTextNode(d.kind === 'html' ? stripTags(d.original) : d.original.replace(/\n/g, ' / '))); box.appendChild(orig);
+      box.appendChild(mk('div', 'warn', ''));
+      sec.appendChild(box);
+      var f = { d: d, box: box, ed: ed, sec: so, base: '' };
+      F[d.key] = f; so.fields.push(f);
+      setContent(f, d.original); f.base = read(f);
+      wire(f, rs);
+    });
+    rb.addEventListener('click', function () { so.fields.forEach(function (f) { resetField(f); }); refresh(); toast('Section reset to the original text.'); });
+    pane.appendChild(sec);
+    return so;
+  });
+  return pane;
+}
+function typeClass(d) {
+  if (d.meta) return 't-meta';
+  if (d.stat) return 't-stat';
+  if (/^h[1-6]$/.test(d.tag)) return 't-' + d.tag;
+  if (d.typeLabel === 'Small heading') return 't-sub';
+  if (d.typeLabel === 'Caption') return 't-cap';
+  if (d.typeLabel === 'Button label') return 't-btn';
+  if (d.typeLabel === 'Label') return 't-lab';
+  if (d.tag === 'p') return 't-p';
+  if (d.tag === 'li') return 't-li';
+  return 't-text';
+}
+function multiline(f) { return f.d.tag === 'p' || f.d.original.indexOf('\n') >= 0 || f.d.original.indexOf('<br>') >= 0; }
+
+function wire(f, rs) {
+  f.ed.addEventListener('input', function () { onEdit(f); });
+  f.ed.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      if (multiline(f)) { if (f.d.kind === 'html' || !PLAIN_OK) document.execCommand('insertLineBreak'); else document.execCommand('insertText', false, '\n'); }
+    }
+  });
+  f.ed.addEventListener('paste', function (e) {
+    e.preventDefault();
+    var t = (e.clipboardData || window.clipboardData).getData('text/plain') || '';
+    if (!multiline(f)) t = t.replace(/\s*\n\s*/g, ' ');
+    document.execCommand('insertText', false, t);
+  });
+  f.ed.addEventListener('drop', function (e) { e.preventDefault(); });
+  rs.addEventListener('click', function () { resetField(f); refresh(); });
+}
+function resetField(f) { setContent(f, f.d.original); f.box.classList.remove('changed', 'bad'); }
+function isChanged(f) { return read(f) !== f.base; }
+function onEdit(f) {
+  var ch = isChanged(f);
+  f.box.classList.toggle('changed', ch);
+  checkField(f);
+  refresh();
+}
+function checkField(f) {
+  var w = f.box.querySelector('.warn'); var msg = '';
+  if (isChanged(f)) {
+    var cur = read(f);
+    if (!cur) msg = 'This text is empty. It will be removed from the page.';
+    else if (f.d.kind === 'html' && tokenCount(cur) < tokenCount(f.base)) msg = 'A link or formatted word was removed here. Please undo if that was not intended.';
+    if (f.d.stat && !/^\s*[0-9]/.test(cur)) msg = 'Start this with a number, for example 25 or 100+.';
+  }
+  w.textContent = msg; f.box.classList.toggle('bad', !!msg);
+}
+function exportObject() {
+  var out = {};
+  DATA.fields.forEach(function (d) { var f = F[d.key]; if (!f) return; var cur = read(f); if (cur !== f.base) out[d.key] = cur; });
+  return out;
+}
+var saveT;
+function save() {
+  clearTimeout(saveT);
+  saveT = setTimeout(function () { try { var o = exportObject(); if (Object.keys(o).length) localStorage.setItem(STORE, JSON.stringify(o)); else localStorage.removeItem(STORE); } catch (e) { /* storage can be blocked, editing still works */ } }, 350);
+}
+function refresh() {
+  var total = 0; var perPage = {};
+  PAGES.forEach(function (p) {
+    var n = 0;
+    (SECS[p.slug] || []).forEach(function (s) {
+      var c = 0; s.fields.forEach(function (f) { if (isChanged(f)) c++; });
+      n += c; s.cnt.textContent = c ? c + ' changed' : ''; s.rb.disabled = !c; s.chg = c;
+    });
+    perPage[p.slug] = n; total += n;
+  });
+  PAGES.forEach(function (p) { var b = document.querySelector('[data-tab="' + p.slug + '"] .n.chg'); if (b) { b.textContent = perPage[p.slug]; b.hidden = !perPage[p.slug]; } });
+  document.getElementById('fabN').textContent = total;
+  document.getElementById('fab').classList.toggle('empty', !total);
+  renderSide();
+  save();
+}
+
+/* ------------------------------------------------------------------ tabs, side list, search */
+function buildTabs() {
+  var nav = document.getElementById('tabs');
+  PAGES.forEach(function (p) {
+    var b = mk('button', 'tab'); b.setAttribute('data-tab', p.slug);
+    b.appendChild(document.createTextNode(p.tab || p.title));
+    var n = mk('span', 'n chg', '0'); n.hidden = true; b.appendChild(n);
+    var h = mk('span', 'n hit', '0'); h.hidden = true; b.appendChild(h);
+    b.addEventListener('click', function () { show(p.slug); window.scrollTo(0, 0); });
+    nav.appendChild(b);
+  });
+}
+function show(slug) {
+  current = slug;
+  document.querySelectorAll('.pane').forEach(function (p) { p.hidden = p.id !== 'pane-' + slug; });
+  document.querySelectorAll('.tab').forEach(function (t) { t.classList.toggle('on', t.getAttribute('data-tab') === slug); });
+  var pg = PAGES.filter(function (p) { return p.slug === slug; })[0];
+  document.getElementById('phTitle').textContent = pg.title;
+  document.getElementById('phSub').textContent = slug === 'shared' ? 'This text appears on every page. Change it once here and it changes everywhere.' : 'File: ' + pg.file;
+  applyFilter(); renderSide();
+}
+function renderSide() {
+  var side = document.getElementById('side'); side.textContent = '';
+  side.appendChild(mk('h4', '', 'On this page'));
+  (SECS[current] || []).forEach(function (s) {
+    if (s.el.hidden) return;
+    var a = mk('a'); a.href = '#' + s.el.id; a.appendChild(mk('span', '', s.label.length > 38 ? s.label.slice(0, 36) + '...' : s.label));
+    if (s.chg) a.appendChild(mk('span', 'c', String(s.chg)));
+    a.addEventListener('click', function (e) { e.preventDefault(); s.el.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
+    side.appendChild(a);
+  });
+}
+function matches(f, q) {
+  var hay = (f.d.original + ' ' + read(f) + ' ' + f.d.key + ' ' + f.d.typeLabel).toLowerCase();
+  return hay.indexOf(q) >= 0;
+}
+function applyFilter() {
+  var q = query.trim().toLowerCase(); var shown = 0;
+  PAGES.forEach(function (p) {
+    var hits = 0;
+    (SECS[p.slug] || []).forEach(function (s) {
+      var any = 0;
+      s.fields.forEach(function (f) { var ok = !q || matches(f, q); if (p.slug === current) f.box.style.display = ok ? '' : 'none'; if (ok) any++; });
+      if (p.slug === current) { s.el.hidden = !any; shown += any; }
+      hits += any;
+    });
+    var b = document.querySelector('[data-tab="' + p.slug + '"] .n.hit'); if (b) { b.textContent = hits; b.hidden = !q; }
+  });
+  document.getElementById('nomatch').hidden = !(q && !shown);
+  renderSide();
+}
+
+/* ------------------------------------------------------------------ export, import, reset */
+function stamp() { var d = new Date(); function z(n) { return (n < 10 ? '0' : '') + n; } return d.getFullYear() + '-' + z(d.getMonth() + 1) + '-' + z(d.getDate()); }
+function download() {
+  var o = exportObject(); var keys = Object.keys(o);
+  if (!keys.length) { toast('Nothing has been changed yet. Click on any text and correct it first.'); return; }
+  var bad = keys.filter(function (k) { return F[k].box.classList.contains('bad'); });
+  if (bad.length && !confirm(bad.length + ' correction(s) have a warning (shown in red). Download anyway?')) return;
+  var ordered = {}; keys.forEach(function (k) { ordered[k] = o[k]; });
+  var blob = new Blob([JSON.stringify(ordered, null, 2)], { type: 'application/json' });
+  var a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'jangid-website-changes-' + stamp() + '.json';
+  document.body.appendChild(a); a.click(); setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 500);
+  toast(keys.length + ' correction' + (keys.length > 1 ? 's' : '') + ' downloaded. Please send the file back to us.');
+}
+function importChanges(obj) {
+  var n = 0, skipped = 0;
+  Object.keys(obj).forEach(function (k) {
+    if (k.indexOf('__') === 0) return;
+    var f = F[k];
+    if (!f || typeof obj[k] !== 'string') { skipped++; return; }
+    setContent(f, obj[k]); f.box.classList.toggle('changed', isChanged(f)); checkField(f); n++;
+  });
+  refresh(); applyFilter();
+  toast(n + ' correction' + (n === 1 ? '' : 's') + ' loaded' + (skipped ? ', ' + skipped + ' not recognised (the website text may have changed)' : '') + '.');
+}
+document.getElementById('fab').addEventListener('click', download);
+document.getElementById('btnOpen').addEventListener('click', function () { document.getElementById('fileIn').click(); });
+document.getElementById('fileIn').addEventListener('change', function (e) {
+  var file = e.target.files[0]; if (!file) return;
+  var r = new FileReader();
+  r.onload = function () { try { importChanges(JSON.parse(r.result)); } catch (x) { toast('That file could not be read. Please choose the .json file you downloaded from this editor.'); } };
+  r.readAsText(file); e.target.value = '';
+});
+document.getElementById('btnResetAll').addEventListener('click', function () {
+  var n = Object.keys(exportObject()).length;
+  if (!n) { toast('There is nothing to reset.'); return; }
+  if (!confirm('Put back the original text for all ' + n + ' corrections? This cannot be undone.')) return;
+  Object.keys(F).forEach(function (k) { resetField(F[k]); });
+  refresh(); applyFilter(); toast('Everything is back to the original text.');
+});
+document.getElementById('search').addEventListener('input', function (e) { query = e.target.value; applyFilter(); });
+document.getElementById('helpX').addEventListener('click', function () { document.getElementById('help').hidden = true; try { localStorage.setItem(HELP_KEY, '1'); } catch (e) { /* ignore */ } });
+
+/* ------------------------------------------------------------------ start */
+(function init() {
+  buildTabs();
+  var panes = document.getElementById('panes');
+  PAGES.forEach(function (p) { panes.appendChild(buildPane(p)); });
+  try { if (localStorage.getItem(HELP_KEY)) document.getElementById('help').hidden = true; } catch (e) { /* ignore */ }
+  var restored = 0;
+  try { var s = JSON.parse(localStorage.getItem(STORE) || 'null'); if (s) { Object.keys(s).forEach(function (k) { var f = F[k]; if (f) { setContent(f, s[k]); f.box.classList.toggle('changed', isChanged(f)); checkField(f); restored++; } }); } } catch (e) { /* ignore */ }
+  show(current); refresh();
+  if (restored) toast('Welcome back. ' + restored + ' correction' + (restored > 1 ? 's' : '') + ' from your last visit restored.');
+  /* hooks for testing */
+  window.__editor = { data: DATA, fields: F, exportObject: exportObject, importChanges: importChanges, show: show, plainOk: PLAIN_OK };
+})();
+})();
+</script>
+</body>
+</html>

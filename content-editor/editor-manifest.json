@@ -1,0 +1,5095 @@
+{
+ "builtAt": "2026-11-19T06:57:11.114Z",
+ "buildId": "576471501a62",
+ "pagesDir": "c:\\lance\\jangidarchitects",
+ "fields": {
+  "home__page-title": {
+   "original": "Architects in Malad, Mumbai | Jangid Architects",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__page-description": {
+   "original": "Jangid Architects, Malad East: architecture, building plan approvals and BMC, MHADA, SRA, MBMC and MMRDA liaisoning across Mumbai. 100+ projects completed.",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__sr-only1": {
+   "original": "Jangid Architects: Architecture, Planning and Liaisoning in Mumbai",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__strip-number1": {
+   "original": "20",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__strip-caption1": {
+   "original": "Years in Mumbai",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__strip-number2": {
+   "original": "100+",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__strip-caption2": {
+   "original": "Projects completed",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__strip-number3": {
+   "original": "25+",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__strip-caption3": {
+   "original": "Active projects",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__strip-number4": {
+   "original": "5+",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__strip-caption4": {
+   "original": "Authorities liaised with",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__intro-subtitle1": {
+   "original": "ABOUT US",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__intro-h21": {
+   "original": "Shaping Mumbai's Skyline Since 2007",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__intro-p1": {
+   "original": "We are a consulting and liaisoning firm that believes every project deserves the right guidance. For two decades, we have stood alongside developers, housing societies and property owners, helping them with architectural design, building approvals and redevelopment with confidence.",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__intro-p2": {
+   "original": "With our in-house team and trusted consultants, we bring design and liaisoning together, coordinating with BMC, MHADA, SRA, MBMC and MMRDA to make the journey smoother and more organised.",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__intro-p3": {
+   "original": "With 100+ completed projects across residential, commercial, SRA, township and interior developments, we bring the experience, clarity and commitment needed to help every project move forward.",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__intro-a-btn-21": {
+   "original": "Learn about our firm",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__services-subtitle1": {
+   "original": "WHAT WE DO",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__services-h21": {
+   "original": "End-to-end expertise,\nfrom concept to completion",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__services-a-btn-21": {
+   "original": "All services",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__services-num1": {
+   "original": "01",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__services-h41": {
+   "original": "Architecture & Planning",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__services-p1": {
+   "original": "Residential, commercial, mixed-use and township design, from layouts to working drawings.",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__services-num2": {
+   "original": "02",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__services-h42": {
+   "original": "BMC & MBMC Liaisoning",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__services-p2": {
+   "original": "Building plan submissions and approvals with BMC and MBMC, including IOD/IOA, CC and OC.",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__services-num3": {
+   "original": "03",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__services-h43": {
+   "original": "SRA & MHADA Liaisoning",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__services-p3": {
+   "original": "Approvals and follow-up for SRA schemes, MHADA colonies and MMRDA township projects.",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__services-num4": {
+   "original": "04",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__services-h44": {
+   "original": "Development Permissions",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__services-p4": {
+   "original": "Building plan approvals, environmental clearances and other statutory permissions.",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__services-num5": {
+   "original": "05",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__services-h45": {
+   "original": "PMC & Redevelopment",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__services-p5": {
+   "original": "Feasibility, society support and redevelopment planning, with site supervision to handover.",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__services-num6": {
+   "original": "06",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__services-h46": {
+   "original": "Interior Design & Build",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__services-p6": {
+   "original": "Interior design and build for homes, offices and showrooms, from planning to execution.",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__featured-subtitle1": {
+   "original": "FEATURED PROJECTS",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__featured-h21": {
+   "original": "Work that stands\nacross Mumbai",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__featured-a-btn-21": {
+   "original": "View All",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__featured-h41": {
+   "original": "Aikya Heights",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__featured-span1": {
+   "original": "Byculla, Mumbai",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__featured-h42": {
+   "original": "Om Abhishek",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__featured-span2": {
+   "original": "Borivali, Mumbai",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__featured-h43": {
+   "original": "Sri Niwas",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__featured-span3": {
+   "original": "Malad, Mumbai",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__featured-h44": {
+   "original": "Rajhans Serenity",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__featured-span4": {
+   "original": "Santacruz, Mumbai",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__featured-h45": {
+   "original": "PMG High Garden",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__featured-span5": {
+   "original": "Malad, Mumbai",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__featured-h46": {
+   "original": "Evershine Heights",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__featured-span6": {
+   "original": "Mumbai",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__featured-h47": {
+   "original": "Om Guru Kripa",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__featured-span7": {
+   "original": "Andheri, Mumbai",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__featured-h48": {
+   "original": "Rajhans Solitaire",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__featured-span8": {
+   "original": "Malad, Mumbai",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__featured-h49": {
+   "original": "Echo Edge",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__featured-span9": {
+   "original": "Mumbai",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__featured-h410": {
+   "original": "Township, Boisar",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__featured-span10": {
+   "original": "Palghar, Maharashtra",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__clients-subtitle1": {
+   "original": "OUR CLIENTS",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__clients-h21": {
+   "original": "Trusted by Mumbai's\nleading developers",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__mapstrip-subtitle1": {
+   "original": "OUR OFFICE",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__mapstrip-h21": {
+   "original": "Visit our office in Malad, Mumbai",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__mapstrip-p1": {
+   "original": "302 & 303, Raj Chambers, Manchubhai Road, Malad (East), Mumbai 400 097, Maharashtra, India",
+   "kind": "text",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "home__mapstrip-mapstrip-areas1": {
+   "original": "Serving Malad, Borivali, Goregaon, Andheri, Vile Parle, Dadar and all of Mumbai. <a href=\"areas-we-serve.html\">See the areas we serve</a>",
+   "kind": "html",
+   "page": "home",
+   "files": [
+    "index.html"
+   ]
+  },
+  "about__page-title": {
+   "original": "About Us | Jangid Architects, Malad, Mumbai",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__page-description": {
+   "original": "Jangid Architects is a Malad, Mumbai architecture and liaisoning firm with 20 years of experience in design, approvals and redevelopment.",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__banner-subtitle1": {
+   "original": "<a href=\"index.html\" style=\"color:inherit;\">Home</a> &nbsp;/&nbsp; About Us",
+   "kind": "html",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__banner-title1": {
+   "original": "About Us",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__story-subtitle1": {
+   "original": "OUR STORY",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__story-h21": {
+   "original": "Who We Are",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__story-p1": {
+   "original": "We understand that building or redeveloping a property is a big decision. It takes the right planning, clear guidance and people you can trust along the way.",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__story-p2": {
+   "original": "Since 2007, Jangid Architects, also known as Jangid Associates (OPC) Pvt. Ltd., has been helping developers, housing societies and property owners across Mumbai and MMR turn their plans into reality.",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__story-p3": {
+   "original": "Our work goes beyond architectural design. We guide projects through building approvals, including IOD/IOA, CC and OC, and provide redevelopment support through our in-house team and trusted consultants, coordinating with BMC, MHADA, SRA, MBMC and MMRDA.",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__story-p4": {
+   "original": "With 100+ completed projects across residential redevelopment, SRA, commercial, mixed-use, township, industrial and interior projects, we bring experience and practical understanding to every assignment.",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__story-a-btn-21": {
+   "original": "START A CONVERSATION",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__journey-subtitle1": {
+   "original": "OUR JOURNEY",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__journey-h21": {
+   "original": "Two Decades of Dreams, Growth & Building Trust.",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__journey-year1": {
+   "original": "2007",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__journey-year2": {
+   "original": "2012",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__journey-year3": {
+   "original": "2017",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__journey-year4": {
+   "original": "2026",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__journey-watermark1": {
+   "original": "2007",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__journey-h31": {
+   "original": "The Beginning of a Vision",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__journey-p1": {
+   "original": "Our journey began in Goregaon with a passion for creating spaces and turning ideas into reality, offering Architecture, Interior Design, BMC Liaisoning and Approval services.",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__journey-watermark2": {
+   "original": "2012",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__journey-h32": {
+   "original": "Growing Beyond Boundaries",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__journey-p2": {
+   "original": "With growing opportunities and client trust, we moved to a bigger office in Malad and expanded our expertise into SRA and MHADA projects.",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__journey-watermark3": {
+   "original": "2017",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__journey-h33": {
+   "original": "A New Identity, A Bigger Vision",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__journey-p3": {
+   "original": "We became a Private Limited Company, officially registered with MCA as JANGID ASSOCIATES (OPC) PRIVATE LIMITED, marking an important step towards greater professionalism, stability and future growth.",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__journey-watermark4": {
+   "original": "2026",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__journey-h34": {
+   "original": "20 Years of Making a Difference",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__journey-p4": {
+   "original": "Today, with 100+ successfully completed projects, 25+ ongoing projects and a growing presence across MMR, we continue to shape spaces and build lasting relationships.",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__expertise-subtitle1": {
+   "original": "AREAS OF EXPERTISE",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__expertise-h21": {
+   "original": "What we do best",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__expertise-e-num1": {
+   "original": "01",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__expertise-h41": {
+   "original": "Cess Building Redevelopment",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__expertise-p1": {
+   "original": "Redevelopment of old cessed buildings, from tenant and landlord coordination to approvals and completion.",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__expertise-e-num2": {
+   "original": "02",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__expertise-h42": {
+   "original": "Society Redevelopment",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__expertise-p2": {
+   "original": "Support for housing societies through feasibility, developer selection, approvals and the design of the new building.",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__expertise-e-num3": {
+   "original": "03",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__expertise-h43": {
+   "original": "SRA Rehabilitation Projects",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__expertise-p3": {
+   "original": "Slum Rehabilitation Authority housing schemes: scheme registration, DP remarks, IOD/IOA and CC under the SRA framework.",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__expertise-e-num4": {
+   "original": "04",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__expertise-h44": {
+   "original": "MHADA Redevelopment",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__expertise-p4": {
+   "original": "MHADA colony and cluster redevelopment, from feasibility and approvals through to the OC.",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__expertise-e-num5": {
+   "original": "05",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__expertise-h45": {
+   "original": "BMC Redevelopment",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__expertise-p5": {
+   "original": "Redevelopment within Greater Mumbai, with plans and approvals handled through BMC from IOD/IOA to OC.",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__expertise-e-num6": {
+   "original": "06",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__expertise-h46": {
+   "original": "MBMC Development / Redevelopment",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__expertise-p6": {
+   "original": "New development and redevelopment in Mira Road and Bhayander, with building permissions handled through MBMC.",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__expertise-e-num7": {
+   "original": "07",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__expertise-h47": {
+   "original": "Township Planning",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__expertise-p7": {
+   "original": "Integrated township layouts and master planning for peripheral Mumbai and MMR sites under MMRDA and MBMC jurisdictions.",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__expertise-e-num8": {
+   "original": "08",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__expertise-h48": {
+   "original": "PMC & Redevelopment Consultancy",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "about__expertise-p8": {
+   "original": "Project management and advisory: on-site supervision, quality checks and progress reporting from start to handover.",
+   "kind": "text",
+   "page": "about",
+   "files": [
+    "about.html"
+   ]
+  },
+  "services__page-title": {
+   "original": "Architecture & Liaisoning Services Mumbai | Jangid Architects",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__page-description": {
+   "original": "Architecture, building plan approvals, BMC, MHADA, SRA, MBMC and MMRDA liaisoning, redevelopment consultancy, feasibility studies and interior design in Mumbai.",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__banner-subtitle1": {
+   "original": "<a href=\"index.html\" style=\"color:inherit;\">Home</a> &nbsp;/&nbsp; Our Services",
+   "kind": "html",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__banner-title1": {
+   "original": "Our Services",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__reg-subtitle1": {
+   "original": "REGULATORY EXPERTISE",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__reg-h21": {
+   "original": "Every authority in the Mumbai MMR",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__reg-p1": {
+   "original": "Mumbai has multiple planning authorities operating in parallel, and the approval path for any given site depends entirely on which authority has jurisdiction. We've worked across all of them. Our office is in Malad (East), and we serve sites across Mumbai and the MMR. <a href=\"areas-we-serve.html\">See the areas we serve</a>.",
+   "kind": "html",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__reg-r-abbr1": {
+   "original": "BMC",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__reg-r-name1": {
+   "original": "Brihanmumbai Municipal Corporation",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__reg-p2": {
+   "original": "Covers Greater Mumbai. All IOD/IOA, CC, and OC for Mumbai city and suburbs falls under BMC jurisdiction.",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__reg-r-abbr2": {
+   "original": "MHADA",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__reg-r-name2": {
+   "original": "Maharashtra Housing & Area Development Authority",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__reg-p3": {
+   "original": "Manages MHADA colony redevelopment, lottery housing, and rehabilitation schemes across Maharashtra.",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__reg-r-abbr3": {
+   "original": "SRA",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__reg-r-name3": {
+   "original": "Slum Rehabilitation Authority",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__reg-p4": {
+   "original": "Regulates slum redevelopment schemes: scheme registration, project approvals, transit accommodation, and sale component.",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__reg-r-abbr4": {
+   "original": "MBMC",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__reg-r-name4": {
+   "original": "Mira-Bhayander Municipal Corporation",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__reg-p5": {
+   "original": "Governs development in Mira Road and Bhayander, part of the MMR with its own building permission processes.",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__reg-r-abbr5": {
+   "original": "MMRDA",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__reg-r-name5": {
+   "original": "Mumbai Metropolitan Region Development Authority",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__reg-p6": {
+   "original": "Regional planning authority for the broader MMR. Covers township approvals, special planning areas (SPAs), and major infrastructure projects beyond BMC limits.",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__help-subtitle1": {
+   "original": "HOW WE HELP",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__help-h21": {
+   "original": "Planning and regulatory support",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__help-h41": {
+   "original": "Evaluate the development potential of real estate projects",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__help-h42": {
+   "original": "Prepare, review and optimise area statements",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__help-h43": {
+   "original": "Planning solutions & support to maximise space / FSI utilisation and meet applicable regulations",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__help-h44": {
+   "original": "Regulatory due diligence for developers and financial institutions",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__help-h45": {
+   "original": "Obtaining necessary approvals from relevant statutory authorities",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__jump-jump-label1": {
+   "original": "Jump to a service",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__jump-a1": {
+   "original": "Architecture & Planning",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__jump-a2": {
+   "original": "Building Plan Approvals & Development Permissions",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__jump-a3": {
+   "original": "BMC / MHADA / SRA Liaisoning",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__jump-a4": {
+   "original": "Redevelopment Consultancy & Project Management (PMC)",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__jump-a5": {
+   "original": "Feasibility Studies",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__jump-a6": {
+   "original": "Interior Design & Build",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-svc-badge1": {
+   "original": "<strong>100+</strong><span>Projects</span>",
+   "kind": "html",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-subtitle1": {
+   "original": "01",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-h21": {
+   "original": "Architecture & Planning",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-p1": {
+   "original": "Our practice covers the full design journey, from the first sketch to construction drawings, for residential, commercial, township and mixed-use projects.",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-p2": {
+   "original": "FSI, setbacks, parking norms and DCPR regulations are checked at concept stage, so compliance is built in from day one.",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-svc-label1": {
+   "original": "What's included",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li1": {
+   "original": "Concept design & schematic drawings",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li2": {
+   "original": "Architectural working drawings & construction documents",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li3": {
+   "original": "Structural coordination drawings",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li4": {
+   "original": "Site plan, floor plans, elevations & sections",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li5": {
+   "original": "FSI calculation & DCPR compliance checks",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li6": {
+   "original": "3D visualisations and presentation drawings",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li7": {
+   "original": "Tender drawings and specifications",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-svc-badge2": {
+   "original": "<strong>IOD/IOA→OC</strong><span>Full approval lifecycle</span>",
+   "kind": "html",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-subtitle2": {
+   "original": "02",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-h22": {
+   "original": "Building Plan Approvals & Development Permissions",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-p3": {
+   "original": "Plan approval is the most time-sensitive part of any project. Our approvals team handles submission, follow-up and rectification, and prepares the documents for BMC, MHADA, SRA, MBMC or MMRDA, whichever has jurisdiction.",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-p4": {
+   "original": "Some projects also need permissions beyond plan approval, such as change of user, land conversion, height or FSI relaxations and environmental clearances. We prepare, submit and follow up every one, so a missing clearance never holds up your project.",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-svc-label2": {
+   "original": "What's included",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li8": {
+   "original": "IOD/IOA (Intimation of Disapproval / Approval) application & follow-up",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li9": {
+   "original": "CC (Commencement Certificate): plinth, upper floors, basement",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li10": {
+   "original": "OC (Occupancy Certificate) application",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li11": {
+   "original": "DP remarks & zoning certificate procurement",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li12": {
+   "original": "Documents: title report, architect and structural certificates",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li13": {
+   "original": "Authority queries, objections & rectifications",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li14": {
+   "original": "Change of user (CU) permission and NA (Non-Agricultural) land conversion",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li15": {
+   "original": "Height relaxation permissions (aviation, defence)",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li16": {
+   "original": "Environmental clearance (EC) for large projects",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li17": {
+   "original": "Fire NOC & lift inspector coordination",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li18": {
+   "original": "Tree cutting & garden permission, road-widening and reservation release",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li19": {
+   "original": "Special permissions under Section 37/38 of MR&TP Act",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-svc-badge3": {
+   "original": "<strong>5+</strong><span>Authorities covered</span>",
+   "kind": "html",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-subtitle3": {
+   "original": "03",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-h23": {
+   "original": "BMC / MHADA / SRA / MBMC / MMRDA Liaisoning",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-p5": {
+   "original": "Government liaisoning is what sets us apart from a pure design firm. Over 20 years we have learned every major authority in the MMR: the rules, the paperwork and the people.",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-p6": {
+   "original": "We track each file, follow up with officers and send regular status updates, so your project never sits waiting for a stamp.",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-svc-label3": {
+   "original": "Authorities we liaise with",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li20": {
+   "original": "<strong>BMC (MCGM)</strong>: Greater Mumbai approvals: IOD/IOA, CC, OC, plan sanctions",
+   "kind": "html",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li21": {
+   "original": "<strong>MHADA</strong>: colony and lottery housing approvals",
+   "kind": "html",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li22": {
+   "original": "<strong>SRA</strong>: scheme registration, approvals, transit accommodation",
+   "kind": "html",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li23": {
+   "original": "<strong>MBMC</strong>: Mira Road and Bhayander approvals",
+   "kind": "html",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li24": {
+   "original": "<strong>MMRDA</strong>: regional planning &amp; township approvals",
+   "kind": "html",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li25": {
+   "original": "<strong>Environment / Fire NOC</strong>: clearance and NOC coordination",
+   "kind": "html",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-svc-badge4": {
+   "original": "<strong>25+</strong><span>Active projects</span>",
+   "kind": "html",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-subtitle4": {
+   "original": "04",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-h24": {
+   "original": "Redevelopment Consultancy & Project Management (PMC)",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-p7": {
+   "original": "Mumbai's ageing cessed and society buildings are ready for redevelopment, but the legal, regulatory and financial side needs a specialist. We guide societies, landlords and developers from first negotiations and society resolution to approval, transit accommodation and handover.",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-p8": {
+   "original": "Our PMC service then puts a qualified architect on site to monitor progress, quality and compliance, so what is built matches what was approved.",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-svc-label4": {
+   "original": "What's included",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li26": {
+   "original": "Society meeting support & resolution drafting",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li27": {
+   "original": "Developer selection assistance & DA review",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li28": {
+   "original": "Cessed building & MHADA colony redevelopment",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li29": {
+   "original": "SRA scheme redevelopment (slum rehabilitation)",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li30": {
+   "original": "Cluster redevelopment feasibility & approvals",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li31": {
+   "original": "Transit accommodation planning",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li32": {
+   "original": "FSI & TDR utilisation strategy",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li33": {
+   "original": "New building design & approval post-demolition",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li34": {
+   "original": "Contractor selection & tender evaluation support",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li35": {
+   "original": "Site inspection, quality monitoring & progress reporting",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li36": {
+   "original": "Approval compliance checks against sanctioned plans, CC conditions & stage clearances",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li37": {
+   "original": "Bill certification, payment milestone tracking & snag list before handover",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-svc-badge5": {
+   "original": "<strong>DCPR</strong><span>Regulation expertise</span>",
+   "kind": "html",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-subtitle5": {
+   "original": "05",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-h25": {
+   "original": "Feasibility Studies",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-p9": {
+   "original": "Before committing capital, know what is actually buildable. Our feasibility studies give developers, societies and landowners a clear view of the potential and the risks.",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-p10": {
+   "original": "We assess the site against DCPR, DP remarks, FSI entitlements and authority norms, and give you a report for your board, bank or society.",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-svc-label5": {
+   "original": "What's included",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li38": {
+   "original": "Site analysis & measurement verification",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li39": {
+   "original": "DP remarks & zoning status report",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li40": {
+   "original": "FSI, TDR & premium FSI calculations",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li41": {
+   "original": "Buildable area & configuration options",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li42": {
+   "original": "Setback, height & parking norm compliance",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li43": {
+   "original": "Applicable authority identification",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li44": {
+   "original": "Estimated approval timeline & process roadmap",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li45": {
+   "original": "Written feasibility report",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-svc-badge6": {
+   "original": "<strong>Turnkey</strong><span>Design through to handover</span>",
+   "kind": "html",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-subtitle6": {
+   "original": "06",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-h26": {
+   "original": "Interior Design & Build",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-p11": {
+   "original": "We take spaces from bare shell to move-in ready: residential interiors, office fitouts, showrooms and hospitality, from space planning and materials to execution on site.",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-p12": {
+   "original": "With architecture and interiors under one team, the design stays consistent from facade to final finish.",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-svc-label6": {
+   "original": "What's included",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li46": {
+   "original": "Space planning & layout design",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li47": {
+   "original": "Interior concept & mood board development",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li48": {
+   "original": "Furniture, fixture & finish (FF&E) selection",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li49": {
+   "original": "False ceiling, flooring & wall treatment design",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li50": {
+   "original": "Modular kitchen & wardrobe design",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li51": {
+   "original": "Electrical & lighting plan coordination",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li52": {
+   "original": "Site execution & contractor management",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__svc-li53": {
+   "original": "Handover with punch list sign-off",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__process-subtitle1": {
+   "original": "HOW WE WORK",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__process-h21": {
+   "original": "Our project process",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__process-step-num1": {
+   "original": "01",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__process-h41": {
+   "original": "Initial Consultation",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__process-p1": {
+   "original": "We learn your site, brief, budget and timeline before proposing anything.",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__process-step-num2": {
+   "original": "02",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__process-h42": {
+   "original": "Feasibility & Brief",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__process-p2": {
+   "original": "Site analysis, DP remarks and FSI checks. You know what's buildable before we draw.",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__process-step-num3": {
+   "original": "03",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__process-h43": {
+   "original": "Design & Drawing",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__process-p3": {
+   "original": "Concept to working drawings, fully compliant at every project stage.",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__process-step-num4": {
+   "original": "04",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__process-h44": {
+   "original": "Approval & Liaisoning",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__process-p4": {
+   "original": "Documents, submission and follow-up with BMC, MHADA, SRA, MBMC or MMRDA.",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__process-step-num5": {
+   "original": "05",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__process-h45": {
+   "original": "Construction & Handover",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "services__process-p5": {
+   "original": "Site supervision, quality checks and the OC application, through to handover.",
+   "kind": "text",
+   "page": "services",
+   "files": [
+    "services.html"
+   ]
+  },
+  "areas__page-title": {
+   "original": "Areas We Serve | Architects in Malad, Mumbai | Jangid Architects",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__page-description": {
+   "original": "Jangid Architects, Malad East, serves Malad, Borivali, Goregaon, Andheri, Vile Parle, Dadar and all of Mumbai. BMC, MBMC, MHADA, SRA and MMRDA approvals.",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__banner-subtitle1": {
+   "original": "<a href=\"index.html\" style=\"color:inherit;\">Home</a> &nbsp;/&nbsp; Areas We Serve",
+   "kind": "html",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__banner-title1": {
+   "original": "Areas We Serve",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-subtitle1": {
+   "original": "AREAS WE SERVE",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-h21": {
+   "original": "Architects and liaisoning consultants in Malad, Mumbai",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-p1": {
+   "original": "Jangid Architects works from our office at 302 & 303, Raj Chambers, Manchubhai Road, Malad (East), Mumbai 400 097. For over twenty years we have prepared plans, followed up approvals and supported redevelopment for developers, housing societies and property owners across Mumbai and the Mumbai Metropolitan Region.",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-p2": {
+   "original": "Every approval file is handled by the office that has jurisdiction over the site. Our team knows the process at BMC, MBMC, MHADA, SRA and MMRDA, and follows each file until the approval is issued.",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-2-subtitle1": {
+   "original": "LOCALITIES",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-2-h21": {
+   "original": "Localities where we have worked",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-2-h31": {
+   "original": "Malad",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-2-p1": {
+   "original": "Jai Saket, Sri Niwas, Rajhans Rajrani, Rajhans Solitaire and PMG High Garden. Our office is in Malad (East).",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-2-h32": {
+   "original": "Borivali",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-2-p2": {
+   "original": "RBC25 Pancham, RBC 22 Komal Kounteya and Om Abhishek.",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-2-h33": {
+   "original": "Goregaon",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-2-p3": {
+   "original": "INA Apartments and Om Ganesh Krupa.",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-2-h34": {
+   "original": "Andheri",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-2-p4": {
+   "original": "Om Guru Kripa.",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-2-h35": {
+   "original": "Jogeshwari",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-2-p5": {
+   "original": "Sangam Janseva.",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-2-h36": {
+   "original": "Vile Parle",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-2-p6": {
+   "original": "PMG Anuradha and Poddar Vasundhara.",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-2-h37": {
+   "original": "Santacruz",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-2-p7": {
+   "original": "Rajhans Serenity.",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-2-h38": {
+   "original": "Dadar",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-2-p8": {
+   "original": "Satviki Horizon.",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-2-h39": {
+   "original": "Sion",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-2-p9": {
+   "original": "Raj Residency.",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-2-h310": {
+   "original": "Mazgaon",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-2-p10": {
+   "original": "Mufaddal Park.",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-2-h311": {
+   "original": "Byculla",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-2-p11": {
+   "original": "Aikya Heights.",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-2-h312": {
+   "original": "Antop Hill",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-2-p12": {
+   "original": "Hill Abodes.",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-2-h313": {
+   "original": "Bhuleshwar",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-2-p13": {
+   "original": "Akash Heights.",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-2-h314": {
+   "original": "Mira Road and Bhayander",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-2-p14": {
+   "original": "Building permissions and approvals under the Mira-Bhayander Municipal Corporation (MBMC).",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-2-h315": {
+   "original": "Boisar, Palghar",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-2-p15": {
+   "original": "Township planning and design.",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-2-a-btn-21": {
+   "original": "View all projects",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-3-subtitle1": {
+   "original": "AUTHORITIES",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-3-h21": {
+   "original": "Authorities we work with",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-3-p1": {
+   "original": "The approval path depends on where the site is. These are the authorities we deal with, and the areas each one covers.",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-3-ar-abbr1": {
+   "original": "BMC",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-3-ar-name1": {
+   "original": "Brihanmumbai Municipal Corporation",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-3-p2": {
+   "original": "Greater Mumbai, including Malad, Borivali, Andheri, Goregaon and the island city. IOD/IOA, CC and OC.",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-3-ar-abbr2": {
+   "original": "MBMC",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-3-ar-name2": {
+   "original": "Mira-Bhayander Municipal Corporation",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-3-p3": {
+   "original": "Mira Road and Bhayander. Building permission files.",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-3-ar-abbr3": {
+   "original": "MHADA",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-3-ar-name3": {
+   "original": "Maharashtra Housing & Area Development Authority",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-3-p4": {
+   "original": "MHADA colony redevelopment and lottery housing approvals.",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-3-ar-abbr4": {
+   "original": "SRA",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-3-ar-name4": {
+   "original": "Slum Rehabilitation Authority",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-3-p5": {
+   "original": "Scheme registration, approvals and transit accommodation for SRA projects.",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-3-ar-abbr5": {
+   "original": "MMRDA",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-3-ar-name5": {
+   "original": "Mumbai Metropolitan Region Development Authority",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-3-p6": {
+   "original": "Regional planning and township approvals across the MMR.",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-3-a-btn-21": {
+   "original": "Our services",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-4-subtitle1": {
+   "original": "OUR OFFICE",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-4-h21": {
+   "original": "Visit our office in Malad East",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-4-ar-label1": {
+   "original": "Address",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-4-ar-value1": {
+   "original": "302 & 303, Raj Chambers, Manchubhai Road,\nMalad (East), Mumbai 400 097, Maharashtra, India",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-4-ar-label2": {
+   "original": "Phone",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-4-ar-label3": {
+   "original": "Email",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-4-ar-label4": {
+   "original": "Directions",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-4-a1": {
+   "original": "Open in Google Maps",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-5-subtitle1": {
+   "original": "FAQ",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-5-h21": {
+   "original": "Frequently asked questions",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-5-h31": {
+   "original": "Do you handle BMC approvals in Malad and other parts of Mumbai?",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-5-p1": {
+   "original": "Yes. We prepare the plans and follow up IOD/IOA, CC and OC files with BMC for sites across Greater Mumbai, including Malad, Borivali, Andheri and Goregaon.",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-5-h32": {
+   "original": "Can you help with approvals in Mira Road and Bhayander?",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-5-p2": {
+   "original": "Yes. We handle building permission files with the Mira-Bhayander Municipal Corporation (MBMC).",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-5-h33": {
+   "original": "Do you work on SRA and MHADA redevelopment projects?",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-5-p3": {
+   "original": "Yes. We support SRA schemes and MHADA colony redevelopment, from the feasibility study to the approvals.",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-5-h34": {
+   "original": "Where is your office?",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-5-p4": {
+   "original": "Our office is at 302 & 303, Raj Chambers, Manchubhai Road, Malad (East), Mumbai 400 097.",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-5-h35": {
+   "original": "How can I discuss my project?",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "areas__ar-5-p5": {
+   "original": "Call +91 93227 42472, message us on WhatsApp or write to jangidarchitects@gmail.com.",
+   "kind": "text",
+   "page": "areas",
+   "files": [
+    "areas-we-serve.html"
+   ]
+  },
+  "projects__page-title": {
+   "original": "Our Projects in Mumbai | Jangid Architects",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__page-description": {
+   "original": "Residential, redevelopment, SRA, commercial and township projects by Jangid Architects across Mumbai, including Mufaddal Park and Rajhans Serenity.",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__banner-subtitle1": {
+   "original": "<a href=\"index.html\" style=\"color:inherit;\">Home</a> &nbsp;/&nbsp; Our Projects",
+   "kind": "html",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__banner-title1": {
+   "original": "Our Projects",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__cats-cat-title1": {
+   "original": "Residential",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__cats-cat-title2": {
+   "original": "Redevelopment",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__cats-cat-title3": {
+   "original": "SRA Projects",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__cats-cat-title4": {
+   "original": "Commercial",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__cats-cat-title5": {
+   "original": "Township Planning",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__cats-cat-title6": {
+   "original": "PMC",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-sr-only1": {
+   "original": "Residential, redevelopment, SRA, commercial and township projects",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title1": {
+   "original": "Mufaddal Park",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category1": {
+   "original": "Mazgaon, Mumbai",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title2": {
+   "original": "PMG Anuradha",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category2": {
+   "original": "Vile Parle, Mumbai",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title3": {
+   "original": "Satviki Horizon",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category3": {
+   "original": "Dadar, Mumbai",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title4": {
+   "original": "RBC25 Pancham",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category4": {
+   "original": "Borivali, Mumbai",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title5": {
+   "original": "Aikya Heights",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category5": {
+   "original": "Byculla, Mumbai",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title6": {
+   "original": "Raj Residency",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category6": {
+   "original": "Sion, Mumbai",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title7": {
+   "original": "RBC 22 Komal Kounteya",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category7": {
+   "original": "Borivali, Mumbai",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title8": {
+   "original": "PMG High Garden",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category8": {
+   "original": "Malad, Mumbai",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title9": {
+   "original": "Rajhans Serenity",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category9": {
+   "original": "Santacruz, Mumbai",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title10": {
+   "original": "Jai Saket",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category10": {
+   "original": "Malad, Mumbai",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title11": {
+   "original": "Hill Abodes",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category11": {
+   "original": "Antop Hill, Mumbai",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title12": {
+   "original": "Sangam Janseva",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category12": {
+   "original": "Jogeshwari, Mumbai",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title13": {
+   "original": "Rajhans Rajrani",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category13": {
+   "original": "Malad, Mumbai",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title14": {
+   "original": "Om Abhishek",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category14": {
+   "original": "Borivali",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title15": {
+   "original": "Om Guru Kripa",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category15": {
+   "original": "Andheri, Mumbai",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title16": {
+   "original": "Vishwakarma Charitable Trust",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category16": {
+   "original": "Mumbai",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title17": {
+   "original": "Sri Niwas",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category17": {
+   "original": "Malad, Mumbai",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title18": {
+   "original": "Akash Heights",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category18": {
+   "original": "Bhuleshwar, Mumbai",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title19": {
+   "original": "Poddar Vasundhara",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category19": {
+   "original": "Vile Parle, Mumbai",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title20": {
+   "original": "Rajrani Pride",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category20": {
+   "original": "Mumbai",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title21": {
+   "original": "Rajhans Solitare",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category21": {
+   "original": "Malad, Mumbai",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title22": {
+   "original": "Evershine Heights",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category22": {
+   "original": "Mumbai",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title23": {
+   "original": "Bhutra Abode",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category23": {
+   "original": "Mumbai",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title24": {
+   "original": "Echo Edge",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category24": {
+   "original": "Mumbai",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title25": {
+   "original": "Skyline Spire",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category25": {
+   "original": "Mumbai",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title26": {
+   "original": "INA Apartments",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category26": {
+   "original": "Goregaon, Mumbai",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title27": {
+   "original": "Raj Heer",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category27": {
+   "original": "Mumbai",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title28": {
+   "original": "Hansini",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category28": {
+   "original": "Mumbai",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title29": {
+   "original": "Laxman Niwas",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category29": {
+   "original": "Mumbai",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title30": {
+   "original": "Metro Mist Lofts",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category30": {
+   "original": "Mumbai",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title31": {
+   "original": "Rippling Azure",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category31": {
+   "original": "Mumbai",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title32": {
+   "original": "Om Ganesh Krupa",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category32": {
+   "original": "Goregaon, Mumbai",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title33": {
+   "original": "Urban Point",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category33": {
+   "original": "Mumbai",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title34": {
+   "original": "Aver",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category34": {
+   "original": "Mumbai",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title35": {
+   "original": "Element One",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category35": {
+   "original": "Mumbai",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title36": {
+   "original": "Charitable School",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category36": {
+   "original": "Mumbai",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title37": {
+   "original": "Indstri Office",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category37": {
+   "original": "Mumbai",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title38": {
+   "original": "Township",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category38": {
+   "original": "Boisar, Palghar",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title39": {
+   "original": "Yash Astorio",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category39": {
+   "original": "Mumbai",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-title40": {
+   "original": "TradeGate",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "projects__container-fluid-project-masonry-item-category40": {
+   "original": "Mumbai",
+   "kind": "text",
+   "page": "projects",
+   "files": [
+    "projects.html"
+   ]
+  },
+  "clients__page-title": {
+   "original": "Our Clients | Mumbai Developers | Jangid Architects",
+   "kind": "text",
+   "page": "clients",
+   "files": [
+    "clients.html"
+   ]
+  },
+  "clients__page-description": {
+   "original": "Developers, housing societies and trusts that rely on Jangid Architects for architecture, approvals and redevelopment across Mumbai and the MMR.",
+   "kind": "text",
+   "page": "clients",
+   "files": [
+    "clients.html"
+   ]
+  },
+  "clients__banner-subtitle1": {
+   "original": "<a href=\"index.html\" style=\"color:inherit;\">Home</a> &nbsp;/&nbsp; Our Clients",
+   "kind": "html",
+   "page": "clients",
+   "files": [
+    "clients.html"
+   ]
+  },
+  "clients__banner-title1": {
+   "original": "Our Clients",
+   "kind": "text",
+   "page": "clients",
+   "files": [
+    "clients.html"
+   ]
+  },
+  "clients__clients-subtitle1": {
+   "original": "OUR CLIENTS",
+   "kind": "text",
+   "page": "clients",
+   "files": [
+    "clients.html"
+   ]
+  },
+  "clients__clients-h21": {
+   "original": "Trusted by Mumbai's\nleading developers",
+   "kind": "text",
+   "page": "clients",
+   "files": [
+    "clients.html"
+   ]
+  },
+  "clients__row-fluid-parent-subtitle1": {
+   "original": "SERVICES",
+   "kind": "text",
+   "page": "clients",
+   "files": [
+    "clients.html"
+   ]
+  },
+  "clients__row-fluid-parent-title1": {
+   "original": "This is what we do.",
+   "kind": "text",
+   "page": "clients",
+   "files": [
+    "clients.html"
+   ]
+  },
+  "clients__row-fluid-services-item-title1": {
+   "original": "Design",
+   "kind": "text",
+   "page": "clients",
+   "files": [
+    "clients.html"
+   ]
+  },
+  "clients__row-fluid-p1": {
+   "original": "Concept to construction drawings for residential, commercial and township projects.",
+   "kind": "text",
+   "page": "clients",
+   "files": [
+    "clients.html"
+   ]
+  },
+  "clients__row-fluid-prague-services-link1": {
+   "original": "Read",
+   "kind": "text",
+   "page": "clients",
+   "files": [
+    "clients.html"
+   ]
+  },
+  "clients__row-fluid-services-item-title2": {
+   "original": "Approvals",
+   "kind": "text",
+   "page": "clients",
+   "files": [
+    "clients.html"
+   ]
+  },
+  "clients__row-fluid-p2": {
+   "original": "IOD/IOA, CC and OC from BMC, MHADA, SRA and MBMC. We handle the paperwork and follow-up.",
+   "kind": "text",
+   "page": "clients",
+   "files": [
+    "clients.html"
+   ]
+  },
+  "clients__row-fluid-prague-services-link2": {
+   "original": "Read",
+   "kind": "text",
+   "page": "clients",
+   "files": [
+    "clients.html"
+   ]
+  },
+  "clients__row-fluid-services-item-title3": {
+   "original": "Redevelopment",
+   "kind": "text",
+   "page": "clients",
+   "files": [
+    "clients.html"
+   ]
+  },
+  "clients__row-fluid-p3": {
+   "original": "Society redevelopment, feasibility studies, detailed planning and comprehensive on-site supervision.",
+   "kind": "text",
+   "page": "clients",
+   "files": [
+    "clients.html"
+   ]
+  },
+  "clients__row-fluid-prague-services-link3": {
+   "original": "Read",
+   "kind": "text",
+   "page": "clients",
+   "files": [
+    "clients.html"
+   ]
+  },
+  "clients__achievement-h21": {
+   "original": "Our Achievement",
+   "kind": "text",
+   "page": "clients",
+   "files": [
+    "clients.html"
+   ]
+  },
+  "clients__achievement-number1": {
+   "original": "20",
+   "kind": "text",
+   "page": "clients",
+   "files": [
+    "clients.html"
+   ]
+  },
+  "clients__achievement-caption1": {
+   "original": "Years delivering architecture across Mumbai",
+   "kind": "text",
+   "page": "clients",
+   "files": [
+    "clients.html"
+   ]
+  },
+  "clients__achievement-number2": {
+   "original": "100+",
+   "kind": "text",
+   "page": "clients",
+   "files": [
+    "clients.html"
+   ]
+  },
+  "clients__achievement-caption2": {
+   "original": "Projects completed across Mumbai MMR",
+   "kind": "text",
+   "page": "clients",
+   "files": [
+    "clients.html"
+   ]
+  },
+  "clients__achievement-number3": {
+   "original": "25+",
+   "kind": "text",
+   "page": "clients",
+   "files": [
+    "clients.html"
+   ]
+  },
+  "clients__achievement-caption3": {
+   "original": "Active projects under process",
+   "kind": "text",
+   "page": "clients",
+   "files": [
+    "clients.html"
+   ]
+  },
+  "clients__achievement-number4": {
+   "original": "5+",
+   "kind": "text",
+   "page": "clients",
+   "files": [
+    "clients.html"
+   ]
+  },
+  "clients__achievement-caption4": {
+   "original": "Government authorities we liaise with",
+   "kind": "text",
+   "page": "clients",
+   "files": [
+    "clients.html"
+   ]
+  },
+  "contact__page-title": {
+   "original": "Contact Jangid Architects | Malad East, Mumbai",
+   "kind": "text",
+   "page": "contact",
+   "files": [
+    "contact.html"
+   ]
+  },
+  "contact__page-description": {
+   "original": "Contact Jangid Architects at 302 & 303, Raj Chambers, Manchubhai Road, Malad East, Mumbai 400097. Call +91 93227 42472 or WhatsApp to discuss your project.",
+   "kind": "text",
+   "page": "contact",
+   "files": [
+    "contact.html"
+   ]
+  },
+  "contact__banner-subtitle1": {
+   "original": "<a href=\"index.html\" style=\"color:inherit;\">Home</a> &nbsp;/&nbsp; Contact Us",
+   "kind": "html",
+   "page": "contact",
+   "files": [
+    "contact.html"
+   ]
+  },
+  "contact__banner-title1": {
+   "original": "Contact Us",
+   "kind": "text",
+   "page": "contact",
+   "files": [
+    "contact.html"
+   ]
+  },
+  "contact__contact-subtitle1": {
+   "original": "REACH US",
+   "kind": "text",
+   "page": "contact",
+   "files": [
+    "contact.html"
+   ]
+  },
+  "contact__contact-h21": {
+   "original": "Talk to our team",
+   "kind": "text",
+   "page": "contact",
+   "files": [
+    "contact.html"
+   ]
+  },
+  "contact__contact-c-label1": {
+   "original": "Phone",
+   "kind": "text",
+   "page": "contact",
+   "files": [
+    "contact.html"
+   ]
+  },
+  "contact__contact-c-label2": {
+   "original": "Email",
+   "kind": "text",
+   "page": "contact",
+   "files": [
+    "contact.html"
+   ]
+  },
+  "contact__contact-c-label3": {
+   "original": "Office",
+   "kind": "text",
+   "page": "contact",
+   "files": [
+    "contact.html"
+   ]
+  },
+  "contact__contact-c-value1": {
+   "original": "302 & 303, Raj Chambers, Manchubhai Road,\nMalad (East), Mumbai 400 097",
+   "kind": "text",
+   "page": "contact",
+   "files": [
+    "contact.html"
+   ]
+  },
+  "contact__contact-c-label4": {
+   "original": "Areas we serve",
+   "kind": "text",
+   "page": "contact",
+   "files": [
+    "contact.html"
+   ]
+  },
+  "contact__contact-c-value2": {
+   "original": "Malad, Borivali, Goregaon, Andheri and all of Mumbai. <a href=\"areas-we-serve.html\">See all areas</a>",
+   "kind": "html",
+   "page": "contact",
+   "files": [
+    "contact.html"
+   ]
+  },
+  "contact__contact-h31": {
+   "original": "Send us a message",
+   "kind": "text",
+   "page": "contact",
+   "files": [
+    "contact.html"
+   ]
+  },
+  "contact__contact-submit1": {
+   "original": "Send Message",
+   "kind": "text",
+   "page": "contact",
+   "files": [
+    "contact.html"
+   ]
+  },
+  "careers__page-title": {
+   "original": "Careers at Jangid Architects | Jobs in Mumbai",
+   "kind": "text",
+   "page": "careers",
+   "files": [
+    "careers.html"
+   ]
+  },
+  "careers__page-description": {
+   "original": "Careers at Jangid Architects, Malad, Mumbai. We hire architects, draftsmen, CAD technicians, liaisoning executives, interns and engineers. Apply online.",
+   "kind": "text",
+   "page": "careers",
+   "files": [
+    "careers.html"
+   ]
+  },
+  "careers__banner-subtitle1": {
+   "original": "<a href=\"index.html\" style=\"color:inherit;\">Home</a> &nbsp;/&nbsp; Careers",
+   "kind": "html",
+   "page": "careers",
+   "files": [
+    "careers.html"
+   ]
+  },
+  "careers__banner-title1": {
+   "original": "Careers",
+   "kind": "text",
+   "page": "careers",
+   "files": [
+    "careers.html"
+   ]
+  },
+  "careers__careers-subtitle1": {
+   "original": "JOIN US",
+   "kind": "text",
+   "page": "careers",
+   "files": [
+    "careers.html"
+   ]
+  },
+  "careers__careers-h21": {
+   "original": "Build your career with Jangid Architects",
+   "kind": "text",
+   "page": "careers",
+   "files": [
+    "careers.html"
+   ]
+  },
+  "careers__careers-c-text1": {
+   "original": "We are an architecture and liaisoning practice in Malad, Mumbai. Our team works on residential, commercial, SRA and township projects, along with approvals from BMC, MHADA, SRA, MBMC and MMRDA.",
+   "kind": "text",
+   "page": "careers",
+   "files": [
+    "careers.html"
+   ]
+  },
+  "careers__careers-c-text2": {
+   "original": "Every project gives our team direct experience of design, drawings, site work and government approvals. We welcome people who want to learn this work properly and take responsibility for it.",
+   "kind": "text",
+   "page": "careers",
+   "files": [
+    "careers.html"
+   ]
+  },
+  "careers__careers-c-label1": {
+   "original": "Roles we hire for",
+   "kind": "text",
+   "page": "careers",
+   "files": [
+    "careers.html"
+   ]
+  },
+  "careers__careers-c-value1": {
+   "original": "Architects, draftsmen, CAD technicians, liaisoning executives, interns, engineers etc",
+   "kind": "text",
+   "page": "careers",
+   "files": [
+    "careers.html"
+   ]
+  },
+  "careers__careers-c-label2": {
+   "original": "Email",
+   "kind": "text",
+   "page": "careers",
+   "files": [
+    "careers.html"
+   ]
+  },
+  "careers__careers-c-label3": {
+   "original": "WhatsApp",
+   "kind": "text",
+   "page": "careers",
+   "files": [
+    "careers.html"
+   ]
+  },
+  "careers__careers-h31": {
+   "original": "Send your application",
+   "kind": "text",
+   "page": "careers",
+   "files": [
+    "careers.html"
+   ]
+  },
+  "careers__careers-label1": {
+   "original": "Name",
+   "kind": "text",
+   "page": "careers",
+   "files": [
+    "careers.html"
+   ]
+  },
+  "careers__careers-err1": {
+   "original": "Please enter your name using letters only.",
+   "kind": "text",
+   "page": "careers",
+   "files": [
+    "careers.html"
+   ]
+  },
+  "careers__careers-label2": {
+   "original": "Phone",
+   "kind": "text",
+   "page": "careers",
+   "files": [
+    "careers.html"
+   ]
+  },
+  "careers__careers-err2": {
+   "original": "Please enter your phone number.",
+   "kind": "text",
+   "page": "careers",
+   "files": [
+    "careers.html"
+   ]
+  },
+  "careers__careers-label3": {
+   "original": "Email",
+   "kind": "text",
+   "page": "careers",
+   "files": [
+    "careers.html"
+   ]
+  },
+  "careers__careers-err3": {
+   "original": "Please enter a valid email address.",
+   "kind": "text",
+   "page": "careers",
+   "files": [
+    "careers.html"
+   ]
+  },
+  "careers__careers-label4": {
+   "original": "Resume",
+   "kind": "text",
+   "page": "careers",
+   "files": [
+    "careers.html"
+   ]
+  },
+  "careers__careers-hint1": {
+   "original": "PDF, DOC or DOCX, up to 5 MB.",
+   "kind": "text",
+   "page": "careers",
+   "files": [
+    "careers.html"
+   ]
+  },
+  "careers__careers-err4": {
+   "original": "Please attach your resume as a PDF, DOC or DOCX file up to 5 MB.",
+   "kind": "text",
+   "page": "careers",
+   "files": [
+    "careers.html"
+   ]
+  },
+  "careers__careers-label5": {
+   "original": "Message",
+   "kind": "text",
+   "page": "careers",
+   "files": [
+    "careers.html"
+   ]
+  },
+  "careers__careers-note1": {
+   "original": "Send your portfolio on email <a href=\"mailto:jangidarchitects@gmail.com\">jangidarchitects@gmail.com</a> or WhatsApp <a href=\"https://wa.me/919322742472?text=Hi%20Jangid%20Architects%2C%20I%27d%20like%20to%20share%20my%20resume.\" target=\"_blank\" rel=\"noopener\">+91 93227 42472</a>",
+   "kind": "html",
+   "page": "careers",
+   "files": [
+    "careers.html"
+   ]
+  },
+  "careers__careers-submit1": {
+   "original": "Submit Application",
+   "kind": "text",
+   "page": "careers",
+   "files": [
+    "careers.html"
+   ]
+  },
+  "blog__page-title": {
+   "original": "Blog | Architecture & Approvals Guides | Jangid Architects",
+   "kind": "text",
+   "page": "blog",
+   "files": [
+    "blog.html"
+   ]
+  },
+  "blog__page-description": {
+   "original": "Guides from Jangid Architects on building plan approvals, redevelopment and regulations in Mumbai, written in simple language for owners and societies.",
+   "kind": "text",
+   "page": "blog",
+   "files": [
+    "blog.html"
+   ]
+  },
+  "blog__banner-subtitle1": {
+   "original": "<a href=\"index.html\" style=\"color:inherit;\">Home</a> &nbsp;/&nbsp; Blog",
+   "kind": "html",
+   "page": "blog",
+   "files": [
+    "blog.html"
+   ]
+  },
+  "blog__banner-title1": {
+   "original": "Blog",
+   "kind": "text",
+   "page": "blog",
+   "files": [
+    "blog.html"
+   ]
+  },
+  "blog__blog-subtitle1": {
+   "original": "OUR BLOGS",
+   "kind": "text",
+   "page": "blog",
+   "files": [
+    "blog.html"
+   ]
+  },
+  "blog__blog-blog-meta1": {
+   "original": "Building Approvals · 1 November 2026",
+   "kind": "text",
+   "page": "blog",
+   "files": [
+    "blog.html"
+   ]
+  },
+  "blog__blog-h31": {
+   "original": "Building Plan Approval in Mumbai: IOD/IOA, CC and OC Explained",
+   "kind": "text",
+   "page": "blog",
+   "files": [
+    "blog.html"
+   ]
+  },
+  "blog__blog-p1": {
+   "original": "A simple guide to the three approvals every project needs from BMC, the steps involved and the common reasons for delay.",
+   "kind": "text",
+   "page": "blog",
+   "files": [
+    "blog.html"
+   ]
+  },
+  "blog__blog-blog-more1": {
+   "original": "Read article",
+   "kind": "text",
+   "page": "blog",
+   "files": [
+    "blog.html"
+   ]
+  },
+  "article__page-title": {
+   "original": "IOD/IOA, CC and OC Explained for Mumbai | Jangid Architects",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__page-description": {
+   "original": "A simple guide to building plan approval in Mumbai. What IOD/IOA, CC and OC mean, the steps involved and the common reasons approvals get delayed.",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__banner-subtitle1": {
+   "original": "<a href=\"index.html\" style=\"color:inherit;\">Home</a> &nbsp;/&nbsp; <a href=\"blog.html\" style=\"color:inherit;\">Blog</a> &nbsp;/&nbsp; Building Plan Approval",
+   "kind": "html",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__banner-title1": {
+   "original": "Building Plan Approval in Mumbai: IOD/IOA, CC and OC Explained",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-a-meta1": {
+   "original": "Building Approvals <span>· 1 November 2026 · 5 min read</span>",
+   "kind": "html",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-figcaption1": {
+   "original": "Mumbai skyline at sunset. Image for illustration.",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-a-lead1": {
+   "original": "Every new building or redevelopment project in Mumbai needs approval from the Brihanmumbai Municipal Corporation (BMC) before work starts and again after it ends. Three documents decide whether a project moves ahead on time: the IOD/IOA, the CC and the OC.",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-h21": {
+   "original": "What is building plan approval in Mumbai",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-p1": {
+   "original": "Building plan approval is the formal permission to construct a building on a plot. The plan must follow the Development Control and Promotion Regulations (DCPR 2034) and other rules that apply to the site. Approval is not a single step. It is a sequence of permissions, issued by the planning authority as the project moves from drawing board to handover.",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-h22": {
+   "original": "Intimation of Disapproval or Approval (IOD/IOA)",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-p2": {
+   "original": "The IOD/IOA is the first formal response from BMC after it scrutinises the submitted plan. Despite the name, it is not a rejection. It is a letter that lists the conditions the owner or developer must meet before construction can begin, such as clearances from other departments, payment of premiums and charges, and corrections to the drawings.",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-p3": {
+   "original": "An IOD/IOA does not allow construction to start. It tells you exactly what remains to be done.",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-h23": {
+   "original": "Commencement Certificate (CC)",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-p4": {
+   "original": "Once the conditions in the IOD/IOA are complied with, BMC issues the Commencement Certificate. The CC is the permission to start construction. On larger projects it is often released in stages, for example up to the plinth first and then for the upper floors, so work in each stage can proceed only after the earlier one is cleared.",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-h24": {
+   "original": "Occupancy Certificate (OC)",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-p5": {
+   "original": "After the building is complete, the owner applies for the Occupancy Certificate. The OC confirms that the building has been built as per the approved plans and is fit for use. Residents cannot legally occupy the building without it, and it is usually needed for permanent water and electricity connections and for the formation of a society.",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-h25": {
+   "original": "The approval process step by step",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-li1": {
+   "original": "Study the plot, its ownership documents and the development rules that apply to it.",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-li2": {
+   "original": "Prepare the architectural plans as per DCPR 2034 and submit the proposal to BMC.",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-li3": {
+   "original": "Respond to scrutiny remarks from the different BMC departments.",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-li4": {
+   "original": "Receive the IOD/IOA and comply with each condition, including the required No Objection Certificates (NOCs).",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-li5": {
+   "original": "Receive the CC and begin construction.",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-li6": {
+   "original": "Obtain stage clearances and inspections as the work progresses.",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-li7": {
+   "original": "Apply for the OC on completion and hand over the building.",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-h26": {
+   "original": "Documents usually needed",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-li8": {
+   "original": "Ownership documents, property card and survey details of the plot",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-li9": {
+   "original": "Architect's drawings and area statements",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-li10": {
+   "original": "Structural design and reports by a licensed structural engineer",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-li11": {
+   "original": "NOCs from the departments that apply to the project",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-li12": {
+   "original": "Society or developer resolutions and consents, in the case of redevelopment",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-p6": {
+   "original": "The exact list depends on the plot, the authority and the type of project, so it should be confirmed at the start.",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-h27": {
+   "original": "Why approvals get delayed",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-li13": {
+   "original": "Incomplete or incorrect drawings that lead to repeated remarks",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-li14": {
+   "original": "Pending NOCs from other departments",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-li15": {
+   "original": "Unresolved title, tenancy or society issues",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-li16": {
+   "original": "Plans that do not match the development rules",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-li17": {
+   "original": "Slow follow-up between the submission and the issue of each document",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-h28": {
+   "original": "How an architect and liaisoning consultant help",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-p7": {
+   "original": "A good plan is only half of the work. The other half is following the file through each department. At Jangid Architects we prepare the plans as per DCPR 2034, submit them, answer the scrutiny remarks and follow up with BMC, MHADA, SRA, MBMC and MMRDA, depending on the project. Our team in Malad has handled approvals for residential, commercial, redevelopment and township projects across Mumbai for over twenty years. You can read more about our <a class=\"jg-inline\" href=\"services.html#building-plan-approvals\">building plan approval service</a>.",
+   "kind": "html",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-h29": {
+   "original": "Frequently asked questions",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-h31": {
+   "original": "Is an IOD/IOA the same as plan approval?",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-p8": {
+   "original": "No. The IOD/IOA is the first stage. It lists the conditions to be met. Construction can begin only after those conditions are complied with and the CC is issued.",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-h32": {
+   "original": "What is the difference between CC and OC?",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-p9": {
+   "original": "The CC allows construction to start. The OC is issued after construction is complete and confirms the building can be occupied.",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-h33": {
+   "original": "Can residents move in without an OC?",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-p10": {
+   "original": "No. A building should not be occupied without an Occupancy Certificate. Without it, permanent utility connections and other formalities can also be held up.",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-a-note1": {
+   "original": "This article is general information. Rules, charges and procedures change from time to time, and each project has its own requirements. Please confirm the current requirements for your project with your architect or the concerned authority.",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-h34": {
+   "original": "Need help with approvals for your project",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-p11": {
+   "original": "Talk to our team about your plot, your redevelopment or a file that is stuck.",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-btn1": {
+   "original": "Contact Us",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "article__article-a1": {
+   "original": "← Back to all articles",
+   "kind": "text",
+   "page": "article",
+   "files": [
+    "blog-building-plan-approval-mumbai.html"
+   ]
+  },
+  "404__page-title": {
+   "original": "Page Not Found | Jangid Architects",
+   "kind": "text",
+   "page": "404",
+   "files": [
+    "404.html"
+   ]
+  },
+  "404__container-error-subtitle1": {
+   "original": "PAGE ERROR",
+   "kind": "text",
+   "page": "404",
+   "files": [
+    "404.html"
+   ]
+  },
+  "404__container-error-title1": {
+   "original": "Architecture crashed :(",
+   "kind": "text",
+   "page": "404",
+   "files": [
+    "404.html"
+   ]
+  },
+  "404__container-error-btn1": {
+   "original": "TAKE ME HOME",
+   "kind": "text",
+   "page": "404",
+   "files": [
+    "404.html"
+   ]
+  },
+  "shared__header-a1": {
+   "original": "Home",
+   "kind": "text",
+   "page": "shared",
+   "files": [
+    "index.html",
+    "about.html",
+    "services.html",
+    "areas-we-serve.html",
+    "projects.html",
+    "clients.html",
+    "contact.html",
+    "careers.html",
+    "blog.html",
+    "blog-building-plan-approval-mumbai.html",
+    "404.html"
+   ]
+  },
+  "shared__header-a2": {
+   "original": "About Us",
+   "kind": "text",
+   "page": "shared",
+   "files": [
+    "index.html",
+    "about.html",
+    "services.html",
+    "areas-we-serve.html",
+    "projects.html",
+    "clients.html",
+    "contact.html",
+    "careers.html",
+    "blog.html",
+    "blog-building-plan-approval-mumbai.html",
+    "404.html"
+   ]
+  },
+  "shared__header-a3": {
+   "original": "Clients",
+   "kind": "text",
+   "page": "shared",
+   "files": [
+    "index.html",
+    "about.html",
+    "services.html",
+    "areas-we-serve.html",
+    "projects.html",
+    "clients.html",
+    "contact.html",
+    "careers.html",
+    "blog.html",
+    "blog-building-plan-approval-mumbai.html",
+    "404.html"
+   ]
+  },
+  "shared__header-a4": {
+   "original": "Services",
+   "kind": "text",
+   "page": "shared",
+   "files": [
+    "index.html",
+    "about.html",
+    "services.html",
+    "areas-we-serve.html",
+    "projects.html",
+    "clients.html",
+    "contact.html",
+    "careers.html",
+    "blog.html",
+    "blog-building-plan-approval-mumbai.html",
+    "404.html"
+   ]
+  },
+  "shared__header-a5": {
+   "original": "Projects",
+   "kind": "text",
+   "page": "shared",
+   "files": [
+    "index.html",
+    "about.html",
+    "services.html",
+    "areas-we-serve.html",
+    "projects.html",
+    "clients.html",
+    "contact.html",
+    "careers.html",
+    "blog.html",
+    "blog-building-plan-approval-mumbai.html",
+    "404.html"
+   ]
+  },
+  "shared__header-a6": {
+   "original": "Blog",
+   "kind": "text",
+   "page": "shared",
+   "files": [
+    "index.html",
+    "about.html",
+    "services.html",
+    "areas-we-serve.html",
+    "projects.html",
+    "clients.html",
+    "contact.html",
+    "careers.html",
+    "blog.html",
+    "blog-building-plan-approval-mumbai.html",
+    "404.html"
+   ]
+  },
+  "shared__header-a7": {
+   "original": "Careers",
+   "kind": "text",
+   "page": "shared",
+   "files": [
+    "index.html",
+    "about.html",
+    "services.html",
+    "areas-we-serve.html",
+    "projects.html",
+    "clients.html",
+    "contact.html",
+    "careers.html",
+    "blog.html",
+    "blog-building-plan-approval-mumbai.html",
+    "404.html"
+   ]
+  },
+  "shared__header-a8": {
+   "original": "Contact Us",
+   "kind": "text",
+   "page": "shared",
+   "files": [
+    "index.html",
+    "about.html",
+    "services.html",
+    "areas-we-serve.html",
+    "projects.html",
+    "clients.html",
+    "contact.html",
+    "careers.html",
+    "blog.html",
+    "blog-building-plan-approval-mumbai.html",
+    "404.html"
+   ]
+  },
+  "shared__cta-h21": {
+   "original": "Have a project in mind? Let's Talk.",
+   "kind": "text",
+   "page": "shared",
+   "files": [
+    "index.html",
+    "about.html",
+    "services.html",
+    "areas-we-serve.html",
+    "projects.html",
+    "clients.html",
+    "contact.html",
+    "careers.html",
+    "blog.html",
+    "blog-building-plan-approval-mumbai.html",
+    "404.html"
+   ]
+  },
+  "shared__cta-p1": {
+   "original": "A new development, a redevelopment or a stuck approval. Bring it to us.",
+   "kind": "text",
+   "page": "shared",
+   "files": [
+    "index.html",
+    "about.html",
+    "services.html",
+    "areas-we-serve.html",
+    "projects.html",
+    "clients.html",
+    "contact.html",
+    "careers.html",
+    "blog.html",
+    "blog-building-plan-approval-mumbai.html",
+    "404.html"
+   ]
+  },
+  "shared__footer-f-tagline1": {
+   "original": "Architecture · Planning · Liaisoning",
+   "kind": "text",
+   "page": "shared",
+   "files": [
+    "index.html",
+    "about.html",
+    "services.html",
+    "areas-we-serve.html",
+    "projects.html",
+    "clients.html",
+    "contact.html",
+    "careers.html",
+    "blog.html",
+    "blog-building-plan-approval-mumbai.html",
+    "404.html"
+   ]
+  },
+  "shared__footer-p1": {
+   "original": "302 & 303, Raj Chambers, Manchubhai Road,\nMalad (East), Mumbai 400 097,\nMaharashtra, India",
+   "kind": "text",
+   "page": "shared",
+   "files": [
+    "index.html",
+    "about.html",
+    "services.html",
+    "areas-we-serve.html",
+    "projects.html",
+    "clients.html",
+    "contact.html",
+    "careers.html",
+    "blog.html",
+    "blog-building-plan-approval-mumbai.html",
+    "404.html"
+   ]
+  },
+  "shared__footer-footer-info-block-title1": {
+   "original": "Navigation",
+   "kind": "text",
+   "page": "shared",
+   "files": [
+    "index.html",
+    "about.html",
+    "services.html",
+    "areas-we-serve.html",
+    "projects.html",
+    "clients.html",
+    "contact.html",
+    "careers.html",
+    "blog.html",
+    "blog-building-plan-approval-mumbai.html",
+    "404.html"
+   ]
+  },
+  "shared__footer-a1": {
+   "original": "Home",
+   "kind": "text",
+   "page": "shared",
+   "files": [
+    "index.html",
+    "about.html",
+    "services.html",
+    "areas-we-serve.html",
+    "projects.html",
+    "clients.html",
+    "contact.html",
+    "careers.html",
+    "blog.html",
+    "blog-building-plan-approval-mumbai.html",
+    "404.html"
+   ]
+  },
+  "shared__footer-a2": {
+   "original": "About Us",
+   "kind": "text",
+   "page": "shared",
+   "files": [
+    "index.html",
+    "about.html",
+    "services.html",
+    "areas-we-serve.html",
+    "projects.html",
+    "clients.html",
+    "contact.html",
+    "careers.html",
+    "blog.html",
+    "blog-building-plan-approval-mumbai.html",
+    "404.html"
+   ]
+  },
+  "shared__footer-a3": {
+   "original": "Services",
+   "kind": "text",
+   "page": "shared",
+   "files": [
+    "index.html",
+    "about.html",
+    "services.html",
+    "areas-we-serve.html",
+    "projects.html",
+    "clients.html",
+    "contact.html",
+    "careers.html",
+    "blog.html",
+    "blog-building-plan-approval-mumbai.html",
+    "404.html"
+   ]
+  },
+  "shared__footer-a4": {
+   "original": "Projects",
+   "kind": "text",
+   "page": "shared",
+   "files": [
+    "index.html",
+    "about.html",
+    "services.html",
+    "areas-we-serve.html",
+    "projects.html",
+    "clients.html",
+    "contact.html",
+    "careers.html",
+    "blog.html",
+    "blog-building-plan-approval-mumbai.html",
+    "404.html"
+   ]
+  },
+  "shared__footer-a5": {
+   "original": "Areas We Serve",
+   "kind": "text",
+   "page": "shared",
+   "files": [
+    "index.html",
+    "about.html",
+    "services.html",
+    "areas-we-serve.html",
+    "projects.html",
+    "clients.html",
+    "contact.html",
+    "careers.html",
+    "blog.html",
+    "blog-building-plan-approval-mumbai.html",
+    "404.html"
+   ]
+  },
+  "shared__footer-a6": {
+   "original": "Our Clients",
+   "kind": "text",
+   "page": "shared",
+   "files": [
+    "index.html",
+    "about.html",
+    "services.html",
+    "areas-we-serve.html",
+    "projects.html",
+    "clients.html",
+    "contact.html",
+    "careers.html",
+    "blog.html",
+    "blog-building-plan-approval-mumbai.html",
+    "404.html"
+   ]
+  },
+  "shared__footer-a7": {
+   "original": "Blog",
+   "kind": "text",
+   "page": "shared",
+   "files": [
+    "index.html",
+    "about.html",
+    "services.html",
+    "areas-we-serve.html",
+    "projects.html",
+    "clients.html",
+    "contact.html",
+    "careers.html",
+    "blog.html",
+    "blog-building-plan-approval-mumbai.html",
+    "404.html"
+   ]
+  },
+  "shared__footer-a8": {
+   "original": "Careers",
+   "kind": "text",
+   "page": "shared",
+   "files": [
+    "index.html",
+    "about.html",
+    "services.html",
+    "areas-we-serve.html",
+    "projects.html",
+    "clients.html",
+    "contact.html",
+    "careers.html",
+    "blog.html",
+    "blog-building-plan-approval-mumbai.html",
+    "404.html"
+   ]
+  },
+  "shared__footer-a9": {
+   "original": "Contact",
+   "kind": "text",
+   "page": "shared",
+   "files": [
+    "index.html",
+    "about.html",
+    "services.html",
+    "areas-we-serve.html",
+    "projects.html",
+    "clients.html",
+    "contact.html",
+    "careers.html",
+    "blog.html",
+    "blog-building-plan-approval-mumbai.html",
+    "404.html"
+   ]
+  },
+  "shared__footer-footer-info-block-title2": {
+   "original": "Services",
+   "kind": "text",
+   "page": "shared",
+   "files": [
+    "index.html",
+    "about.html",
+    "services.html",
+    "areas-we-serve.html",
+    "projects.html",
+    "clients.html",
+    "contact.html",
+    "careers.html",
+    "blog.html",
+    "blog-building-plan-approval-mumbai.html",
+    "404.html"
+   ]
+  },
+  "shared__footer-a10": {
+   "original": "Architecture & Planning",
+   "kind": "text",
+   "page": "shared",
+   "files": [
+    "index.html",
+    "about.html",
+    "services.html",
+    "areas-we-serve.html",
+    "projects.html",
+    "clients.html",
+    "contact.html",
+    "careers.html",
+    "blog.html",
+    "blog-building-plan-approval-mumbai.html",
+    "404.html"
+   ]
+  },
+  "shared__footer-a11": {
+   "original": "BMC Liaisoning",
+   "kind": "text",
+   "page": "shared",
+   "files": [
+    "index.html",
+    "about.html",
+    "services.html",
+    "areas-we-serve.html",
+    "projects.html",
+    "clients.html",
+    "contact.html",
+    "careers.html",
+    "blog.html",
+    "blog-building-plan-approval-mumbai.html",
+    "404.html"
+   ]
+  },
+  "shared__footer-a12": {
+   "original": "MBMC Approvals",
+   "kind": "text",
+   "page": "shared",
+   "files": [
+    "index.html",
+    "about.html",
+    "services.html",
+    "areas-we-serve.html",
+    "projects.html",
+    "clients.html",
+    "contact.html",
+    "careers.html",
+    "blog.html",
+    "blog-building-plan-approval-mumbai.html",
+    "404.html"
+   ]
+  },
+  "shared__footer-a13": {
+   "original": "SRA Liaisoning",
+   "kind": "text",
+   "page": "shared",
+   "files": [
+    "index.html",
+    "about.html",
+    "services.html",
+    "areas-we-serve.html",
+    "projects.html",
+    "clients.html",
+    "contact.html",
+    "careers.html",
+    "blog.html",
+    "blog-building-plan-approval-mumbai.html",
+    "404.html"
+   ]
+  },
+  "shared__footer-a14": {
+   "original": "Redevelopment Consultancy",
+   "kind": "text",
+   "page": "shared",
+   "files": [
+    "index.html",
+    "about.html",
+    "services.html",
+    "areas-we-serve.html",
+    "projects.html",
+    "clients.html",
+    "contact.html",
+    "careers.html",
+    "blog.html",
+    "blog-building-plan-approval-mumbai.html",
+    "404.html"
+   ]
+  },
+  "shared__footer-a15": {
+   "original": "Interior Design",
+   "kind": "text",
+   "page": "shared",
+   "files": [
+    "index.html",
+    "about.html",
+    "services.html",
+    "areas-we-serve.html",
+    "projects.html",
+    "clients.html",
+    "contact.html",
+    "careers.html",
+    "blog.html",
+    "blog-building-plan-approval-mumbai.html",
+    "404.html"
+   ]
+  },
+  "shared__footer-a16": {
+   "original": "Development Permissions",
+   "kind": "text",
+   "page": "shared",
+   "files": [
+    "index.html",
+    "about.html",
+    "services.html",
+    "areas-we-serve.html",
+    "projects.html",
+    "clients.html",
+    "contact.html",
+    "careers.html",
+    "blog.html",
+    "blog-building-plan-approval-mumbai.html",
+    "404.html"
+   ]
+  },
+  "shared__footer-footer-info-block-title3": {
+   "original": "Contact",
+   "kind": "text",
+   "page": "shared",
+   "files": [
+    "index.html",
+    "about.html",
+    "services.html",
+    "areas-we-serve.html",
+    "projects.html",
+    "clients.html",
+    "contact.html",
+    "careers.html",
+    "blog.html",
+    "blog-building-plan-approval-mumbai.html",
+    "404.html"
+   ]
+  },
+  "shared__footer-li1": {
+   "original": "Malad East, Mumbai 400 097",
+   "kind": "text",
+   "page": "shared",
+   "files": [
+    "index.html",
+    "about.html",
+    "services.html",
+    "areas-we-serve.html",
+    "projects.html",
+    "clients.html",
+    "contact.html",
+    "careers.html",
+    "blog.html",
+    "blog-building-plan-approval-mumbai.html",
+    "404.html"
+   ]
+  }
+ }
+}
